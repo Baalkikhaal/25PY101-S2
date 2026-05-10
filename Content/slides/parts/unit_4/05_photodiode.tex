@@ -1,0 +1,137 @@
+%
+\againframe{plan}
+%
+\begin{frame}{Photo-diode}
+	%
+	\begin{definition}
+		A photo-diode is an opto-electronic device that is used to sense the presence of light. 
+	\end{definition}
+	\begin{itemize}
+		\item A photo-diode is a pn junction diode that operates under \textbf{reverse bias}.
+		\item Due to the reverse bias, the depletion region width increase. This leads to decrease in junction capacitance.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Photo-diode -- \(I-V\) characteristics}
+	%
+	\begin{figure}
+		\includegraphics[width=0.7\textwidth]{oe_pd_i_v_characteristic}
+	\end{figure}
+	%
+	\vspace{-1em}
+	%
+	\begin{itemize}
+		\item The \(I-V\) characteristics of photodiode can be considered as \(I-V\) characteristics of solar cell under forward bias and \(I-V\) characteristics of pn junction under reverse bias.
+		\item The reverse bias generates reverse current that saturates to reverse saturation current \(I_s\) at high bias.
+		\item In addition to the reverse current, if the photons are incident on the diode there is an additional photocurrent \(I_L\).
+		\item Thus the external bias is negative and the net current is negative and the \(I-V\) characteristics is given by
+			\[
+			I = I_s \left[ \exp\left(\frac{eV}{k_BT}\right) - 1\right] - I_L
+			\]
+	\end{itemize}
+
+\end{frame}
+%
+\begin{frame}{Photo-diode -- Modes of operation}
+	%
+	\begin{figure}
+		\includegraphics[width=0.4\textwidth]{oe_pd_modes_of_operation}
+	\end{figure}
+	\begin{itemize}
+		\item The photo diode has three modes of operation
+		\begin{enumerate}
+			\item photoconductive mode -- reverse bias
+			\item zero bias mode -- reverse bias voltage is set to zero
+			\item avalanche mode -- \textbf{very} high reverse bias
+		\end{enumerate}
+				\item In every mode of operation, there are two states of operation
+		\begin{enumerate}
+			\item Photons are not incident \includegraphics[width=1em]{light_bulb_off}
+			\item Photons are incident \includegraphics[width=1em]{light_bulb}
+		\end{enumerate}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Photoconductive mode}
+	%
+	\vspace{-1em}
+	%
+\begin{columns}
+	\begin{column}{0.4\textwidth}
+			\begin{figure}
+		\includegraphics[width=\textwidth]{oe_pd_photoconductive_mode}
+	\end{figure}
+	%
+	\end{column}
+	%
+	\begin{column}{0.58\textwidth}
+			\begin{itemize}
+			\item Photo diode is under reverse bias.
+			\item At zero light intensity, there is a non zero current due to the reverse saturation current. This is called \textbf{dark current}.
+			\item Response of photodiode is linear. In this mode, photodiode is a linear sensor.
+
+		\end{itemize}
+	\end{column}
+\end{columns}
+%
+\begin{itemize}
+	\item Due to reverse bias, the depletion region width increases. Since the space charge region acts as a parallel plate capacitor, the junction capacitance \(C_\text{junction}\) is given by
+	\[
+	C_\text{junction} = \frac{\epsilon A}{W}
+	\]
+	where \(A\) is the cross sectional area of the depletion region and \(W\) is the depletion region width.
+	\item Due to reduction in junction capacitance, photodiode is used for high frequency opto-electronic converters.
+\end{itemize}
+\end{frame}
+%
+\begin{frame}{Photovoltaic mode}
+	%
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+	\begin{figure}
+	\includegraphics[width=\textwidth]{oe_pd_photovoltaic_mode}
+\end{figure}
+		%
+	\end{column}
+	%
+	\begin{column}{0.58\textwidth}
+	%
+\begin{itemize}
+	\item Photo diode is under zero bias. This mode is the same as solar cell operation mode.
+	\item At zero light intensity, there is zero current as there is no bias. Therefore, dark current is zero.
+	\item Response of photodiode is non-linear. In this mode, photodiode is a non-linear sensor.
+\end{itemize}
+	\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item Due to the zero bias, dark current is zero. So photo diode is used for detecting ultra low light.
+	\end{itemize}
+\end{frame}%
+%
+\begin{frame}{Avalanche mode}
+	\begin{columns}
+	\begin{column}{0.4\textwidth}
+	\begin{figure}
+	\includegraphics[width=\textwidth]{oe_pd_avalanche_mode}
+\end{figure}
+		%
+	\end{column}
+	%
+	\begin{column}{0.58\textwidth}
+		%
+		\begin{itemize}
+			\item Photo diode is under very high reverse bias.
+			\item The net electric field is so high that the generated charge carriers at the depletion region are accelerated to high kinetic energy. These energetic particle collide with silicon atoms and ionize them releasing secondary electrons. This is called \textbf{impact ionization}.
+			\item The secondary electrons are also accelerated and ionize further atoms leading to a chain reaction also called avalanche.
+
+		\end{itemize}
+	\end{column}
+\end{columns}
+	\begin{itemize}
+	\item In this mode, photo diode is not used as sensor, but as an amplifier.	
+	\item Due to the avalanche effect, there is multiplication of the charge carriers. Therefore there is a net gain of current. In this mode, photo diode is used an opto-electronic amplifier.
+\end{itemize}
+	%
+
+\end{frame}

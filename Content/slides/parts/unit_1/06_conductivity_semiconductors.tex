@@ -1,0 +1,158 @@
+%
+\againframe{plan}
+%
+\begin{frame}{Conductivity}
+	In a semiconductor, there are two types of charge carriers -- electrons and holes. Each carrier is associated with corresponding mobility. Thus, the mobility of electrons is \(\mu_e\) and that of holes is \(\mu_h\).
+	\\
+	From the classical free electron theory, the conductivity in terms of mobility and charge density is given by
+	\[
+	\sigma = n e \mu
+	\]
+	In semiconductors, there are\textbf{ two channels} for conduction. Thus, the conductivity adds up and is given by
+	\[
+	\sigma = n e \mu_e + p e \mu_h
+	\]
+	\begin{keyinsight}
+		Both electrons and holes contribute to conductivity 
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Drift motion of electrons and holes}
+	%
+	\begin{columns}
+		\begin{column}{0.6\textwidth}
+			\begin{itemize}
+				\item Under electric field, electron and hole drift motion is \textbf{anti-parallel}.
+				\[
+				\vb{F}_e = - q_e \vb{E}, \qquad \vb{F}_h = + q_h \vb{E}.
+				\]
+			\end{itemize}
+		\end{column}
+		%
+		\begin{column}{0.38\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{semiconductors_drift_current}
+			\end{figure}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item The sign of their charges are opposite.
+		\item Electron and hole drift current direction is  \textbf{parallel}.
+		\item The total drift current density is given by \hfill \(\vb{j}_\mathrm{drift} = \vb{j}_e + \vb{j}_h\).
+		\item Drift current is proportional to electric field. \hfill
+		\(
+		\vb{j}_\mathrm{drift} = \sigma_e \vb{E} + \sigma_h \vb{E}
+		\)
+		\item Conductivity is written in terms of carrier density and mobility
+		\[
+		\sigma_e = n e \mu_e, \qquad \sigma_h = p e \mu_h,
+		\]
+		\item The drift conductivity is given by
+		\[
+		\sigma_\mathrm{drift} =  n e \mu_e +  p e \mu_h
+		\]
+	\end{itemize}
+\end{frame}
+\begin{frame}{Intrinsic semiconductor}
+\begin{columns}
+	\begin{column}{0.6\textwidth}
+			For the intrinsic case, the number density of electrons equals the number density of holes
+	\[
+	n = p = n_i
+	\]
+	Thus, the conductivity is given by
+	\[
+	\sigma = n_i e \big(\mu_e + \mu_h\big)
+	\]
+	\end{column}
+	%
+	\begin{column}{0.38\textwidth}
+\begin{small}
+			\begin{figure}
+			\begin{tabular}[t]{l l}
+				\toprule
+				Carrier density	&	\si{\per\centi\metre\cubed}	\\
+				\midrule
+				\(n_\mathrm{i-Si}\)	&	\num{e10}	\\
+				\(n_\mathrm{Cu}\)&	\num{e22}	\\
+				\bottomrule
+			\end{tabular}
+			%
+			\\
+			%
+			\begin{tabular}[t]{l l}
+				\toprule
+				Mobility	&	\si{\centi\meter\squared\per\volt\per\second}	\\
+				\midrule
+				\(\mu_e\) [Si]	&	1400	\\
+				\(\mu_h\) [Si]	&	500	\\
+				\(\mu\) [Cu]	&	40	\\
+				\bottomrule
+			\end{tabular}
+		%	\caption{At \SI{300}{\kelvin}.}
+		\end{figure}
+\end{small}
+	\end{column}
+\end{columns}
+%
+\begin{guesstimate}{Conductivity of intrinsic \ce{Si}}
+	Compare it with conductivity of copper.
+\end{guesstimate}
+%
+\begin{keyinsight}
+	Though the carrier mobility in metals is less than in semiconductors, \textbf{very much higher} carrier density leads to higher metallic conductivity.   
+\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Extrinsic semiconductor}
+	\begin{columns}
+		\begin{column}{0.48\textwidth}
+			\begin{itemize}
+				\item n-type: Electrons are \textbf{majority} charge carriers
+					\[
+					n \gg p, \quad \text{so that} \quad ne\mu_e \gg pe\mu_h 
+					\]
+					\[
+					\therefore	\sigma \simeq ne \mu_e
+					\]
+			\end{itemize}
+			%
+		\end{column}
+		%
+		\begin{column}{0.48\textwidth}
+			\begin{itemize}
+				\item p-type: Holes are \textbf{majority} charge carriers
+					\[
+					p \gg n, \quad \text{so that} \quad pe\mu_h \gg ne\mu_e   
+					\]
+					\[
+					\therefore \sigma \simeq pe \mu_h
+					\]
+			\end{itemize}
+		\end{column}
+		%
+	\end{columns}
+	%
+	\begin{small}
+		\begin{table}
+			\begin{tabular}{l l l}
+				\toprule
+				Material	&	\(n\) (in \si{\per\centi\metre\cubed})	&	\(\sigma\) (in \si{\siemens\per\metre}	)\\
+				\midrule
+				\ce{i-Si}	&	\num{e10}	&	\num{e-4}	\\
+				\SI{1}{\ppm} \ce{n-Si}	&	\num{e16}	&	\num{e+2}	\\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+		
+	\end{small}
+	%
+	\begin{guesstimate}{Conductivity of extrinsic n-type Si}
+		\ce{P} doping is \SI{5e16}{\per\centi\metre\cubed}. Compare it with conductivity of intrinsic-\ce{Si}.
+	\end{guesstimate}
+	%
+	\begin{keyinsight}
+		Doping of the order of \SI{1}{\ppm} increases conductivity of silicon by six orders of magnitude.
+	\end{keyinsight}
+\end{frame}

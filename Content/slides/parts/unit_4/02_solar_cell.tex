@@ -1,0 +1,730 @@
+%
+\againframe{plan}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Optoelectronics}
+	%
+	\begin{itemize}
+		\item Electronics is the study of controlling electrical signals.
+		\item Any electrical signal is characterized by its current and voltage properties.
+		\item Electronics is broadly classified into three areas --
+		\begin{itemize}
+			\item \textbf{Microelectronics} -- here we study switching electrical signals, which is useful to represent binary logic. This is necessary for computation. This is also called \textbf{digital electronics}. Since power is not a concern, signals have currents of the order of microamperes (hence the name microelectronics) and voltages of the order of few volts 
+			\item \textbf{Power electronics} -- here we study amplifying electrical signals to transfer energy. This is necessary for energy requirements of society as it is well known that electrical energy is efficient way of energy transfer. Signals have currents of the order of hundreds of amperes and voltages of the order of thousands of volts.  This is also called \textbf{analog electronics}.
+			\item Opto-electronics~\footnote{Opto-electronics is a combination of optics and electronics} -- here we harness the interaction between electron and photon. The advantages of light like its high velocity, free source of energy (Sun light), are combined with the advantages of electron like its easy manipulation to develop devices of specific requirements. 
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Opto-electronic devices}
+	\begin{definition}
+		\begin{itemize}
+			\item 	A electrical device is a electrical component with a characteristic or signature \(I-V\) behaviour.
+			\item	An opto-electronic device is an electrical device whose \(I-V\) characteristic is determined by the interaction of light.
+		\end{itemize}
+	\end{definition}
+	%
+	\begin{itemize}
+		\item The interaction of light with opto-electronic devices is of two-types --
+		\begin{itemize}
+			\item optical absorption
+			\item Radiative recombination
+		\end{itemize}
+		%
+		\item The opto-electronic devices based on optical absorption are
+		\begin{itemize}
+			\item solar cell
+			\item photo-diode
+		\end{itemize}
+		\item whereas the opto-electronic devices based on radiative recombination are
+		\begin{itemize}
+			\item Light Emitting Diode (LED)
+			\item Laser Diode
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Optical absorption}
+	%
+	\begin{definition}
+\begin{itemize}
+	\item Optical absorption is defined as the process of absorption of photon that leads to the generation of charge carriers.
+	\item The generated electron-holes pairs are additional to the already present. Hence they are called \textbf{excess charge carriers}.
+\end{itemize}
+	\end{definition}
+	%
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_optical_absorption}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.58\textwidth}
+				\begin{itemize}
+			\item In semiconductors, photon with energy greater than energy band gap \(E_g\), it is absorbed and leads to generation of electron-hole pair.
+		\end{itemize}
+		%
+		\end{column}
+	\end{columns}
+	%
+	\begin{keyinsight}
+		 In optical absorption, the photon is the source of energy.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Optical transparency}
+	%
+	\begin{definition}
+		Optical transparency is defined as the process of propagation of photon without the generation of charge carriers.
+	\end{definition}
+	%
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_optical_transparent}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.58\textwidth}
+		\begin{itemize}
+			\item If the photon energy is less than energy band gap, it is not absorbed and instead propagates through the semiconductor.
+		\end{itemize}
+		%
+		\end{column}
+	\end{columns}
+	%
+	\begin{problem}
+		Why common glass is transparent to visible light. \hfill[Hint: \(E_g^{\ce{SiO2}}=\SI{9}{\electron\volt}\).]
+	\end{problem}
+	%
+	\begin{keyinsight}
+		In optical transparency, the photon is not absorbed.
+	\end{keyinsight}
+\end{frame}
+%
+%
+\begin{frame}{Radiative recombination}
+	\begin{definition}
+		Radiative recombination is defined as the process of generation of photon upon combination of excess charge carriers.
+	\end{definition}
+	%
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_radiative_recombination}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.58\textwidth}
+			\begin{itemize}
+			\item In semiconductors, electron-hole pair recombine to form the covalent band and release the energy equal to energy band gap as a photon.
+		\end{itemize}
+		%
+		\end{column}
+	\end{columns}
+	%
+
+	\begin{keyinsight}
+		In radiative recombination, the charge carriers are the source of energy.
+	\end{keyinsight}
+\end{frame}
+\begin{frame}[label=pre-M2T1-slot2]{Solar cell -- construction}
+	%
+	\begin{definition}
+		\begin{itemize}
+			\item Solar cell, also technically called the \textbf{photovoltaic cell} is an opto-electronic device based on pn junction that can generate electrical power when illuminated.
+			\item A collection of cells in series and parallel combination is called a solar panel
+		\end{itemize}
+	\end{definition}
+	%
+	\vspace{-1em}
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+					\includegraphics[width=\textwidth]{oe_sc_panel}
+				\caption{Sketch of solar panel. Sketch taken from \href{https://www.alternative-energy-tutorials.com/photovoltaics/photovoltaics.html}{Alternative Energy Tutorials}}
+		\end{figure}
+	\end{column}
+	%
+	\pause
+	%
+	\begin{column}{0.48\textwidth}
+			\begin{itemize}
+		\item The main aim of solar cell operation is to convert solar energy into electrical energy.
+		\item Electrodes are deposited on both sides of junction. The top metal electrode is in the form of metal grid with fingers, which permits sunlight to pass through it.
+
+	\end{itemize}
+	\end{column}
+\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Solar cell -- working principle}
+	\begin{definition}
+		The working principle of solar cell involves three processes--
+		\begin{enumerate}
+			\item Generation of \textbf{excess} electron-hole pairs upon the illumination of light, and
+			\item Separation of electrons from holes \textbf{before} radiative recombination due to the built-in electric field.
+			\item Generation of voltage due to \textbf{accumulation} of excess separated charge carriers at the ends of the pn junction
+		\end{enumerate}
+	\end{definition}
+	%
+	\vspace{-1em}
+	%
+	\begin{itemize}
+		\item The solar cell pn junction is operated without bias i.e. zero bias.
+		\item Upon illumination with photons of suitable energy, the photon are absorbed through the surface area. The covalent bonds of the lattice are broken releasing the free electrons and holes into the conduction band and valence band respectively.
+	\end{itemize}
+	%
+	\begin{problem}
+		A material has bandgap of \SI{5}{\electronvolt}. Can it be used as solar cell material? Why or why not?
+	\end{problem}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Working principle -- 1. Excess electron-hole pairs}
+	%
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_generation_of_excess_carriers}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}{0.58\textwidth}
+			\begin{itemize}
+				\item Upon illumination with photons with energy greater than the band gap, optical absorption takes place.
+				\item This results in the generation of excess electron-hole pairs throughout the device.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	\begin{keyinsight}
+		Optical absorption generates excess electron-hole pairs.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Working principle -- 2a. Illumination away from depletion region}
+	%
+\begin{columns}
+	\begin{column}{0.4\textwidth}
+			\begin{figure}
+		\includegraphics[width=\textwidth]{oe_sc_illumination_not_at_depletion_region}
+	\end{figure}
+	\end{column}
+	%
+	\begin{column}{0.58\textwidth}
+		\begin{itemize}
+			\item In the neutral regions far away from the depletion region, the excess charge carriers again undergo radiative recombination and release photons.
+		\end{itemize}
+	\end{column}
+\end{columns}
+	\begin{keyinsight}
+		Away from depletion region, generation of excess charge carriers is followed by radiative recombination.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Working principle -- 2b. Illumination at depletion region}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_illumination_at_depletion_region}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}[t]{0.58\textwidth}
+			\begin{itemize}
+				\item At the depletion region also, the excess charge carriers are generated.
+				\item However, before they undergo radiative recombination, the built-in electric field sweeps them out of the depletion.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{keyinsight}
+		At the depletion region, separation of excess charge carriers prevents radiative recombination.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Working principle -- 3. Photo-voltage}
+	%
+	\begin{definition}
+		Photovoltage, also called photo e.m.f.~\footnote{e.m.f. stands for electro motive force} is the voltage appearing across the device due to the separation of excess charge carriers.
+	\end{definition}
+	%
+	\vspace{-2em}
+	%
+	\begin{columns}
+	\begin{column}[t]{0.4\textwidth}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{oe_sc_photovoltage}
+		\end{figure}
+	\end{column}
+	%
+	\begin{column}[t]{0.58\textwidth}
+		\begin{itemize}
+			\item The swept excess electrons and holes \textbf{accumulate} at the n region and p region edges respectively
+			\item The accumulation of positive charge at the p-edge and negative charge at the n-edge leads to the generation of a voltage \(V_L\).
+		\end{itemize}
+	\end{column}
+\end{columns}
+%
+\begin{itemize}
+	\item Since the source of voltage is illumination of photons, it is called \textbf{photovoltage}.
+\end{itemize}
+%
+\begin{keyinsight}
+	The photovoltage forward biases the pn junction.
+\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Solar cell -- Photocurrent}
+	%
+	\begin{definition}
+		Photocurrent is the current flowing through the solar cell when it is connected across a load resistance.
+	\end{definition}
+	%
+	\vspace{-2em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_photocurrent}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}[t]{0.58\textwidth}
+			\begin{itemize}
+				\item Solar cell can be used to drive currents through loads.
+				\item Upon connection to a load resistance \(R_L\), the accumulated holes at the p-edge flow anti-clockwise whereas the accumulated electrons at the n-edge flow clockwise.
+
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item Clockwise flow of holes leads to clockwise hole current \(I_h\) whereas anti-clockwise flow of electrons leads to clockwise electron current \(I_e\).
+		\item The net current \(I_L\) is called photocurrent~\footnote{suffix L stands for light and \textbf{not load}.} and is given by 
+		\(
+		I_L = I_h + I_e.
+		\)
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		The photocurrent flows from n to p region.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Solar cell -- Power source}
+	%
+\begin{definition}
+	Photocurrent is the current flowing through the solar cell when it is connected across a load resistance.
+\end{definition}
+%
+\vspace{-2em}
+%
+\begin{columns}
+	\begin{column}[t]{0.4\textwidth}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{oe_sc_power_source}
+		\end{figure}
+	\end{column}
+	%
+	\begin{column}[t]{0.58\textwidth}
+		\begin{itemize}
+			\item The photo-voltage drop \(V_L\) is from p-n region.
+			\item The photo-current \(I_L\) is from n-p region.
+			\item Since the voltage drop is opposite the current direction across the solar cell, the power dissipated is negative.
+			\item In other words, the \textbf{power generated is positive} and solar cell acts like a battery.
+		\end{itemize}
+	\end{column}
+\end{columns}
+%
+\begin{keyinsight}
+	Solar cell under illumination acts as a power source.
+\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Solar cell -- Load biasing}
+	%
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_load_biasing}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.58\textwidth}
+			\begin{itemize}
+				\item However, the photo-voltage also forward biases the p-n junction.
+				\item This results in a forward bias current \(I_F\) in the anti-clockwise direction.
+				\item The net current through the load resistance is 
+				\[
+				I_\text{net} = I_L - I_F
+				\]
+				\item Though the solar cell is operating under zero bias, upon connection to load, the load forward biases the pn junction.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\begin{keyinsight}
+	Load forward biases the illuminated solar cell.
+\end{keyinsight}
+%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Solar cell -- \(I-V\) characteristics}
+	%
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_i_v_characteristic}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.58\textwidth}
+			\begin{itemize}
+				\item From Kirchoff voltage law, the photo-voltage is given by
+				\[
+				V_L = I_L R_L
+				\]
+				\item From diode \(I-V\) characteristics, the forward current \(I_F\) is given by
+				\[
+				I_F = I_s \left[ \exp\left(\frac{eV_L}{k_BT}\right) - 1\right]
+				\]
+
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item Therefore the solar cell \(I-V\) characteristics is given by
+		\begin{align*}
+			I_\text{net} &= I_L - I_F 	\\
+			&= I_L - I_s \left[ \exp\left(\frac{eV_L}{k_BT}\right) - 1\right]
+		\end{align*}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Solar cell -- short circuit current}
+	%
+	\begin{definition}
+		Short circuit current is defined the current through solar cell when it is short circuited or zero load resistance is connected.
+	\end{definition}
+	%
+		\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_short_circuit_condition}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}{0.58\textwidth}
+			\begin{itemize}
+			\item When the load resistance is zero, the solar cell generates maximum current. This condition is called short circuit condition.
+			\item At short circuit condition, \(R_L=0\), so the voltage drop across load is zero
+			\[
+			V_L = I_LR_L = 0
+			\]
+		\end{itemize}
+		%
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item The net current is the short circuit current \(I_\text{sc}\) and is given by
+		\begin{align*}
+			I_\text{sc} &= I_L - I_s \left(e^0 - 1\right)	\\
+			&= I_L
+		\end{align*}
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Solar cell -- open circuit voltage}
+	%
+	\begin{definition}
+		Open circuit voltage is defined the voltage across solar cell when it is open circuited or infinite load resistance is connected.
+	\end{definition}
+	%
+	\vspace{-2em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_open_circuit_condition}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}[t]{0.58\textwidth}
+			\begin{itemize}
+				\item When the load resistance is infinite, the solar cell generates maximum voltage. This condition is called open circuit condition.
+				\item At open circuit condition, \(R_L=\infty\), so the current is zero
+				\[
+				I_L = \frac{V_L}{R} = 0
+				\]
+			\end{itemize}
+			%
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item The photovoltage is the open circuit voltage \(V_\text{oc}\) and is given by
+		\begin{align*}
+			I_L - I_s \left[ \exp\left(\frac{eV_\text{oc}}{k_BT}\right) - 1\right] = 0	 &\Rightarrow I_L = I_s \left[ \exp\left(\frac{eV_\text{oc}}{k_BT}\right) - 1\right] \\
+			\exp\left(\frac{eV_\text{oc}}{k_BT}\right) = \frac{I_L}{I_s} + 1	&\Rightarrow  V_\text{oc} = \left(\frac{k_BT}{e}\right) \ln \left(1+ \frac{I_L}{I_s}\right)\\
+		\end{align*}
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}{Solar cell -- Power optimization}
+	%
+	\begin{itemize}
+		\item A solar cell is a power generating device. However, at the limiting conditions, the power generated is zero.
+		\item At short circuit condition, the power generated is
+		\[
+		P_\text{sc} = V_\text{sc}I_\text{sc} = 0\cdot I_\text{sc} =0
+		\]
+		\item Similarly, at open circuit condition, the power generated is
+		\[
+		P_\text{oc} = V_\text{oc}I_\text{oc} = V_\text{oc} \cdot 0 = 0
+		\]
+		\item The electrical power generated is a function of drop across load resistance \(V = I R_L\) and is given by
+		\[
+		P = V \cdot I =  V \cdot \left[I_L - I_s \left\{ \exp\left(\frac{V_L}{V_t}\right) - 1 \right\} \right] ,
+		\]
+		where 
+		\[
+		V_t = \frac{k_B T}{e}
+		\]
+		is the thermal voltage associated with thermal energy.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Solar cell -- Power optimization}
+	%
+	\begin{itemize}
+		\item To maximize \(P\) with respect to \(V\), we need to find \(V_m\), the voltage across the load when power is maximized. This is given by
+		\begin{align*}
+			\left.\frac{\mathrm{d} P}{\mathrm{d} V}  \right\|_{V_m}  &= 0 , \\
+			\Leftrightarrow \left.I_L - I_s \left\{ \exp\left(\frac{V}{V_t}\right) - 1 \right\} - I_s \frac{V}{V_t}  \exp\left(\frac{V}{V_t}\right)\right\|_{V_m} &= 0, 	\\
+			\Leftrightarrow I_L + I_s - I_s \exp\left(\frac{V_m}{V_t}\right) \left(1 + \frac{V_m}{V_t}\right) &=0,	\\
+			\Leftrightarrow \left(1 + \frac{V_m}{V_t}\right) \exp\left(\frac{V_m}{V_t}\right) &= \frac{I_L + I_s}{I_s}.
+		\end{align*}
+		\[
+		\therefore \left(1 + \frac{V_m}{V_t}\right) \exp\left(\frac{V_m}{V_t}\right) = 1 + \frac{I_L}{I_s}
+		\]
+		\item The value of \(V_m\) can be determined by trial and error.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Solar cell -- \(P-V\) characteristics}
+	%
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.7\textwidth]{oe_sc_p_v_characteristic}
+				%
+				\\
+				%
+				\includegraphics[width=0.7\textwidth]{oe_sc_i_p_v_characteristic}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}{0.58\textwidth}
+			\begin{itemize}
+				\item The power generated in solar cell is completely consumed in the load resistance.
+				\item If the photocurrent at \(V_m\) is \(I_m\) then the maximum power is
+				\[
+				P_m = V_m I_m
+				\]
+				\item In \(P-V\) curve, this is represented as as \((V_m, P_m)\).
+				\item The \(I\& P-V\) curves show the mappings of \(I-V\) and \(P-V\) curves. In \(P-V\) curve, maximum power is represented as as red rectangle.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+
+\begin{frame}[label=pre-M2T1-slot2]{Output electrical power -- Fill factor}
+	%
+	\vspace{-2em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_sc_fill_factor}
+				%
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}[t]{0.58\textwidth}
+			\begin{itemize}
+				\item From the \(I-V\) characteristics of solar cell, it is evident that the maximum current generated cannot exceed the short circuit current \(I_\text{sc}\) and the maximum voltage generated cannot exceed the open circuit voltage \(V_\text{oc}\).
+				\item The theoretically possible maximum power that can be generated should be less than the product of \(I_\text{sc}\) and \(V_\text{oc}\). In the \(I-V\) curve, this is represented as blue rectangle.
+
+
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item The ratio of experimentally possible maximum power to theoretically possible maximum power is called Fill Factor and is given by 
+		\[
+		FF = \frac{V_m I_m}{V_\text{oc} I_\text{sc}}
+		\]
+	\end{itemize}
+	%
+	\vspace{-1em}
+	%
+	\begin{keyinsight}
+		Fill factor is a material property.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Input optical power -- Solar irradiance}
+	%
+	\vspace{-2em}
+	%
+	\begin{columns}
+		%
+		\begin{column}[t]{0.2\textwidth}
+			%
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{oe_sc_solar_irradiance}
+				%
+			\end{figure}
+			%
+		\end{column}
+		%
+		\begin{column}[t]{0.78\textwidth}
+			\begin{definition}
+				Solar irradiance is the solar power incident on the Earth's surface per unit area.
+			\end{definition}
+			%
+				\begin{enumerate}
+				\item Sun as blackbody -- Since sun is the major source of light energy, the input power is  determined by the properties of sun.
+				\item Planck's blackbody radiation law -- Sun is emitting photons of various wavelengths per unit time. Each photon with a given wavelength has an energy given by the Planck's law.
+				\item Sun -Earth separation -- However, we are only receiving a fraction of the Sun's power.
+				\item Solar irradiance outside atmosphere -- It is  \SI{1360}{\watt\per\metre\squared}.
+				\item Solar irradiance at Earth's surface -- It is nearly \SI{1000}{\watt\per\metre\squared} at noon due to losses in atmosphere.
+			\end{enumerate}
+		\end{column}
+	\end{columns}
+	%
+\end{frame}
+\begin{frame}[label=pre-M2T1-slot2]{Practical considerations -- Solar cell efficiency}
+	%
+	\begin{definition}
+	 Conversion efficiency is defined as ratio of output electrical power to input optical power.
+	\end{definition}
+	\begin{itemize}
+		\item To harness solar energy, the following practical limitations need to be considered.
+		\item All the power cannot be harnessed as the optical absorption by a solar cell has a cut off wavelength due to the energy band gap.
+		\item The photons with energy greater than energy band gap also generate electron-hole pairs. However, the difference of photon energy and band gap is dissipated as heat.
+		\item The sum total of all these considerations is that a fraction of incident optical power is converted into electrical power and is given by the conversion efficiency \(\eta\) as
+		\[
+		\eta = \frac{P_\text{out}}{P_\text{in}}\times 100
+		\]
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Solar cell -- applications}
+	%
+	\href{https://www.isro.gov.in/media_isro/video/Mission/GSLVMKIII/ch2-eng-mp4-8mbps.webm}{Chandrayaan 2 misson at glance [Click for video]}
+	\begin{figure}
+		\includegraphics[width=0.75\textwidth]{oe_sc_pragyan}
+		\caption{Image credits: ISRO}
+	\end{figure}
+	%
+	\vspace{-1em}
+	%
+	\begin{problem}
+		From the data in above figure, estimate the conversion efficiency of material used in Pragyan rover.
+	\end{problem}
+\end{frame}
+%
+\begin{frame}{Problems on solar cell}
+	%
+	\begin{problem}
+		A silicon solar cell under standard test conditions has \(I_\text{sc} = \SI{35}{\milli\ampere\per\centi\metre\squared}\), \(V_\text{oc}=\SI{0.60}{\volt}\), Fill Factor (FF) = 0.80. The incident power is \SI{100}{\milli\watt\per\centi\metre\squared}. Calculate the efficiency of the cell. 
+	\end{problem}
+	%
+	\begin{problem}
+		A solar panel has an efficiency of \SI{18}{\percent} under standard irradiance of \SI{1000}{\watt\per\metre\squared}. What panel area is required to generate \SI{200}{\watt} of electrical power?
+	\end{problem}
+	%
+	\begin{problem}
+		Each silicon solar cell has an open-circuit voltage of \SI{0.60}{\volt} under illumination. How many such cells are needed in series to obtain an open-circuit voltage of approximately \SI{18}{\volt}?
+	\end{problem}
+\end{frame}
+%
+\begin{frame}{Problems on solar cell (Fun problems)}
+%
+\vspace{-2em}
+%
+\begin{columns}
+	\begin{column}[t]{0.6\textwidth}
+			\begin{problem}
+		An alien ship crashlanded onto Earth's surface. From the debris, the solar panel used for power generation is found to have a band gap of \SI{5}{\electronvolt}. Estimate the temperature of the alien Sun. \hfill [Hint: Solve below problem.]
+	\end{problem}
+	%
+	\begin{problem}
+		Find the surface temperature of our Sun. For our sun, \(\lambda_\text{max}\)  of blackbody body radiation spectrum is \SI{510}{\nano\metre} (green), i.e., the greatest part of its radiation lies within the visible region of the spectrum.  \hfill [Hint: Wien's displacement law \((\lambda_\text{max} T = \SI{2.898e-3}{\metre\kelvin}\).]
+	\end{problem}
+	%
+	\end{column}
+	%
+	\begin{column}[t]{0.38\textwidth}
+		\begin{problem}
+			The power rating of solar panels of Pragyan rover is \SI{50}{\watt}. If ISRO is successful to transport it onto Mars, what will be its Martian power rating?
+			%
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{oe_sc_mars_exploration}
+			\end{figure}
+		\end{problem}
+		%
+	\end{column}
+	%
+\end{columns}
+\end{frame}
+%
+\begin{frame}{Problems on solar cell}
+			\begin{center}
+		{\huge Tough problems}
+	\end{center}
+	%
+	\begin{problem}
+		The reverse saturation current density for a solar cell pn junction is \(J_s= \SI{3.6e-11}{\ampere\per\centi\metre\squared}\). What is the photocurrent density required to produce open circuit voltage of \SI{0.60}{\volt}?
+	\end{problem}
+	%
+	\begin{problem}
+		For the same solar material used in above problem, the fill factor is 0.8. What is the maximum power per unit area generated if the photocurrent density is \SI{150}{\milli\ampere\per\centi\metre\squared}?
+	\end{problem}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Test Your Understanding}
+	%
+	\begin{enumerate}
+		\item Explain the working of solar cell.
+		\item Draw and explain the \(I - V\) characteristics of a solar cell.
+		\item A material has bandgap of \SI{5}{\electronvolt}. Can it be used as solar cell material? Why or why not?
+		\item An alien ship crashlanded onto Earth's surface. From the debris, the solar panel used for power generation is found to have a band gap of \SI{5}{\electronvolt}. Estimate the temperature of the alien Sun.
+	\end{enumerate}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Technical terms}
+	%
+	\begin{itemize}
+		\item optical absorption
+		\item generation of excess charge carriers
+		\item conversion efficiency
+		\item fill factor
+		\item open-circuit voltage
+		\item short-circuit current
+	\end{itemize}
+	%
+\end{frame}
+%

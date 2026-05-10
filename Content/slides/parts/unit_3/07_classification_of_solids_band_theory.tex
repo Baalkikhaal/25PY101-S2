@@ -1,0 +1,265 @@
+%
+\againframe{plan}
+%
+%
+\begin{frame}[label=pre-M2T1-slot1]{Electron theories of metals}
+	\begin{columns}
+		\begin{column}{0.3\textwidth}
+			\begin{enumerate}
+				\item Classical free electron theory
+				\item Quantum free electron theory
+				\item \colorbox{green}{Quantum band} \colorbox{green}{theory (QBT)}
+			\end{enumerate}
+			%
+		\end{column}
+		%
+		\begin{column}{0.68\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=\textwidth]{qbt_discovery_timeline}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}{Quantum band theory (QBT)}
+%
+\begin{figure}
+	\centering
+	%
+	\begin{overpic}[height=0.25\textheight]{Felix_Bloch_1905_1983}
+		% Overlay image on top
+		\put(0,0){\includegraphics[width=0.06\textwidth]{Alfred_Nobel_1833_1896}}
+	\end{overpic}
+	%
+	\includegraphics[height=0.25\textheight]{Ralph_Kronig}
+	\includegraphics[height=0.25\textheight]{William_Penney}
+	%
+	\caption{F. Bloch, R. Kronig, W. Penney}
+\end{figure}
+%
+\begin{itemize}
+	\item Proposed by Felix Bloch, Ralph Kronig, William Penney and co-workers in 1928 by extending QFET.
+	\item Assumed ``electron gas'' is \textbf{not free} and is under the influence of lattice --  \textbf{periodic potential approximation}.
+\end{itemize}
+%
+\end{frame}
+\begin{frame}{\(V(x)\): QFET vs QBT}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\textwidth]{qbt_potential_energy}
+	\end{figure}
+	%
+	\begin{keyinsight}
+		In Quantum band theory, the electron is \textbf{not} free!
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Splitting of energy levels -- Formation of \ce{H_2} molecule}
+	%
+\begin{columns}
+	\begin{column}{0.4\textwidth}
+		\begin{figure}
+			\includegraphics[height=0.7\textheight]{qbt_energy_splitting}
+		\end{figure}
+	\end{column}
+	%
+	\begin{column}{0.58\textwidth}
+		\begin{enumerate}
+			\item At large inter atomic distance, the wavefunction of electron in each \ce{H} atom is \ce{1s}. As the separation decreases, due to Pauli exclusion principle, the wavefunctions \textbf{hybridize} to form \textbf{bonding} and \textbf{anti-bonding} molecular orbitals.
+			\item The energy levels of individual \ce{H} atoms \textbf{split} into bonding molecular orbital with lower energy and anti-bonding molecular orbital with higher energy.
+		\end{enumerate}
+	\end{column}
+\end{columns}
+	%
+	\begin{keyinsight}
+		Splitting of energy levels is due to Pauli exclusion principle.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Band formation -- discrete to continuous}
+	%
+	\begin{figure}
+		\includegraphics[width=0.8\textwidth]{qbt_band_formation}
+	\end{figure}
+	%
+	\begin{enumerate}
+		\item At large interatomic separation, the energy levels of two \ce{H} atom system match the energy levels of isolated \ce{H} atom.
+		\item At the equilibrium separation, as the number of \ce{H} atoms increase, there is splitting of energy levels.
+		\item For an Avagadro number of \ce{H} atoms, the \textbf{discrete} energy levels group into a ``band'' of continuous energy levels.
+		%
+		\begin{itemize}
+			\item The width of the band is called \textbf{energy bandwidth}.
+			\item The bandwidth is of the order of \SI{1}{\electron\volt}.
+		\end{itemize}
+		%
+	\end{enumerate}
+	%
+\end{frame}
+%
+\begin{frame}{Mapping of dispersion relation to band structure}
+	%
+	\begin{figure}
+		\includegraphics[width=0.28\textwidth]{qbt_periodic_potential}
+		\includegraphics[width=0.7\textwidth]{qbt_band_dispersion_relation_mapping}
+	\end{figure}
+	%
+	\begin{enumerate}
+		\item For a free electron, potential is zero and the dispersion relation \(E \, \text{vs}\, k\) has parabolic form.
+		\item For an electron in crystalline solid with lattice constant \(a_0\), the potential is periodic and the \(E \, \text{vs}\, k\) \textbf{opens up} at specific values of \(k=\pm\tfrac{\pi}{a_0}, \pm\tfrac{2\pi}{a_0}, \ldots\).
+		\item The mapping of energy levels leads to collection of \textbf{allowed} and \textbf{forbidden} bands.
+	\end{enumerate}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Quantum Band theory -- Postulates}
+	\begin{block}{Postulates}
+		\begin{enumerate}
+			\item \textbf{Waves:} Electrons are quantum waves with wavevector \(k\), angular frequency \(\omega\).
+			\item \textbf{Fermion:} Electron is a spin \(\tfrac{1}{2}\) particle and obeys Pauli's exclusion principle.
+			\item \textbf{Independent electron approximation:} Electrons are independent and mutual repulsion between them is ignored.
+			\item \colorbox{green}{\textbf{Periodic potential approximation:}} Electrons move in a periodic potential.
+			\item \textbf{Quantum Thermodynamics:} The thermalization is governed by Fermi-Dirac statistics.
+		\end{enumerate}
+	\end{block}
+	%
+\end{frame}
+%
+\begin{frame}{Energy band structure of \ce{Ne} -- gas to solid}
+	%
+	\begin{figure}
+		\includegraphics[width=0.7\textwidth]{qbt_band_structure}
+	\end{figure}
+	%
+	\begin{enumerate}
+		\item Consider Avagadro number of \ce{Ne} atoms at infinity -- \ce{Ne} gas. The energy levels are given by atomic energy levels
+		\item As the interatomic separation \textbf{decreases}, due to Pauli exclusion principle, band formation happens and bandwidths \textbf{increase}.
+		\item At equilibrium lattice constant \(a_0\) -- \ce{Ne} solid, there are allowed and forbidden bands.
+	\end{enumerate}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Energy band diagram}
+	%
+	\begin{figure}
+			\centering
+		\includegraphics[width=0.7\textwidth]{qbt_energy_band_diagram}
+	\end{figure}
+	%
+\begin{footnotesize}
+		\begin{enumerate}
+		\item At \(T=\SI{0}{\kelvin}\),
+		\begin{itemize}
+			\item The topmost occupied band is called \textbf{valence band}.
+			\item The lower most unoccupied is called \textbf{conduction band}.
+			\item These two bands are separated by a forbidden gap called the \textbf{energy band gap}.
+		\end{itemize}
+		\item When temperature is increased, the covalent bond is broken due to thermalization. This results in the formation of \textbf{electron-hole pair}~\footnote{Hole is the absence of electron in the valence band.}.
+		\item At \(T\neq\SI{0}{\kelvin}\), the electron occupies energy level in the conduction band whereas the hole occupies energy level in the valence band.
+	\end{enumerate}
+\end{footnotesize}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Classification of solids}
+	\begin{itemize}
+		\item According to band theory, conductivity of solid is determined by the band gap separating the conduction band and valence band.
+		\item Based on the band gap, the solids are classified into
+		\begin{enumerate}
+			\item metals or conductors
+			\item semiconductors
+			\item insulators
+		\end{enumerate}
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		The classification of solids is based on energy band gap.
+	\end{keyinsight}
+\end{frame}
+\begin{frame}[label=pre-M2T1-slot1]{Energy band diagram -- Conductor}
+	%
+	\includegraphics[width=\textwidth]{qbt_band_diagram_conductor}
+	%
+	\begin{itemize}
+		\item In conductors, there are two cases
+			\begin{enumerate}
+				\item the conduction band is half filled.
+				\item the conduction band overlaps with empty upper band.
+			\end{enumerate}
+		\item In both cases, there is no band gap so that empty states are available for conduction.
+		\item Since there is no band gap, there is no absence of electron at \(T\neq 0\). Therefore, there are no holes in conductors.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Energy band diagram -- Semiconductor}
+	%
+	\begin{figure}
+			\includegraphics[width=0.7\textwidth]{qbt_band_diagram_semiconductor}
+	\end{figure}
+	%
+	\begin{itemize}
+		\item In either semiconductor or insulator, there is a band gap so that empty states are not available for conduction.
+		\begin{enumerate}
+			\item The energy band gap is less than \SI{3}{\electron\volt} for semiconductor.
+			\item The energy band gap is greater than \SI{3}{\electron\volt} for insulator
+		\end{enumerate}
+		%
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Energy band diagram of \ce{Li} -- half filled conduction band}
+	%
+	\centering
+	\includegraphics[width=\textwidth]{qbt_band_diagram_lithium}
+	%
+	\begin{keyinsight}
+		The conduction band is only half filled for lithium.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Energy band diagram of \ce{Be} -- overlapping conduction bands}
+	%
+	\centering
+	\includegraphics[width=0.95\textwidth]{qbt_band_diagram_beryllium}
+	%
+	\begin{keyinsight}
+		The conduction band overlaps with next empty band for beryllium.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Energy band diagram -- \ce{Si}}
+	%
+	\begin{figure}
+			\includegraphics[width=0.70\textwidth]{qbt_band_diagram_silicon}
+	\end{figure}
+	%
+	\begin{keyinsight}
+		The valence band is completely filled and the conduction band is completely empty at \(T=\SI{0}{\kelvin}\).
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Test Your Understanding}
+	%
+	\begin{enumerate}
+		\item What are the postulates of QBT?
+		\item Define the periodic potential approximation.
+		\item In the parabolic approximation, since the conduction band is approximated by an upward parabola, the conduction band charge carrier is electron-like. Explain.
+		\item Hole has a negative effective mass. Explain.
+	\end{enumerate}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Technical terms}
+	%
+	\begin{itemize}
+		\item periodic potential approximation
+		\item forbidden energy level
+		\item band structure
+		\item conduction band
+		\item valence band
+		\item energy band gap
+		\item energy band diagram
+		\item conduction band minimum \(E_c\)
+		\item valence band maximum \(E_v\)
+		\item parabolic approximation
+		\item effective mass of electron and hole
+	\end{itemize}
+	%
+\end{frame}

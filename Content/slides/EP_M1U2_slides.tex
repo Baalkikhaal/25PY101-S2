@@ -1,0 +1,136 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{metropolis}            % Clean academic theme
+\usecolortheme{seahorse}        % Built-in theme
+
+\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{footline}[frame number]
+\usepackage{graphicx}
+\graphicspath{{images/}{images/scientists/}{images/emojis/}{images/camera/}}
+\usepackage{overpic}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage{siunitx-v2}
+\DeclareSIUnit{\siemens}{S}
+\DeclareSIUnit{\faraday}{F}
+\DeclareSIUnit{\electron}{e}
+\DeclareSIUnit{\gauss}{G}
+\DeclareSIUnit{\ppm}{ppm}
+\usepackage{mhchem}
+\usepackage{physics}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+\usepackage[rightcaption]{sidecap}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\definecolor{VignanBlue}{RGB}{0,102,204}   % Strong blue
+\definecolor{VignanRed}{RGB}{200,30,60}    % Crimson red (optional for highlights)
+%
+\newtheorem{derivation}{Derivation}
+\setbeamercolor{guesstimate}{fg=blue,bg=blue!10}
+%
+\setbeamerfont{theorem body}{series=\normalfont}
+%
+\newenvironment{learningobjectives}[1][]{%
+	\begin{block}{Learning Objectives \hfill
+		\raisebox{0ex}{\includegraphics[height=2ex]{target}}
+		} }{\end{block}
+}
+%
+\newenvironment{question}[1][]{%
+	\begin{block}{Question \hfill
+			\raisebox{0ex}{\includegraphics[height=2ex]{question}}
+		}\small}{\end{block}
+}
+%
+\newenvironment{guesstimate}[1]{%
+	\begin{block}{Estimate: {#1} \hfill
+			\raisebox{0ex}{\includegraphics[height=2ex]{calculator}}
+		} \small}{\end{block}
+}
+%
+\newenvironment{keyinsight}[1][]{%
+	\begin{block}{\centering Key Insight \hfill
+		\raisebox{0ex}{\includegraphics[height=2ex]{light_bulb}}
+		}}{\end{block}
+	}
+\newenvironment{trends}[1][]{%
+	\begin{block}{Trends \hfill
+			\raisebox{0ex}{\includegraphics[height=2ex]{trend}}
+		} \small\centering}{\end{block}
+}
+\newenvironment{disclaimer}[1][]{%
+	\begin{block}{Disclaimer \hfill
+			\raisebox{0ex}{\includegraphics[height=2ex]{disclaimer}}
+	}}{\end{block}
+}
+\newif\ifshowhidden
+\showhiddenfalse
+%
+\title[Engineering Physics]{Engineering Physics (2025) \\ Course code
+	25PY101-S2 \\ Module 1 Unit 2: Quantum mechanics}
+\author{Course Instructor:\\ 
+	{\color{VignanBlue} Dr. Sreekar Guddeti}\\
+	Assistant Professor in Physics\\
+	Department of Science and Humanities \\
+	{\color{VignanRed}Vignan's Foundation for Science, Technology and Research}
+}
+%
+\begin{document}
+	\frame{\titlepage}
+	%\input{parts/course_structure}
+	%
+	\input{parts/unit_2/00_plan}
+	%
+	\section{Introduction to QM}
+	%
+	%\ifshowhidden
+	\input{parts/unit_2/01_intro_to_qm}
+	%\fi
+	%
+	\section{Dual nature of radiation}
+	%
+	%\ifshowhidden
+	\input{parts/unit_2/02_qm_dual_nature_radiation}
+	%\fi
+	%
+	\section{de Broglie's concept of matter waves}
+	%
+	%\ifshowhidden
+	\input{parts/unit_2/03_qm_matter_wave}
+	%\fi
+	%
+	\section{Heisenberg's uncertainty principle}
+	%
+	%\ifshowhidden
+	\input{parts/unit_2/04_qm_uncertainty_principle}
+	%\fi
+	%
+	\section{Schr\"odinger's time dependent wave equation}
+	%
+	%\ifshowhidden
+	\input{parts/unit_2/05_qm_schrodinger_equation}
+	%\fi
+	%
+	\section{Particle in a 1D box}
+	%
+	%\ifshowhidden
+	\input{parts/unit_2/06_qm_1D_box}
+	%\fi
+	%
+	\section{Quantum dots}
+	%
+	\ifshowhidden
+	\input{parts/unit_2/07_qm_dots}
+	\fi
+	%
+	\section{Finite Potential well -- Quantum tunneling}
+	%
+	\ifshowhidden
+	\input{parts/unit_2/08_qm_tunnelling}
+	\fi
+	%
+\end{document}

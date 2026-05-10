@@ -1,0 +1,165 @@
+%
+\againframe{plan}
+%
+\begin{frame}{Lecture plan}
+	\begin{learningobjectives}
+		\begin{itemize}
+			\item Condensed matter at macroscopic scale
+			\item Classification of condensed matter based on conductivity
+			\item Nature of metals
+			\item Classical electron theory of metals -- Assumptions
+			\item Ohm's law for metals -- Conductivity
+			\item Application of metallic conductivity
+		\end{itemize}
+	\end{learningobjectives}
+\end{frame}
+\begin{frame}{Discovery of material}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.6\textheight]{ages_human_civilization_spacetimeline}
+		\caption{Civilization spacetimeline: Copper \(\rightarrow\) Bronze \(\rightarrow\) Iron \(\rightarrow\) Steel \(\rightarrow\) Silicon}
+	\end{figure}
+	%
+	\begin{keyinsight}
+		Material defines the age.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Condensed matter}
+	\begin{itemize}
+		\item Material in the liquid or solid form is called \textbf{condensed matter}.
+		\item Condensed matter is further sub-classified based on  electrical, optical, magnetic, thermal, mechanical properties at the \textbf{macroscopic} scale.  In the case of electrical property, we apply electric field and classify the materials based on their conductivity.
+		\item The macroscopic behaviour is related to the \textbf{microscopic} behaviour of electrons under applied ``forces''.
+	\end{itemize}
+	\begin{learningobjectives}
+		To relate the macroscopic properties with the microscopic behaviour of electrons in condensed matter.
+	\end{learningobjectives}
+\end{frame}
+%
+\begin{frame}{Classification of Condensed Matter by Conductivity}
+	%
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{condensed_matter_electrical_classification}
+		\caption{(a) Gold, a metal, (b) Silicon, a semiconductor, (c) Diamond, an insulator}
+	\end{figure}
+	%
+	\begin{minipage}{0.85\textwidth}
+		\begin{itemize}
+			\item Conductivity is the measure of how easily electrons move under applied electric field. Its unit is \si{\per\ohm\per\metre} or \si{\siemens\per\metre} (S for Siemens).
+			%
+			\item Materials can be classified based on conductivity as:
+			\begin{enumerate}
+				\item \textbf{Metals}: High ($\sigma \sim 10^7$ S/m).
+				\item \textbf{Semiconductors}: Intermediate ($\sigma \sim 10^{-4}$ S/m).
+				\item \textbf{Insulators}: Negligible ($\sigma \sim 10^{-10}$ S/m).
+			\end{enumerate}
+		\end{itemize}
+	\end{minipage}
+	%
+	\begin{minipage}{0.13\textwidth}
+		\begin{figure}
+			\centering
+			\includegraphics[width=\textwidth]{Werner_Siemens_1816-1892}
+			\caption{\centering \footnotesize W. Siemens [1816-1892]}
+		\end{figure}
+	\end{minipage}
+	
+\end{frame}
+%
+\begin{frame}{Elemental phases}
+	\begin{itemize}
+		\item The electrical state of condensed matter is also called a \textbf{phase} -- similar to solid phase, liquid phase, etc.
+	\end{itemize}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.5\textheight]{condensed_matter_periodic_table}
+	\end{figure}
+	%
+	\begin{keyinsight}
+		Most elemental phases are metals.
+	\end{keyinsight}
+\end{frame}
+%
+%
+\begin{frame}{Conductivity of phases}
+	%
+	\begin{itemize}
+		\item Conductivity \(\sigma\) is inversely related to resistivity \(\rho\) by \(\rho = \tfrac{1}{\sigma}\)
+	\end{itemize}	
+	%
+	\begin{minipage}{0.75\textwidth}
+		\begin{figure}
+			\centering
+			\includegraphics[width=\textwidth]{metals_resistivity_chart}
+			%	\caption{Resistivity chart for metals, semiconductor and insulators}
+		\end{figure}
+	\end{minipage}
+	%
+	\hfill
+	%
+	\begin{minipage}{0.23\textwidth}
+		{
+			\footnotesize	
+			\begin{table}
+				\centering
+				\begin{tabular}{l l }
+					\toprule
+					&		\(\rho\)	\\
+					&		\si{\ohm\metre} \\
+					\midrule
+					\ce{Cu}	 &	\num{e-7}	\\
+					\ce{Si} 	&	\num{e4}	\\
+					\ce{SiO2}&	\num{e10}	\\
+					\bottomrule
+				\end{tabular}
+			\end{table}
+		}
+	\end{minipage}
+	%
+	\begin{keyinsight}
+		Conductivity spans ``orders of magnitude'' across phases.
+	\end{keyinsight}
+	%
+\end{frame}
+%
+\begin{frame}{Early experiments:Avogadro number and Electron charge}
+		\begin{figure}
+		\includegraphics[width=2.2\textwidth]{condensed_macroscopic_to_microscopic}
+	\end{figure}
+	%
+\end{frame}
+%
+\begin{frame}{Macroscopic \(\rightarrow\) microscopic}
+	%
+	\begin{figure}
+		\includegraphics[width=\textwidth]{condensed_macroscopic_to_microscopic}
+	\end{figure}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.7\textwidth}
+			%
+			\begin{guesstimate}{Avogadro number \(N_A\)}
+				To electroplate \SI{63.5}{\gram} of copper, it takes \SI{2}{\faraday} of charge. [Hint: 1F (F for Faraday)= \SI{96,485}{\coulomb}, charge of electron \(e\) = \SI{1.602e-19}{\coulomb}]
+			\end{guesstimate}
+			%
+			\begin{guesstimate}{Radius of atom}
+				The density of copper is \SI{8.96}{\gram\per\centi\metre\cubed}.
+			\end{guesstimate}
+		\end{column}
+		%
+		\begin{column}[t]{0.28\textwidth}
+			%
+			\begin{figure}
+				% Base image
+				\includegraphics[width=0.48\textwidth]{Michael_Faraday_1791_1867}
+				\begin{overpic}[width=0.48\textwidth]{Robert_Millikan_1868_1953}
+					% Overlay image on top
+					\put(0,0){\includegraphics[width=0.2\textwidth]{Alfred_Nobel_1833_1896}}
+				\end{overpic}
+				\caption{Faraday, Millikan}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+%

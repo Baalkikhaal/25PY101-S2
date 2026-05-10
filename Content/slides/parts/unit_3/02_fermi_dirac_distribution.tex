@@ -1,0 +1,271 @@
+%
+\againframe[label=pre-M2T1-slot1]{plan}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Quantum thermodynamics: Fermi--Dirac (FD) Statistics}
+	\begin{itemize}
+		\item Describes occupancy of energy states by electrons that obey \textbf{Pauli exclusion principle}.
+		\item The probability of occupation of an energy level $E$ at temperature $T$ and Fermi energy level $E_F$ is given by
+		%
+		\begin{center}
+			\framebox{$			P_{FD}(E) = \frac{1}{\exp\left(\frac{E-E_F}{k_B T}\right) + 1}.$}
+		\end{center}
+		Here \(k_B\) is the Boltzmann constant equal to \SI{1.38e-23}{\joule\per\kelvin}.
+		\item To understand the FD statistics, let us analyze the probability function in two cases --
+		\begin{enumerate}
+			\item \(T\rightarrow 0\) limit
+			\item \(T\neq 0\)
+		\end{enumerate}
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		The Fermi-Dirac function is a result of Pauli exclusion principle.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Fermi--Dirac Statistics at the $T \to 0$ limit}
+	\begin{itemize}
+		\item Take limit $T\to 0$ in definition:
+		\[
+		P_{FD}(E) 
+		=
+		\lim_{T\rightarrow0}\frac{1}{\exp\left(\frac{E-E_F}{k_B T}\right) + 1}
+		= \frac{1}{\exp\left(\frac{E-E_F}{0}\right) + 1}
+		.
+		\]
+		\item This limit needs to analyzed for three cases --
+		\begin{enumerate}
+			\item  \(E<E_F\)
+			\item \(E>E_F\)
+			\item \(E=E_F\)
+		\end{enumerate}
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Fermi--Dirac Statistics at the $T \to 0$ limit}
+	\begin{columns}
+		%
+		\begin{column}[t]{0.32\textwidth}
+			\begin{center}
+				1. \(E < E_F\)
+			\end{center}
+			%
+			\begin{align*}
+				P_{FD}(E) &= \frac{1}{\exp\left(\frac{\text{-ve}}{0}\right) + 1}\\
+				&= \frac{1}{\exp\left(-\infty\right) + 1}\\
+				&= \frac{1}{0 + 1}\\
+				&= \frac{1}{1}\\
+				&= 1
+			\end{align*}
+		\end{column}
+		%
+		\begin{column}[t]{0.32\textwidth}
+			\begin{center}
+				2. \(E > E_F\)
+			\end{center}
+			%
+			\begin{align*}
+				P_{FD}(E) &= \frac{1}{\exp\left(\frac{\text{+ve}}{0}\right) + 1}\\
+				&= \frac{1}{\exp\left(\infty\right) + 1}\\
+				&= \frac{1}{\infty + 1}\\
+				&= \frac{1}{\infty}\\
+				&= 0
+			\end{align*}
+		\end{column}
+		%
+		\begin{column}[t]{0.32\textwidth}
+			\begin{center}
+				3. \(E = E_F\)
+			\end{center}
+			%
+			\[
+				P_{FD}(E) = \frac{1}{\exp\left(\frac{0}{0}\right) + 1}
+			\]
+			%
+			\begin{itemize}
+				\item Since \(\tfrac{0}{0}\) is indeterminate form, \(P_{FD}(E)\) is not defined at \(T= \SI{0}{\kelvin}, E=E_F\).
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}[label=pre-M2T1-slot1]{Fermi--Dirac Statistics at the $T \to 0$ limit}
+	%
+	\begin{itemize}
+		\item Hence, at \(T=\SI{0}{\kelvin}\) the distribution becomes a step function
+		\[ P_{FD}(E) = \begin{cases} 1, & E < E_F \\ 0, & E > E_F \end{cases}\]
+		where $E_F$ is the Fermi energy.
+	\end{itemize}
+%
+	\begin{figure}
+		\includegraphics[width=0.4\textwidth]{qt_fd_distribution_at_t_eq_0}
+	\end{figure}
+	%
+	\begin{keyinsight}
+		At \(T=\SI{0}{\kelvin}\), the Fermi-Dirac distribution is a step function.
+	\end{keyinsight}
+\end{frame}
+
+\begin{frame}[label=pre-M2T1-slot1]{Fermi--Dirac Statistics at $T \neq 0$}
+	\begin{itemize}
+		\item At $T \neq 0$, consider \(k_B T \) is a small positive quantity \(\text{+ve}\).
+		\[
+		P_{FD}(E) 
+		=
+		\frac{1}{\exp\left(\frac{E-E_F}{\text{+ve}}\right) + 1}
+		.
+		\]
+		\item This limit needs to analyzed for three cases --\footnote{\(\gg\) is symbol for very greater than and \(\ll\) is symbol for very lesser than}
+		\begin{enumerate}
+			\item \(E \ll E_F\) so that \(E - E_F \) is a big negative number i.e. \(\text{-\,-ve}\)
+			\item \(E \gg E_F\) so that \(E - E_F \) is a big positive number i.e. \(\text{++ve}\)
+			\item \(E=E_F\)
+		\end{enumerate}
+	\end{itemize}
+	%
+\end{frame}
+
+\begin{frame}[label=pre-M2T1-slot1]{Fermi--Dirac Statistics at $T \neq 0$}
+	\begin{columns}
+		%
+		\begin{column}[t]{0.32\textwidth}
+			\begin{center}
+				1. \(E \ll E_F\)~\footnote{\(\simeq\) is symbol for nearly equal.}
+			\end{center}
+			%
+			\begin{align*}
+				P_{FD}(E) &= \frac{1}{\exp\left(\frac{\text{-\,-ve}}{+ve}\right) + 1}\\
+				&\simeq \frac{1}{\exp\left(-\infty\right) + 1}\\
+				&= \frac{1}{0 + 1}\\
+				&= \frac{1}{1}\\
+				&= 1
+			\end{align*}
+			\[
+			\therefore P_{FD}(E) \simeq 1
+			\]
+		\end{column}
+		%
+		\begin{column}[t]{0.32\textwidth}
+			\begin{center}
+				2. \(E \gg E_F\)
+			\end{center}
+			%
+			\begin{align*}
+				P_{FD}(E) &= \frac{1}{\exp\left(\frac{\text{++ve}}{+ve}\right) + 1}\\
+				&\simeq \frac{1}{\exp\left(\infty\right) + 1}\\
+				&= \frac{1}{\infty + 1}\\
+				&= \frac{1}{\infty}\\
+				&= 0
+			\end{align*}
+			\[
+			\therefore P_{FD}(E) \simeq 0
+			\]
+		\end{column}
+		%
+		\begin{column}[t]{0.32\textwidth}
+			\begin{center}
+				3. \(E = E_F\)
+			\end{center}
+			%
+			\begin{align*}
+				P_{FD}(E) &= \frac{1}{\exp\left(\frac{0}{+ve}\right) + 1}	\\
+				& = \frac{1}{1 + 1}\\
+				&= \frac{1}{2}
+			\end{align*}
+			%
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}[label=pre-M2T1-slot1]{Fermi--Dirac Statistics at $T \neq 0$}
+	%
+	\begin{itemize}
+		\item Hence, at \(T\neq\SI{0}{\kelvin}\) the distribution becomes a ``smeared''~\footnote{smear means smoothened.} step function
+		\[ P_{FD}(E) = \begin{cases} \simeq 1 & E \ll E_F \\ \simeq 0 & E \gg E_F 
+		 \end{cases}\]
+	\end{itemize}
+	%
+	\begin{figure}
+		\includegraphics[width=0.4\textwidth]{qt_fd_distribution_at_t_neq_0}
+	\end{figure}
+	%
+	\vspace{-1em}
+	%
+	\begin{keyinsight}
+		At \(T=\SI{0}{\kelvin}\), the Fermi-Dirac distribution is a ``smeared'' step function.
+	\end{keyinsight}
+\end{frame}
+	
+%
+\begin{frame}[label=pre-M2T1-slot1]{Problems on Fermi Dirac statistics}
+	%
+	\begin{problem}
+		Calculate the probability that an energy level \(3k_BT\) above the Fermi energy is occupied by an electron
+	\end{problem}
+	%
+	\begin{problem}
+		Calculate the probability that an energy level \(3k_BT\) below the Fermi level is empty
+	\end{problem}
+	%
+	\begin{problem}
+		Fermi energy of a metal is \SI{6.25}{\electron\volt}. Calculate the temperature at which there is a \SI{1}{\percent} probability that a state \SI{0.30}{\electron\volt} below the Fermi energy level will not contain an electron.
+	\end{problem}
+	%
+	\begin{problem}
+		Calculate the temperature at which the probability that an energy level \SI{0.3}{\electron\volt} below the Fermi level is occupied is 0.7.
+	\end{problem}
+	%
+
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Problems on Fermi Dirac statistics}
+	%
+	\begin{problem}
+		\textcolor{red}{Calculate the temperature at which the probability that an energy level \(3k_BT\) above the Fermi level is occupied is 0.7. \hfill [Hint: This is a wrong question]}
+	\end{problem}
+	%
+	\begin{problem}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.4\textwidth]{qt_fd_distribution_at_different_temperatures}
+		\end{figure}
+		Statement: \(T_1 > T_2\). \\
+		Is the statement true or false?
+	\end{problem}
+\end{frame}
+%
+\begin{frame}{Boltzmann approximation to Fermi Dirac distribution}
+	%
+	\begin{itemize}
+		\item In the limit of \(E-E_F \gg k_BT\),
+		\[
+		P_{FD}(E) \simeq \exp\left[-\frac{E-E_F}{k_B T}\right]
+		\]
+		\item  This is called the Boltzmann approximation
+	\end{itemize}
+	%
+	\begin{problem}
+		Calculate the energy at which the difference between Boltzmann approximation and the Fermi-Dirac function is \SI{5}{\percent} of the Fermi function.
+	\end{problem}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Test Your Understanding}
+	%
+	\begin{enumerate}
+		\item Explain the variation of Fermi-Dirac distribution function at \(T=\SI{0}{\kelvin}\) and \(T\neq \SI{0}{\kelvin}\).
+		\item Show that the probability of finding an electron of energy \(\Delta E\) above the Fermi level is same as the probability of not finding an electron at energy \(\Delta E\) below the Fermi level.
+		\item Show that the occupancy probabilities of two states whose energies are equally spaced above and below the Fermi energy add up to one.
+	\end{enumerate}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Technical terms}
+	%
+	\begin{itemize}
+		\item occupied level
+		\item unoccupied level
+		\item probability of occupancy
+		\item probability of vacancy
+	\end{itemize}
+	%
+\end{frame}	

@@ -1,0 +1,559 @@
+%
+\againframe{plan}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Summary of Classical free electron theory (CFET)}
+	\begin{itemize}
+		\item Derived $\sigma = \dfrac{ne^2\tau}{m}$.
+		\item Connected microscopic electron properties to macroscopic Ohm’s law.
+		\item Classical free electron theory has \colorbox{green}{qualitative and quantitative} \colorbox{green}{agreement with experiment values of conductivity.}
+		\item However, the theory has drawbacks. Some of them are
+		\begin{itemize}
+			\item Incorrect prediction for conductivity vs valency.
+			\item Cannot explain anomalous sign of Hall coefficient in some metals.
+			\item Underestimation of mean free path.
+			\item Cannot explain classification of materials into conductors. semi-conductors and insulators.
+			\item Wrong prediction of conductivity vs temperature.
+			\item \colorbox{red}{Overestimation of heat capacity.}
+		\end{itemize} 
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Electron theories of metals}
+	\begin{columns}
+		\begin{column}{0.3\textwidth}
+			\begin{enumerate}
+				\item Classical free electron theory
+				\item \colorbox{green}{Quantum free} \colorbox{green}{electron theory}
+				\item Quantum band theory
+			\end{enumerate}
+			%
+		\end{column}
+		%
+		\begin{column}{0.68\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=\textwidth]{qt_discovery_timeline}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}{Quantum free electron theory}
+	%
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.20\textheight]{Arnold_Sommerfeld_1868_1951}
+		%
+		\begin{overpic}[height=0.20\textheight]{Wolfgang_Pauli}
+			% Overlay image on top
+			\put(0,0){\includegraphics[width=0.06\textwidth]{Alfred_Nobel_1833_1896}}
+		\end{overpic}
+		%
+		\begin{overpic}[height=0.20\textheight]{Enrico_Fermi_1943-49}
+			% Overlay image on top
+			\put(0,0){\includegraphics[width=0.06\textwidth]{Alfred_Nobel_1833_1896}}
+		\end{overpic}
+		%
+		\begin{overpic}[height=0.20\textheight]{Paul_Dirac_1933}
+			% Overlay image on top
+			\put(0,0){\includegraphics[width=0.06\textwidth]{Alfred_Nobel_1833_1896}}
+		\end{overpic}
+		%
+		\caption{A. Sommerfeld, W. Pauli, E. Fermi, and P. Dirac}
+	\end{figure}
+	%
+	\vspace{-1em}
+	%
+\begin{small}
+		\begin{itemize}
+		\item Proposed by Arnold Sommerfeld in 1927.
+		\item Considered the \textbf{matter wave nature} of electron.
+		\item Mutual repulsion between electrons is neglected i.e. electrons are independent -- \textbf{independent electron approximation}. 
+		\item Assumed ``gas'' is \textbf{free} i.e. not under influence of  lattice --  \textbf{free electron approximation}.
+		\item Electrons obey the \textbf{Pauli exclusion principle}.
+		\item Role of lattice is to redistribute the energy distribution that obeys \textbf{quantum} Fermi-Dirac statistics --  quantum thermodynamics.
+		\item The electron gas is called Fermi gas.
+	\end{itemize}
+\end{small}
+		%
+\end{frame}
+%
+\begin{frame}{Free electron as a matter wave}
+	%
+	\begin{problem}
+		Determine the wave number \(k\), wavelength \(\lambda\), angular frequency \(\omega\) and period \(T\) of a wave function that describes a thermal electron at room temperature. If it is traveling along +ve x direction, write the expression for the wave function.
+	\end{problem}
+	%
+	\begin{problem}
+		The sketches below represent the spatial and temporal parts of wave function of a thermal electron moving along x direction. Determine the temperature.
+		%
+		\begin{figure}[!htbp]
+			\centering
+			\includegraphics[width=0.2\textwidth]{wavefunction_space}
+			\includegraphics[width=0.2\textwidth]{wavefunction_time}
+		\end{figure}
+	\end{problem}
+	%
+	\vspace{-1em}
+	%
+	\begin{keyinsight}
+		A matter wave is described by wave vector \(k\) and angular frequency \(\omega\).
+	\end{keyinsight}
+\end{frame}
+%
+%
+\begin{frame}{Problem at hand}
+	%
+	\begin{figure}
+		\includegraphics[width=0.8\textwidth]{qt_coulomb_force}
+	\end{figure}
+	\begin{itemize}
+		\item The problem at hand is to solve the motion of interacting matter waves-- electrons of the order of \num{e23} and ions of the order of \num{e23}.
+		\item This is a tough problem. The idea is to simplify the problem by making \textbf{approximations}.
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}{Independent electron approximation}
+	%
+	\begin{block}{Postulate}
+		\begin{figure}
+			\includegraphics[width=0.3\textwidth]{qt_independent_electron_postulate}
+		\end{figure}
+		%
+		\begin{itemize}
+			\item Mutual repulsion between electrons is neglected i.e. electrons are independent.
+		\end{itemize}
+	\end{block}
+\end{frame}
+%
+\begin{frame}{Free electron approximation}
+		%
+	\begin{block}{Postulate}
+	\begin{figure}
+		\includegraphics[width=1.0\textwidth]{qt_free_electron_postulate}
+	\end{figure}
+	%
+	\begin{itemize}
+		\item The interaction of electron with ions is neglected i.e. electrons are free.
+		\item The electron is bounded within the metal by 3D infinite potential well.
+	\end{itemize}
+\end{block}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Pauli's exclusion principle}
+	\begin{columns}
+		\begin{column}{0.85\textwidth}
+			\begin{block}{Postulate}
+				\begin{itemize}
+					\item No two electrons can occupy the same quantum state.
+					\item No two electrons can share the same set of quantum numbers.
+					\item Electron obeys Pauli's exclusion principle since it has spin \(\tfrac{1}{2}\).
+				\end{itemize}
+			\end{block}
+			%
+		\end{column}
+		%
+		\begin{column}{0.13\textwidth}
+			\begin{figure}
+				\centering
+				\begin{overpic}[width=\textwidth]{Wolfgang_Pauli}
+					% Overlay image on top
+					\put(0,0){\includegraphics[width=0.3\textwidth]{Alfred_Nobel_1833_1896}}
+				\end{overpic}
+				%
+				%
+				\caption{W. Pauli}
+			\end{figure}
+			%
+		\end{column}
+	\end{columns}
+	%
+	\begin{columns}
+		\begin{column}{0.6\textwidth}
+			\begin{definition}
+				A quantum state is defined by a set of quantum numbers.
+			\end{definition}
+			%
+			\begin{problem}
+				What quantum state is occupied by valence electron in \ce{Na}?
+			\end{problem}
+		\end{column}
+		%
+		\begin{column}{0.38\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{qt_periodic_table}
+			\end{figure}
+			%
+%			\begin{figure}
+%				\includegraphics[width=\textwidth]{qt_pauli_exclusion_principle_Na}
+%			\end{figure}
+			%
+		\end{column}
+	\end{columns}
+
+	%
+\end{frame}
+%
+\begin{frame}{Classical thermodynamics vs Quantum thermodynamics}
+	%
+	\vspace{-1em}
+	%
+	\begin{columns}
+		%
+		\begin{column}{0.1\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.9\textwidth]{Maxwell_Boltzmann_1844_1906}
+				\\
+				{\centering\footnotesize Boltzmann}
+				\includegraphics[width=0.9\textwidth]{James_Clerk_Maxwell_1831_1879}
+				\\
+				{\centering\footnotesize Maxwell}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}{0.4\textwidth}
+				\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{qt_classical_thermodynamics}
+			\end{figure}
+			%
+		\end{column}
+		%
+		\begin{column}{0.4\textwidth}
+			%
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{qt_quantum_thermodynamics}
+			\end{figure}
+			%
+		\end{column}
+		%
+		\begin{column}{0.1\textwidth}
+		\begin{figure}
+			\centering
+		\begin{overpic}[width=\textwidth]{Enrico_Fermi_1943-49}
+			% Overlay image on top
+			\put(0,0){\includegraphics[width=0.3\textwidth]{Alfred_Nobel_1833_1896}}
+		\end{overpic}
+		%
+		\\
+		{\centering\footnotesize Fermi}
+		\\
+		\begin{overpic}[width=\textwidth]{Paul_Dirac_1933}
+			% Overlay image on top
+			\put(0,0){\includegraphics[width=0.3\textwidth]{Alfred_Nobel_1833_1896}}
+		\end{overpic}
+			\\
+			{\centering\footnotesize Dirac}
+		\end{figure}
+		\end{column}
+	\end{columns}
+	%
+%	\vspace{-1em}
+	%
+	\begin{columns}[t]
+		\begin{column}{0.48\textwidth}
+			\begin{small}
+				\begin{itemize}
+					\item Classical thermodynamics allows electrons to share the same state.
+					\item State is defined by velocity \(v\).
+					\item The occupancy of energy level is governed by Maxwell-Boltzmann statistics.
+				\end{itemize}
+			\end{small}
+		\end{column}
+		%
+		\begin{column}{0.48\textwidth}
+			\begin{small}
+				\begin{itemize}
+					\item Quantum thermodynamics is governed by Pauli exclusion principle and forbids sharing the same state.
+					\item Quantum state is defined by wavevector \(k\).
+					\item The occupancy of energy level is governed by Fermi-Dirac statistics.
+				\end{itemize}
+			\end{small}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Sommerfeld's Quantum Free electron theory -- Postulates}
+	\begin{block}{Postulates}
+		\begin{enumerate}
+			\item \textbf{Waves:} Electrons are quantum waves with wavevector \(k\), angular frequency \(\omega\).
+			\item \textbf{Fermion:} Electron is a spin \(\tfrac{1}{2}\) particle and obeys Pauli's exclusion principle.
+			\item \textbf{Independent electron approximation:} Electrons are independent and mutual repulsion between them is ignored.
+			\item \textbf{Free electron approximation:} Electrons are free and move in an infinite potential well.
+			\item \textbf{Quantum Thermodynamics:} The thermalization is governed by Fermi-Dirac statistics.
+
+		\end{enumerate}
+	\end{block}
+	%
+\end{frame}
+%
+\begin{frame}{Quantum states in a cubic box}
+	Consider a particle of mass $m$ confined in a cubic box of side $a$ with infinite walls.
+	\begin{itemize}
+		\item Wavefunction boundary conditions lead to quantum numbers $n_1,n_2,n_3\in\{1,2,3,\ldots\}$.
+		\[
+		\psi_{n_1,n_2,n_3}(x,y,z)
+		= \sqrt{\frac{8}{a^{3}}}\,
+		\sin\!\bigg(\frac{n_1\pi x}{a}\bigg)\,
+		\sin\!\bigg(\frac{n_2\pi y}{a}\bigg)\,
+		\sin\!\bigg(\frac{n_3\pi z}{a}\bigg),
+		\]
+		
+		\item Energy levels are given by
+		\[ E_{n_1,n_2,n_3} 
+		= \frac{h^2}{8ma^2}\bigl(n_1^2+n_2^2+n_3^2\bigr). \]
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Quantum state vs Energy level -- Degeneracy}
+	%
+	In the 3D box, a quantum state is defined by set of three quantum numbers \(n_1, n_2, n_3\).
+	%
+%	\vspace{-1em}
+	%
+\begin{columns}
+	\begin{column}{0.6\textwidth}
+\begin{small}
+			\begin{table}
+		\centering
+		\begin{tabular}{llllcc}
+			\toprule
+			\(n_1\)	&	\(n_2\)	& \(n_3\)	&	\(E_{n_1,n_2,n_3}\)	&	\multicolumn{2}{c}{degeneracy}		\\
+			&&&&	without &	with	\\
+			&&&&	spin	&	spin	\\
+			\midrule
+			1&	1&	1	&	\(3\cdot\frac{h^2}{8ma^2}\)	&	1	&	2	\\
+			2&	1&	1	&	\(6\cdot\frac{h^2}{8ma^2}\)	&	3	&	6	\\
+			1&	2&	1	&	\(6\cdot\frac{h^2}{8ma^2}\)	&	3	&	6	\\
+			1&	1&	2	&	\(6\cdot\frac{h^2}{8ma^2}\)	&	3	&	6	\\
+			2&	2&	1	&	\(9\cdot\frac{h^2}{8ma^2}\)	&	3	&	6	\\
+			1&	2&	2	&	\(9\cdot\frac{h^2}{8ma^2}\)	&	3	&	6	\\
+			2&	1&	2	&	\(9\cdot\frac{h^2}{8ma^2}\)	&	3	&	6	\\
+			2&	2&	2	&	\(12\cdot\frac{h^2}{8ma^2}\)&	1	&	2	\\
+			\vdots&	\vdots&	\vdots&	\vdots &	\vdots&	\vdots	\\	
+			\bottomrule			
+		\end{tabular}
+	\end{table}
+\end{small}
+	\end{column}
+	%
+	\begin{column}{0.38\textwidth}
+		\begin{figure}
+			\includegraphics[width=1.0\textwidth]{qt_state_vs_energy_level}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+%
+\begin{frame}{Quantum degeneracy}
+	%
+	\begin{definition}
+		\begin{itemize}
+			\item Degeneracy is the condition when an energy level has more than one quantum state.
+			\item If \(n\) quantum states have same energy level, then degeneracy of the energy level is \(n\).
+			\item Degeneracy is also called multiplicity.
+		\end{itemize}
+	\end{definition}
+	%
+	\begin{problem}
+		Five free electrons exist in a three dimensional potential well with all three widths equal to \(a=\SI{12}{\angstrom}\).
+		%
+		\begin{enumerate}
+			\item Determine the Fermi energy level at \(T=\SI{0}{\kelvin}\).
+			\item Repeat part 1 for 13 electrons.
+		\end{enumerate}
+	\end{problem}
+	\begin{keyinsight}
+		Quantum states can have the same energy level.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Nature of Wavefunctions -- 1D, 2D}
+	%
+	\begin{figure}
+		\includegraphics[width=0.3\textwidth]{qt_psi_1d_n1}
+		\includegraphics[width=0.3\textwidth]{qt_psi_1d_n2}			\includegraphics[width=0.3\textwidth]{qt_psi_1d_n3}
+		\caption{1D wave functions}
+	\end{figure}
+	%
+	%
+	\begin{figure}
+		\includegraphics[width=0.3\textwidth]{qt_psi_2d_surface_n1_1}
+		\includegraphics[width=0.3\textwidth]{qt_psi_2d_surface_n2_1}			\includegraphics[width=0.3\textwidth]{qt_psi_2d_surface_n2_2}
+		\caption{2D wave functions}
+	\end{figure}
+	%
+\end{frame}
+%
+\begin{frame}{Nature of Wavefunctions -- 3D Macroscopic atom}
+	\begin{figure}
+		\includegraphics[width=0.3\textwidth]{qt_psi_3d_slice_n1_1_1}
+		\includegraphics[width=0.3\textwidth]{qt_psi_3d_slice_n2_1_1}			\includegraphics[width=0.3\textwidth]{qt_psi_3d_slice_n2_2_1}
+		\caption{3D wave functions}
+	\end{figure}
+	%
+	\begin{itemize}
+		\item The above plots are called colormap plots. Each plot is a slice of the wavefunction at \(z=\tfrac{a}{2}\).
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		These wavefunctions are similar to \(s, p, d\) orbitals of hydrogen atom from chemistry.
+	\end{keyinsight}
+\end{frame}
+\begin{frame}{Quantum number space}
+\begin{block}{Quantum number space}
+	\begin{columns}
+	\begin{column}{0.7\textwidth}
+
+		\begin{itemize}
+			\item A quantum state corresponds to a point with positive integer coordinates $(n_1,n_2,n_3)$ in the \textbf{number space}.
+			\item This is an imaginary space.
+			\item Quantum state lies in the positive octant of number space.
+		\end{itemize}
+	\end{column}
+	%
+	\begin{column}{0.28\textwidth}
+		\includegraphics[width=\textwidth]{qt_number_space}
+	\end{column}
+\end{columns}
+\end{block}
+%
+\vspace{-1em}
+%
+\begin{small}
+		\begin{itemize}
+		\item Let us count the number of states up to energy $E$.
+		\item Define \(n\equiv\sqrt{n_1^2+n_2^2+n_3^2}\) (radial coordinate in \textit{n}-space).
+		\item The number of states with $n$ less than some value $n_0$ equals the number of integer lattice points in the positive octant inside a sphere of radius $n_0$.
+		\item We count the volume in \textit{n}-space:
+		\[ N(n\le n_0) = g\times\frac{1}{8}\times \frac{4}{3}\pi n_0^3 = g\frac{\pi}{6} n_0^3, =  \]
+		where $g$ is the degeneracy due to electron spin.
+	\end{itemize}
+\end{small}
+\end{frame}
+%	
+\begin{frame}{Relate $n$ to energy}
+	Using $E=(h^2/8ma^2)n^2$, solve for $n$:
+	\[ n(E)=\frac{\sqrt{8ma^2E}}{h} .\]
+	Thus the total number of states with energy less than or equal to $E$ is
+	\begin{align*}
+		N(E) &\approx g\frac{\pi}{6} n(E)^3
+		= g\frac{\pi}{6}\left(\frac{\sqrt{8mL^2E}}{h}\right)^3
+		= g\frac{\pi}{6}\left(\frac{\sqrt{8mE}}{h}\right)^3 L^3.
+	\end{align*}
+	Here, the volume $V=L^3$ and g=2.
+\end{frame}
+	
+\begin{frame}[label=pre-M2T1-slot1]{Density of states $Z(E)=\dfrac{d(\tfrac{N}{V})}{dE}$}
+	%
+	\begin{definition}
+\begin{itemize}
+	\item Density of states \(Z(E)\)~\footnote{In Neamen, density of states is denoted by \(g(E)\).} is defined as the rate of change of the number of states per unit volume upto energy \(E\) with respect to energy \(E\).
+	\item Therefore, the the number of states per unit volume from energy \(E\) to \(E+ \mathrm{d}E\) is given by
+	\[
+	Z(E)\, \mathrm{d}E.
+	\]
+\end{itemize}
+	\end{definition}
+	Number of states per unit volume is
+	\[
+	\rho_N(E) = \frac{N}{V} = \frac{\pi}{3}\left(\frac{\sqrt{8m}}{h}\right)^3 E^{3/2}
+	\]
+\end{frame}
+	
+\begin{frame}[label=pre-M2T1-slot1]{DOS in textbook form}
+	Differentiate $\rho_N(E)$ with respect to $E$ to get the density of states function:
+	\[
+	Z(E)=\frac{\mathrm{d}\rho_N(E)}{\mathrm{d}E}
+	= \frac{\pi}{2}\cdot \left(\frac{\sqrt{8m}}{h}\right)^3  E^{1/2}
+	\]
+	\[	
+		Z(E) = \frac{\pi}{2}\cdot 8 \cdot  \left(\frac{2m}{h^2}\right)^{3/2} E^{1/2}
+	\]
+	%
+	\begin{center}
+		\framebox{$		\therefore Z(E) = 4\pi \cdot \left(\frac{2m}{h^2}\right)^{3/2} E^{1/2}.$}
+	\end{center}
+	%
+	\begin{keyinsight}
+		For 3D infinite potential, \(Z(E)\propto \sqrt{E}\).
+	\end{keyinsight}
+	%
+	\begin{problem}
+		Find the form of \(Z(E)\) for 2D infinite potential.
+	\end{problem}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Fermi level}
+	%
+	\begin{definition}
+		Fermi level of a metal is the maximum energy that an electron can have at \(T=\SI{0}{\kelvin}\).
+	\end{definition}
+	%
+	\vspace{1em}
+	%
+\begin{columns}
+	\begin{column}{0.8\textwidth}
+			At absolute zero all states are filled up to the Fermi energy $E_F$.
+	The total electron density $n_c$ (electrons per unit volume) is
+	\begin{align*}
+		n_c &= \frac{N}{V} = \int_0^{E_F}Z(E)\,\mathrm{d}E
+		= 4\pi \cdot \left(\frac{2m}{h^2}\right)^{3/2}\int_0^{E_F}E^{1/2}\,\mathrm{d}E \\
+		&= 4\pi \cdot \left(\frac{2m}{h^2}\right)^{3/2}\cdot \frac{2}{3}E_F^{3/2} \\
+		&= \frac{8\pi}{3}\left(\frac{2m}{h^2}\right)^{3/2}E_F^{3/2}.
+	\end{align*}
+	\end{column}
+	%
+	\begin{column}{0.18\textwidth}
+		\includegraphics[width=1.0\textwidth]{qt_fermi_level}
+	\end{column}
+\end{columns}
+\end{frame}
+	
+\begin{frame}[label=pre-M2T1-slot1]{Relating Fermi energy to electron density}
+	Invert the relation to get the Fermi energy as a function of density:
+	%
+	\[
+				E_F^{3/2} = \left(\frac{h^2}{2m}\right)^{3/2}\cdot \frac{3n_c}{8\pi}.
+	\]
+	%
+	%
+	\begin{center}
+		\framebox{$\therefore E_F = \frac{h^2}{2m}\,\left(\frac{3n_c}{8\pi}\right)^{2/3}.$}
+	\end{center}
+
+	This is the Fermi energy of a free electron gas in three dimensions at $T=0$.
+	%
+	\begin{problem}
+		Calculate \(E_F\) for metal with electron density \(n_c = \SI{5.8e28}{\per\metre\cubed}\).
+	\end{problem}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Test Your Understanding}
+	%
+	\begin{enumerate}
+		\item What are the postulates of QFET.
+		\item Define Pauli's exclusion principle.
+		\item Define Fermi energy level.
+		\item Define density of states function.
+	\end{enumerate}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Technical terms}
+	%
+	\begin{itemize}
+		\item Pauli's exclusion principle
+		\item Fermi level
+		\item Density of states
+		\item Fermi velocity
+		\item Quantum state
+		\item energy level
+		\item degeneracy
+		\item multiplicity
+	\end{itemize}
+	%
+\end{frame}

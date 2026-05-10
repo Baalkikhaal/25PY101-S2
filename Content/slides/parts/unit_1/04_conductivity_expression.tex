@@ -1,0 +1,378 @@
+%
+\againframe{plan}
+%
+\begin{frame}{Lecture plan}
+	\begin{learningobjectives}
+		\begin{itemize}
+			\item From qualitative picture of metals to quantitative derivation.
+			\item Derive expression for conductivity.
+			\item Mobility is a material property.
+		\end{itemize}
+	\end{learningobjectives}
+\end{frame}
+%
+%
+\begin{frame}{Free electron density -- \(n\)}
+	\begin{block}{Definition}
+		\begin{itemize}
+			\item Electron density \(n\) is defined as the number of electrons per unit volume. Its SI unit is \si{\per\metre\cubed}.
+			\item For metals, each atom contributes as many electrons as its \textbf{valency}. For example, \ce{Na} has valency 1.
+		\end{itemize}
+	\end{block}
+	\begin{guesstimate}{Electron density of metals}
+		%
+		\begin{enumerate}\itemsep0pt\parskip0pt \parsep0pt
+			\item Take the radius \(r_s\) of atom is nearly $3 a_0$, where \(a_0 =\)~\SI{0.529}{\angstrom} is the Bohr radius.
+			\item Deduce \(n\) is of the order \SI{e22}{\per\centi\metre\cubed} =  \SI{e28}{\per\metre\cubed}.
+			\item For Cu, the experimental observed \(n\)~=\SI{8.47e28}{\per\metre\cubed}.
+		\end{enumerate}
+	\end{guesstimate}
+	%
+	\vfill
+	\begin{keyinsight}
+		\(\tfrac{r_s}{a_0}\) determines the free electron density.
+	\end{keyinsight}
+	%
+\end{frame}
+%
+\begin{frame}{Drift velocity -- \(v_d\)}
+	\begin{minipage}{0.7\textwidth}
+		\begin{definition}
+			\begin{itemize}
+				\item \textbf{Drift velocity} \(\vb{v_d}\)is defined as the average velocity of an electron in the presence of electric field.
+				\item \textbf{relaxation time} $\tau$ is defined as the average time between collisions.
+			\end{itemize}
+		\end{definition}
+	\end{minipage}
+	\begin{minipage}{0.28\textwidth}
+		\begin{figure}
+			\centering
+			\includegraphics[height=0.05\textheight]{metals_drift_equation}
+		\end{figure}
+	\end{minipage}
+	\begin{derivation}
+		\begin{minipage}[t]{0.6\textwidth}
+			\begin{itemize}
+				\item The equation of motion of electron is
+				\item During time duration \(\tau\), electron reaches drift velocity
+			\end{itemize}
+		\end{minipage}
+		%
+		\begin{minipage}[t]{0.38\textwidth}
+			\[
+			\vb{a} = -\frac{e}{m} \vb{E}
+			\]
+			\[		
+			\framebox{
+				$
+				\vb{v_d} = -\frac{e\tau}{m}\vb{E}
+				$}
+			\]
+		\end{minipage}
+	\end{derivation}
+	\begin{keyinsight}
+		Drift velocity is proportional to the applied electric field.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{\(y=mx\) and \(y= m /x\) relations}
+	\begin{itemize}
+		\item We have seen many examples of \textbf{linear} relations between physical quantities till now.
+		\item The dependent variable \(y\) relates to the independent variable \(x\). The relation is given by the \textbf{constant of proportionality}.
+		\item We also say that ``\(y\) is directly proportional to \(x\)''.
+	\end{itemize}
+	%
+{
+	%\small
+		\begin{table}
+		\centering
+		\begin{tabular}{l c l}
+			\toprule
+			Law 	&	Equation 	&	Const. of prop.	\\
+			\midrule
+			Ohm's (macroscopic)	&	\(I = \frac{1}{R} V\)	&	Conductance	\\
+			Ohm's (microscopic)	&	\(\vb{j} = \sigma \vb{E}\)	&	Conductivity \\
+			Capacitor			&	\(E = \frac{1}{d} V\)	&	1/Separation	\\
+			Drift motion			&	\(\vb{v_d} = -\frac{e \tau}{m} \vb{E}\)		&	Mobility	\\
+			Photoelectric effect	&	\(	E = \hbar \nu\)	&	Planck's constant	\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+}
+\end{frame}
+%
+\begin{frame}{\(y=mx\) and \(y= m /x\) relations contd...}
+	%
+		%
+	\begin{itemize}
+		\item Sometimes, physical quantities are also inversely related i.e. \(y \propto \tfrac{1}{x}\).
+		\item We also say ``y is inversely proportional to x''.
+	\end{itemize}
+	%
+	{
+		%\small
+		\begin{table}
+			\centering
+			\begin{tabular}{l c l}
+				\toprule
+				Law 	&	Equation 	&	Const. of prop.	\\
+				\midrule
+				Light	&	\(\nu = c\frac{1}{\lambda}\)	&	velocity	\\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+	}
+	%
+\end{frame}
+\begin{frame}{Mobility -- \(\mu\)}
+	%
+	\begin{definition}
+		\textbf{Mobility} \(\mu\) is defined as the drift velocity per unit electric field
+		\[
+		\mu = \frac{v_d}{E}.
+		\]
+	\end{definition}
+	%
+	\begin{itemize}
+		\item It is a material property as
+		\[
+		\mu = \frac{e\tau}{m} \qquad \qquad [\because \vb{v_d} = -\frac{e\tau}{m}\vb{E}]
+		\]
+		\item Its SI unit is
+		\[
+		[\mu] = \frac{[v_d]}{[E]} = \frac{[v_d \ell]}{[V]} = \text{\si{\metre\squared\per\volt\per\second}}
+		\]
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}{Conductivity \(\sigma\)}
+	%
+	\begin{minipage}{0.28\textwidth}
+		\begin{figure}
+			\centering
+			\includegraphics[width=\textwidth]{metals_conductivity_expression}
+		\end{figure}
+	\end{minipage}
+	%
+	\begin{minipage}{0.7\textwidth}
+		In a time duration \(\Delta t\), the number of electrons \(N\) in a volume of \(V = v_d \Delta t A\) will pass through the cross section of area \(A\).
+	\end{minipage}
+	%
+	\begin{small}
+		\begin{derivation}
+			%
+			\begin{minipage}[t]{0.3\textwidth}
+				\begin{enumerate}
+					\item Current \(I\):
+					\item Current density \(j\):
+					\item Conductivity \(\sigma\):
+				\end{enumerate}
+			\end{minipage}
+			\begin{minipage}[t]{0.68\textwidth}
+				\vspace*{0pt} % forces content to start at top
+				\begin{align}
+					I &= -\frac{Ne}{\Delta t} =  -\frac{n\cdot V}{\Delta t} = - nev_d  A	\\
+					%
+					j &= \frac{I}{A} = -ne v_d = \dfrac{ne^2\tau}{m}E	\\
+					%
+					\sigma &= \dfrac{ne^2\tau}{m} = ne\big(\dfrac{e\tau}{m}\big) = ne\mu
+				\end{align}
+				
+			\end{minipage}
+		\end{derivation}
+	\end{small}
+	%
+	\begin{learningobjectives}
+		We have derived the expression for conductivity.
+	\end{learningobjectives}
+\end{frame}
+%
+\begin{frame}{Relaxation Time -- \(\tau\)}
+	%
+	\begin{block}{Assumption}
+		Relaxation time \(\tau\) is assumed to be a \textbf{constant}.
+	\end{block}
+	\begin{guesstimate}{Relaxation time in metals}
+		Estimate the electron relaxation time in metals.
+		\begin{enumerate}\itemsep0pt\parskip0pt \parsep0pt
+			\item Take conductivity \(\sigma \sim\)~\SI{e7}{\siemens\per\metre}, number density \(n \sim\)~\SI{e28}{\per\metre\cubed}
+			\item Take electron mass  \(m\)~=\SI{9.1e-31}{\kilo\gram}, charge \(e\)~=\SI{1.609e-19}{\coulomb}.
+			\item Deduce relaxation time \( \tau \sim\)~ \framebox{\SI{e-14}{\second} or \SI{10}{\femto\second}}.
+		\end{enumerate}
+	\end{guesstimate}
+	\begin{itemize}
+		\item Larger $\tau$ → fewer collisions → higher conductivity.
+	\end{itemize}
+	%
+	\begin{trends}
+		\begin{enumerate}\itemsep0pt\parskip0pt \parsep0pt
+			\item As temperature increases, \(\tau\) decreases. \hfill Why?
+			\item As impurity concentration increases, \(\tau\) decreases. \hfill Why?
+		\end{enumerate}
+	\end{trends}
+\end{frame}
+%
+\begin{frame}{Resistivity -- \(\rho\)}
+	\begin{definition}
+		Resistivity \(\rho\) is defined as the inverse of conductivity
+		\[
+		\rho = \frac{1}{\sigma}
+		\]
+		Its SI unit is \si{\ohm\metre}.
+	\end{definition}
+	\begin{itemize}
+		\item Resistivity $\rho = \dfrac{1}{\sigma} = \dfrac{m}{ne^2\tau}$.
+		\item Its SI unit is \si{\ohm\metre}.
+	\end{itemize}
+	%
+	\begin{trends}
+		\begin{enumerate}\itemsep0pt\parskip0pt \parsep0pt
+			\item As number density increases, $\rho$ decreases. \hfill Why?
+			\item As temperature increases, $\rho$ increases. \hfill Why?
+		\end{enumerate}
+	\end{trends}
+\end{frame}
+%
+\begin{frame}{Summary of physical quantities}
+	\begin{table}
+		\centering
+		\begin{tabular}{l c c c}
+			\toprule
+			Physical quantity	&	Symbol	& Units	& Material Property	\\
+			\midrule
+			Resistance	&	\(R\)	&	\si{\ohm}	&	No	\\
+			Conductivity	& \(\sigma\)	&	\si{\per\ohm\per\metre} or \si{\siemens\per\metre}	&	Yes	\\
+			Mobility	&	\(\mu\)	&	\si{\metre\squared\per\volt\per\second}	&	Yes 	\\
+			Relaxation Time	&	\(\tau\)	&	\si{\second}	& Yes	\\
+			Resistivity	&	\(\rho\)	&	\si{\ohm\metre}	&	Yes	\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+\end{frame}
+%
+\begin{frame}{Theory vs. experiment}
+	%
+	\begin{block}{\textcolor{green}{Merit: Conductivity order of magnitude}}
+		\begin{itemize}
+			\item For metals, classical free electron theory (CEFT) predicts order of magnitude of conductivity correctly.  
+			\[\sigma_{\mathrm{experiment}} \sim \sigma_{\mathrm{theory}} \sim \SI{e7}{\per\ohm\per\metre} \]
+		\end{itemize}
+	\end{block}
+	%
+	%
+	\begin{block}{\textcolor{red}{Demerit: Conductivity vs valency}}
+		\begin{itemize}
+			\item Conductivity is proportional to number density. Number density is proportional to valency. So theory predicts conductivity increases with valency. But experiment shows monovalent metals (\ce{Na}, \ce{K}) have higher conductivity than divalent metals (\ce{Mg}, \ce{Ca}).
+		\end{itemize}
+	\end{block}
+\end{frame}
+%
+\begin{frame}{Theory vs Experiment contd...}
+	\begin{block}{\textcolor{red}{Demerit: Hall coefficient sign}}
+		\begin{itemize}
+			\item In metals, there are only electrons as charge carriers.
+			\item It is expected that the \textbf{sign of Hall coefficient is negative}.
+			\item However, experiments show metals like \ce{Zn} show positive Hall coefficient. CEFT cannot explain this \textbf{anomaly}.
+		\end{itemize}
+	\end{block}
+	%
+	\begin{block}{\textcolor{red}{Under-estimation of mean free path}}
+		\begin{itemize}
+			\item The mean free path is considered a constant in CEFT and is taken as the interatomic distance that is approximately \SI{5}{\angstrom}.
+			\item However, experiment shows mean free path to be of the order \SI{50}{\angstrom}.
+			\item Thus, CEFT underestimates the mean free path by one order of magnitude.
+		\end{itemize}
+	\end{block}
+\end{frame}
+\begin{frame}{\textcolor{red}{Demerit: Classification of materials}}
+		%
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\textheight]{metals_semiconductors_resistivity}
+		\end{figure}
+		%
+		\begin{itemize}
+			\item CEFT \textbf{does not} explain the classification of materials into conductors, semi-conductors and insulators.
+			\item For example, the resistivity of metals varies linearly
+			\(
+			\rho_\mathrm{conductor} \propto T
+			\)
+			but resistivity of semiconductors varies exponentially
+			\(
+			\rho_\mathrm{semi-conductor} \propto \exp(\frac{1}{T}).
+			\)
+		\end{itemize}
+\end{frame}
+%
+\begin{frame}{\textcolor{red}{CFET Demerit: Resistivity vs temperature}}
+	%
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textheight]{metals_resistivity_theory_vs_experiment}
+	\end{figure}
+	%
+	\begin{itemize}
+		\item Wrong prediction of temperature dependence of conductivity. Theory predicts
+		\(
+		\sigma(T) \propto 1/\sqrt{T},
+		\) 
+		but experimental trend is
+		\(
+		\sigma(T) \propto T^{-1}.
+		\)
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{\textcolor{red}{Demerit: Specific heat capacity}}
+\begin{footnotesize}
+		\begin{itemize}
+		\item Metals heat ``quickly''. When we heat a metal, the heat energy is transferred to electrons. The quickness is measured in terms of heat capacity.
+		\item Specific heat capacity is defined as the rate of change of energy per unit temperature per unit mole.
+		\item Energy of electron at temperature \(T\) is
+		\(
+		E_\mathrm{el} = \frac{3}{2} k_B T.
+		\)
+		\item Energy of a mole of electrons is
+		\[
+		E = E_\mathrm{el} N_A =  \frac{3}{2} k_B N_A T  = \frac{3}{2} R T. \qquad \left[R = \SI{8.314}{\joule\per\mole\per\kelvin} \right]
+		\]
+		\item Therefore, specific heat capacity is
+		\[
+		C_\mathrm{theory} = \frac{\mathrm{d} E}{\mathrm{d} T} = \frac{3}{2} R \sim \SI{12}{\joule\per\mole\per\kelvin}.
+		\]
+		\item But experimental values of specific heat capacity \(C_\mathrm{experiment}\) are \textbf{smaller by two orders} of magnitude.
+	\end{itemize}
+\end{footnotesize}
+%
+\begin{keyinsight}
+	Mercury thermometer is a good instrument to measure body temperature.
+\end{keyinsight}
+%
+\end{frame}
+%
+%
+\begin{frame}{Theory vs experiment contd...}
+	\begin{block}{Reason}
+		\begin{itemize}
+			\item  Does not account for quantum effects (Fermi–Dirac statistics).
+			\item Improved later by Sommerfeld's free electron theory (quantum).
+		\end{itemize}
+	\end{block}
+\end{frame}
+\begin{frame}{Summary of lecture}
+	\begin{itemize}
+		\item Derived $\sigma = \dfrac{ne^2\tau}{m}$.
+		\item Connected microscopic electron properties to macroscopic Ohm’s law.
+		\item Classical free electron theory has qualitative and quantitative agreement with experiment values of conductivity.
+		\item However, the theory has drawbacks. Some of them are
+		 \begin{itemize}
+		 	\item Incorrect prediction for conductivity vs valency.
+		 	\item Cannot explain anomalous sign of Hall coefficient in some metals.
+		 	\item Underestimation of mean free path.
+		 	\item Cannot explain classification of materials into conductors. semi-conductors and insulators.
+		 	\item Wrong prediction of conductivity vs temperature.
+		 	\item Overestimation of heat capacity.
+		 \end{itemize} 
+	\end{itemize}
+\end{frame}

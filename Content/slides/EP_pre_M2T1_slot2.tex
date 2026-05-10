@@ -1,0 +1,112 @@
+\documentclass[aspectratio=1610, handout]{beamer}
+\includeonlyframes{titleframe,plan,pre-M2T1-slot2}
+\usetheme{metropolis}            % Clean academic theme
+\usecolortheme{seahorse}        % Built-in theme
+\setbeamertemplate{footline}[frame number]
+\usepackage{graphicx}
+\graphicspath{{images/}{images/scientists/}{images/emojis/}{images/camera/}}
+\usepackage{overpic}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{amsmath, amssymb}
+\usepackage{subcaption}
+\usepackage{siunitx-v2}
+\DeclareSIUnit{\siemens}{S}
+\DeclareSIUnit{\faraday}{F}
+\DeclareSIUnit{\electron}{e}
+\DeclareSIUnit{\gauss}{G}
+\DeclareSIUnit{\ppm}{ppm}
+\DeclareSIUnit{\calorie}{cal}
+\usepackage{mhchem}
+\usepackage{physics}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+\usepackage[rightcaption]{sidecap}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\definecolor{VignanBlue}{RGB}{0,102,204}   % Strong blue
+\definecolor{VignanRed}{RGB}{200,30,60}    % Crimson red (optional for highlights)
+%
+\newtheorem{derivation}{Derivation}
+\setbeamercolor{guesstimate}{fg=blue,bg=blue!10}
+%
+\setbeamerfont{theorem body}{series=\normalfont}
+%
+\newenvironment{learningobjectives}[1][]{%
+	\begin{block}{Learning Objectives \hfill
+		\raisebox{0ex}{\includegraphics[height=2ex]{target}}
+		} }{\end{block}
+}
+%
+\newenvironment{question}[1][]{%
+	\begin{block}{Question \hfill
+			\raisebox{0ex}{\includegraphics[height=2ex]{question}}
+		}\small}{\end{block}
+}
+%
+\newenvironment{guesstimate}[1]{%
+	\begin{block}{Estimate: {#1} \hfill
+			\raisebox{0ex}{\includegraphics[height=2ex]{calculator}}
+		} \small}{\end{block}
+}
+%
+\newenvironment{keyinsight}[1][]{%
+	\begin{block}{\centering Key Insight \hfill
+		\raisebox{0ex}{\includegraphics[height=2ex]{light_bulb}}
+		}}{\end{block}
+	}
+\newenvironment{trends}[1][]{%
+	\begin{block}{Trends \hfill
+			\raisebox{0ex}{\includegraphics[height=2ex]{trend}}
+		} \small\centering}{\end{block}
+}
+\newenvironment{disclaimer}[1][]{%
+	\begin{block}{Disclaimer \hfill
+			\raisebox{0ex}{\includegraphics[height=2ex]{disclaimer}}
+	}}{\end{block}
+}
+\newif\ifshowhidden
+\showhiddenfalse
+%
+\title[Engineering Physics]{Engineering Physics (2025) \\ Course code
+	25PY101 \\ pre-M2T1 slot 2}
+\author{Course Instructor:\\ 
+	{\color{VignanBlue} Dr. Sreekar Guddeti}\\
+	Assistant Professor in Physics\\
+	Department of Science and Humanities \\
+	{\color{VignanRed}Vignan's Foundation for Science, Technology and Research}
+}
+%
+\begin{document}
+	\begin{frame}[label=titleframe]
+		\titlepage
+	\end{frame}
+	%
+	%
+	\input{parts/unit_3/00_plan}
+	%
+	\section{Fermi level in semiconductors- intrinsic and extrinsic}
+	%
+	%\ifshowhidden
+	\input{parts/unit_3/08_fermi_level_in_semiconductors}
+	%\fi
+	%
+	%\input{parts/course_structure}
+	%
+	\input{parts/unit_4/00_plan}
+	%
+	\section{p-n junction diode -- forward and reverse conditions}
+	%
+	%\ifshowhidden
+	\input{parts/unit_4/01_pn_junction_diode}
+	%\fi
+	%
+	\section{Solar cell}
+	%
+	%\ifshowhidden
+	\input{parts/unit_4/02_solar_cell}
+	%\fi
+	%
+\end{document}

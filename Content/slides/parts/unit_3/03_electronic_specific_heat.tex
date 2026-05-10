@@ -1,0 +1,219 @@
+%
+\againframe{plan}
+%
+%
+\begin{frame}[label=pre-M2T1-slot1]{Specific heat capacity}
+	%
+	\begin{definition}
+		\begin{itemize}
+			\item Specific heat capacity~\footnote{It is also called simply as specific heat.} \(C\) is defined as the rate of change of energy \(E\) with temperature \(T\) per unit mole of material.
+			\[
+			C = \frac{\mathrm{d}E}{\mathrm{d}T}
+			\quad\quad
+			\text{SI unit}
+			\quad 
+			[C] = \left[ \frac{E}{T}\cdot \frac{1}{\text{mole}}\right] = \si{\joule\per\kelvin\per\mole}.
+			\]
+		\end{itemize}
+	\end{definition}
+	%
+	\begin{itemize}
+		\item Metals heat ``quickly''. When we heat a metal, the heat energy is transferred to electrons. The quickness is measured in terms of heat capacity.
+	\end{itemize}
+	%
+	\begin{problem}
+		Specific heat of mercury is \SI{0.14}{\joule\per\gram\per\kelvin}, water is \SI{1}{\calorie\per\gram\per\celsius}, ethanol is \SI{2.44}{\joule\per\gram\per\celsius}. Which has more specific heat? Which better material for thermometer? \hfill [\ce{{}_{80}^{200}Hg}, \SI{1}{\calorie}=\SI{4.2}{\joule}, ethanol = \ce{CH3CH2OH}]
+	\end{problem}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Specific heat capacity -- CFET}
+		\begin{itemize}
+		\item Energy of electron at temperature \(T\) is
+		\(
+		E_\mathrm{el} = \frac{3}{2} k_B T.
+		\)
+		\item Energy of a mole of electrons is
+		\[
+		E = E_\mathrm{el} N_A =  \frac{3}{2} k_B N_A T  = \frac{3}{2} R T. \qquad \left[R = \SI{8.314}{\joule\per\mole\per\kelvin} \right]
+		\]
+		\item Therefore, specific heat capacity is
+		\[
+		C_\mathrm{theory}^\text{classical} = \frac{\mathrm{d} E}{\mathrm{d} T} = \frac{3}{2} R \sim \SI{12}{\joule\per\mole\per\kelvin}.
+		\]
+		\item But experimental values of specific heat capacity \(C_\text{experiment}\) are \textbf{smaller by two orders} of magnitude.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Specific heat capacity -- QFET}
+	%
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.48\textwidth]{qt_dos_3d_T_eq_0}
+		\includegraphics[width=0.48\textwidth]{qt_dos_3d_T_neq_0}
+	\end{figure}
+	\begin{itemize}
+		\item For the derivation of specific heat capacity, only the \textbf{form} of density of states functions is necessary and not the exact expression. For 3D metal, \(Z(E) \propto \sqrt{E}\) so that
+		\[
+		Z(E) = \alpha \sqrt{E}, \qquad \text{where} \,\alpha \, \text{is a constant}
+		\]
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Specific heat capacity -- Form of \(Z(E)\)}
+	%
+	\begin{itemize}
+		\item At \(T=\SI{0}{\kelvin}\), electron has energy less than or equal to Fermi energy level.
+		\item The number of electrons per unit volume \(n_c\) at \(T=\SI{0}{\kelvin}\) is given by
+		\begin{align*}
+			\textcolor{green}{n_c} &= \int_{0}^{E_F} \textcolor{blue}{Z(E)} \textcolor{red}{P(E)} \, \mathrm{d}E	\\
+			&= \int_{0}^{E_F} Z(E) \, \mathrm{d}E	\\
+			&= \int_{0}^{E_F} \alpha \sqrt{E} \, \mathrm{d}E	\\
+			&= \frac{2}{3} \alpha E_F^{3/2}
+		\end{align*}
+		\begin{center}
+			\framebox{$	\therefore		n_c = \frac{2}{3} \alpha E_F^{3/2}.$}
+		\end{center}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Specific heat capacity -- Conduction electron density \(n_c\)}
+\begin{small}
+		\begin{itemize}
+		\item At \(T\neq \SI{0}{\kelvin}\), due to thermalization, some of the electrons vacate the lower energy levels and occupy the higher energy levels.
+		\item The number of electrons per unit volume \(n_c\) at \(T\neq\SI{0}{\kelvin}\) is given by
+		\begin{align*}
+			\textcolor{green}{n_c} &= \int_{0}^{\infty} \textcolor{blue}{Z(E)} \textcolor{red}{P(E)} \, \mathrm{d}E		\\
+			&= \int_{0}^{\infty} \frac{\alpha \sqrt{E}}{\exp\left(\frac{E-E_F}{k_B T}\right) + 1} \, \mathrm{d}E	
+		\end{align*}
+		%
+		Note that integration limits are 0 to \(\infty\)!
+		%
+		\item We observe that because of the strong variation of Fermi Dirac distribution only near the Fermi level, the  electron with energy belonging to range \(E_F-\frac{k_BT}{2}\) to \(E_F\) jumps to energy in the range  \(E_F\) to \(E_F+\frac{k_BT}{2}\). Let us use this to \textbf{approximate} the integral.
+	\end{itemize}
+\end{small}
+	%
+		\begin{keyinsight}
+		Electrons with energy very much less than Fermi energy level do not participate in the thermalization process.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Specific heat capacity -- Approximations to \(Z(E), P(E)\)}
+	%
+\begin{columns}
+	\begin{column}{0.6\textwidth}
+		\begin{figure}
+			\includegraphics[width=1.0\textwidth]{qt_dos_3d_T_neq_0_approximation}
+		\end{figure}
+	\end{column}
+	%
+	\begin{column}{0.38\textwidth}
+		\begin{itemize}
+			\item Let us approximate the density of states  in the neighbourhood of \(E_F\) as
+			\[
+			Z(E)\simeq Z(E_F)
+			\]
+			\item Let us approximate probability distribution as piece-wise straight line function.
+		\end{itemize}
+	\end{column}
+\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Specific heat capacity -- Fraction of thermalized electrons}
+	%
+	\begin{figure}
+		\includegraphics[width=0.6\textwidth]{qt_dos_3d_T_neq_0_approximation_thermalized_electrons}
+	\end{figure}
+	%
+	\begin{itemize}
+		\item The number of thermalized electrons is equal to area of the filled triangle multiplied by the density of states in the neighbourhood.
+		\item Area of the filled triangle is
+		\[
+		A = \frac{1}{2} \frac{k_B T}{2} \frac{1}{2} = \frac{1}{8} k_B T
+		\]
+		\[
+		\therefore n_\text{thermal}= \frac{1}{8} k_B T \cdot Z(E_F) = \frac{1}{8} \alpha k_B T \sqrt{E}
+		\]
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Specific heat capacity -- Fraction of thermalized electrons}
+	%
+	\begin{itemize}
+		\item The fraction of thermalized electrons is given by ratio of thermalized electrons to total electrons
+		\begin{align*}
+			f_\text{thermalized} &= \frac{n_\text{thermal}}{n_c}	\\
+			&= \frac{1}{8} k_B T \frac{\alpha \sqrt{E}}{\frac{2}{3}\alpha E_F^{3/2}}\\
+			&= \frac{3}{16} \frac{k_B T}{E_F}
+		\end{align*}
+	\end{itemize}
+	%
+	\begin{problem}
+		The Fermi level of silver is \SI{5.5}{\electron\volt}. Calculate the fraction of free electrons at room temperature.
+	\end{problem}
+	%
+	\begin{keyinsight}
+		The fraction of thermalized electrons is of the order of \(\tfrac{k_B T}{E_F}\).
+	\end{keyinsight}
+\end{frame}
+\begin{frame}[label=pre-M2T1-slot1]{Specific heat capacity -- Energy of thermalized electron}
+	\begin{itemize}
+		\item The net increase in energy of thermalized electron is 
+		\[
+		\Delta E_\text{thermalized} = E_F+\frac{k_BT}{2} - \left(E_F-\frac{k_BT}{2}\right) = k_B T
+		\]
+		\item Since only a fraction of the electrons are thermalized, the net increase in energy of 1  electron is
+		\begin{align*}
+			\Delta E_\text{1 el} &= \Delta E_\text{thermalized} \cdot f_\text{thermalized}	\\
+			&= \frac{3}{16} k_B T \cdot \frac{k_B T}{E_F}
+		\end{align*}
+		%
+		\item Therefore, the net increase in energy of 1 mole of electrons is
+		\begin{align*}
+			\Delta E_\text{1 mole} &= \Delta E_\text{1 el} \cdot N_A	\\
+			&= \frac{3}{16} (k_B N_A) T \cdot \frac{k_B T}{E_F}\\
+			&= \frac{3}{16} R \frac{k_B T^2}{E_F}
+		\end{align*}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Specific heat capacity -- Electronic contribution}
+\begin{small}
+			\begin{itemize}
+		\item The specific heat capacity is given by
+		\begin{align*}
+			C_\text{theory}^\text{quantum} &= \frac{\mathrm{d}E_\text{1 el}}{\mathrm{d}T}\\
+			&= \frac{3}{8} R \frac{k_B T}{E_F}\\
+			&= \frac{3}{2} R \cdot \left(\frac{1}{4}\frac{k_B T}{E_F}\right)	\\
+			& = C_\text{theory}^\text{classical}  \cdot \left(\frac{1}{4}\colorbox{green}{$\frac{k_B T}{E_F}$}\right)
+		\end{align*}
+		%
+		\begin{center}
+			\framebox{$	\therefore	C_\text{theory}^\text{quantum} \simeq   \left(\frac{k_B T}{E_F}\right) \cdot C_\text{theory}^\text{classical} .$}
+		\end{center}
+		\item Therefore, quantum theory corrects the classical expression by the fraction \(\tfrac{k_B T}{E_F}\). At room temperature, specific heat capacity is given by
+		\[
+			C_\text{theory}^\text{quantum} = C_\text{theory}^\text{classical} \cdot \frac{k_B T_{\SI{300}{\kelvin}}}{E_F}  \simeq 0.01 C_\text{theory}^\text{classical} \simeq C_\text{experiment}
+		\]
+		\colorbox{green}{This validates Quantum Free Electron Theory.}
+	\end{itemize}
+\end{small}
+\end{frame}
+%
+\begin{frame}{Specific heat capacity -- Phonon contribution}
+	\begin{itemize}
+		\item Electronic contribution to specific heat at low $T$ is \textbf{linear}.
+		\item In addition to electrons, phonons i.e. quanta of lattice vibrations also contribute to specific heat capacity \(C_\text{phonon}\).
+		\item The contribution from phonons has cubic form.
+		\begin{align*}
+			\therefore C_\text{theory}^\text{quantum} &= C_\text{electron} + C_\text{phonon} \\
+			&= AT + BT^3
+		\end{align*}
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		Phonon contribution is significant compared to electronic contribution to the specific heat capacity of metals.
+	\end{keyinsight}
+\end{frame}
+%

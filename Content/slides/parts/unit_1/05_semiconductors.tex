@@ -1,0 +1,311 @@
+%
+\againframe{plan}
+%
+\begin{frame}{Lecture 3 plan}
+	\begin{learningobjectives}
+		\begin{itemize}
+			\item Classification of semiconductors
+			\item Nature of bonding in semiconductor
+			\item Doping of semiconductor
+		\end{itemize}
+	\end{learningobjectives}
+\end{frame}
+%
+\begin{frame}{Semiconductors: Classification}
+	\begin{definition}
+		Semiconductor is a class of condensed matter having electrical conductivity  (\SIrange{e-4}{1}{\siemens\per\metre}) greater than that of insulator \( ( \SI{<e-10}{\siemens\per\metre}) \) but lower than that of conductor (\SI{e7}{\siemens\per\metre}).
+	\end{definition}
+	%
+\begin{columns}
+	\begin{column}{0.8\textwidth}
+			\begin{itemize}
+		\item In the periodic table, there are 11 elements that are semiconductors. These are called \textbf{elemental semiconductors}.  \ce{Si} and \ce{Ge} from Group IV are widely used elemental semiconductors.
+	\end{itemize}
+	\end{column}
+	%
+	\begin{column}{0.18\textwidth}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{semiconductors_periodic_table}
+		\end{figure}
+	\end{column}
+\end{columns}
+%
+\begin{itemize}
+	\item Certain combinations of elements of Groups III and V or Groups II and VI also are semiconductors. These are called \textbf{compound semiconductors}. \ce{GaAs}, \ce{InP} are some of the well known examples.
+	%
+	\item 	In a semiconductor, two charge carriers, namely \textbf{electrons} and \textbf{holes}, transport current.
+\end{itemize}
+\end{frame}
+%
+\begin{frame}{Nature of bonding: Silicon crystal}
+\begin{figure}
+	\includegraphics[width=0.6\textwidth]{semiconductors_silicon_crystal}
+	\caption{(a) Tetrahedral arrangement (b) Diamond crystal structure. Taken from Avadhanulu, Chapter 37.}
+\end{figure}
+%
+\begin{itemize}
+	\item \ce{^18Si} atom has electronic configuration \ce{1s^2 2s^2 2p^6 3s^2 3p^2}.
+	\item In \ce{Si} crystal, the four valence electrons undergo \textbf{hybridization} to form four \ce{sp^3} molecular orbitals. These orbitals form covalent bonds with neighbouring atoms arranged in tetrahedral arrangement. The resulting structure is the \textbf{diamond cubic crystal structure}.
+\end{itemize}
+\end{frame}
+%
+\begin{frame}{Intrinsic Semiconductor}
+	\begin{itemize}
+		\item Chemically pure semiconductor is called intrinsic semiconductor. \item Practically, a semiconductor is considered pure if there is less than one impurity atom per billion host atoms i.e. $< 1$~ ppb (part per billion).
+		\item It has five properties
+		%
+		\begin{enumerate}
+			\item Perfect insulator at absolute zero temperature
+			\item Generation of charge carriers by thermalization
+			\item Existence of energy band gap (M2U3)
+			\item Conductivity is \textbf{highly} influenced by temperature
+			\item Recombination of charge carriers
+		\end{enumerate}
+		\item For \ce{Si}, the valence electron density is of the order of \SI{e29}{\per\metre\cubed}. However, at room temperature the conduction electron density is only of the order of \SI{e18}{\per\metre\cubed}.
+	\end{itemize}
+	%
+	\begin{guesstimate}{Valence electron density of \ce{Si}}
+		The lattice constant of Si crystal is \SI{5.43}{\angstrom}.
+	\end{guesstimate}
+\end{frame}
+%
+\ifshowhidden
+%
+\begin{frame}{Nature of metallic bonding}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{semiconductors_sodium_vapour_to_solid}
+	\end{figure}
+	%
+		\begin{itemize}
+		\item When the sodium vapour condenses, the valence electrons ``hop'' onto neighbouring lattice sites. One site A looses an electron while the neighbouring site B gains an extra electron.
+		\item The reduction in energy due to loss of electron at A is more than the increase in energy due to gain of electron at B. As a result, hopping is preferred resulting in \textbf{metallic bonding}.
+		\item Since hopping is non directional, the metallic bond is non-directional.
+		\item Thus the formation of metallic bond results in lowering of energy of \ce{Na} solid.
+	\end{itemize}
+\end{frame}
+%
+\fi
+%
+\begin{frame}{Nature of intrinsic semiconductor at \(T=0\) (property 1)}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{semiconductors_silicon_vapour_to_solid}
+	\end{figure}
+	\begin{itemize}
+		\item Valence electrons are strongly attracted to the nucleus. This prevents the formation of free electron gas.
+		\item Instead the valence electrons are shared between neighbouring atoms resulting in \textbf{covalent bond}.
+		\item As all the valence electrons are involved in bonding, \fcolorbox{red}{white}{there are no ``free'' electrons at absolute zero temperature.}
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		Intrinsic semiconductor is a perfect insulator at absolute zero!
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Nature of intrinsic semiconductor at \(T\neq 0\) (property 2)}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{semiconductors_silicon_vapour_to_solid_finite_temperature}
+	\end{figure}
+	%
+	\vspace{-1em}
+	%
+	\begin{itemize}
+{\small
+			\item However, at finite temperature, due to thermalization, few bonds are broken, releasing the electrons to the \textbf{free electron sea}.
+		\item In the process of bond breaking, the crystal lattice deficient with one electron can be considered as a new type of charge carrier. This is defined as the \textbf{hole}.
+		\item The holes are released into the \textbf{free hole sea}.
+		\item Every free electron is associated with a free hole. Hence they are called\textbf{ electron-hole pair}.}
+	\end{itemize}
+	%
+	\begin{definition}
+		An intrinsic semiconductor is a semiconductor crystal in which the electrical conduction arises due to \textbf{thermally excited} electrons- hole pairs.
+	\end{definition}
+\end{frame}
+%
+\begin{frame}{Nature of hole: Drift motion (property 2)}
+	%
+	\begin{figure}
+		\includegraphics[height=0.3\textheight]{semiconductors_holes_analogy}
+		\includegraphics[height=0.3\textheight]{semiconductors_hole_drift}
+		\caption{(a) Analogy for a hole: Bubbles (b) Drift motion of holes}
+	\end{figure}
+	%
+	\vspace{-1em}
+	\begin{itemize}
+{\small
+			\item A hole is a \textbf{quantum vacancy} that is described as an absence of electron. 
+		\item Analogy is the bubbles appearing in carbonated water. The bubbles are absence of water.
+		\item Under application of electric field, the bonded electrons move in the opposite direction. The hole appears to move along the electric field.}
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		The motion of hole is along the electric field.
+	\end{keyinsight}
+	%
+\end{frame}
+%
+\begin{frame}{Energy band gap: Chemistry view (property 3)}
+	%
+	\begin{figure}
+		\includegraphics[height=0.25\textwidth]{semiconductors_energy_bang_gap}
+	\end{figure}
+	\begin{itemize}
+{\small
+			\item The electron of the covalent bond needs to overcome bonding strength to become free.
+		\item If all the bonds are broken, then the crystal vapourizes. The energy needed to vapourize a crystal is called \textbf{cohesive energy}.
+		\item The actual energy to free electron is \SI{1.12}{\electron\volt} and is called the \textbf{energy band gap} (M2U3).}
+	\end{itemize}
+	%
+	\begin{guesstimate}{Bonding strength}
+		The cohesive energy of Si crystal is \SI{450}{\kilo\joule\per\mole}. Estimate the \ce{Si-Si} bond strength.
+	\end{guesstimate}
+	%
+\end{frame}
+%
+\begin{frame}{Charge carriers vs temperature (property 4)}
+	\begin{figure}
+		\includegraphics[height=0.25\textheight]{semiconductors_thermal_energy_vs_band_gap}
+	\end{figure}
+	\begin{itemize}
+{\small
+			\item The scale of thermal energy is given by \(k_B T\). At room temperature, the thermal energy of electron is of the order of \SI{26}{\milli\electron\volt}. \hfill [Estimate]
+		\item The bond strength can be considered an \textbf{activation barrier} for the generation of electron-hole pair. This is analogous to rate of chemical reaction
+		\[
+		\text{covalent bond} + \text{thermal energy} \rightarrow \text{electron} + \text{hole}
+		\]
+		\item Electron-hole pair density increases exponentially with temperature. This follows the \textbf{Arrhenius law}.
+		\[
+		n \propto \exp(-\frac{1}{k_B T}) \quad p \propto \exp(-\frac{1}{k_B T})
+		\]
+		}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Conductivity vs temperature (property 4)}
+	%
+	\begin{figure}
+		\includegraphics[height=0.4\textheight]{semiconductors_conductivity_vs_temperature}
+	\end{figure}
+	\begin{itemize}
+		\item Since conductivity is proportional to number density, conductivity also follows Arrhenius law.
+		\[
+		\sigma \propto n \quad \sigma \propto p
+		\]
+	\end{itemize}
+	\begin{keyinsight}
+		Conductivity exponentially depends on temperature.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Recombination of carriers (property 5)}
+
+		\begin{itemize}
+			{\footnotesize
+		\item We have seen thermal energy to generate electron-hole pairs. This is an example of \textbf{equilibrium} generation
+		\item Light can also be used to generate electron-hole pairs. 
+		\[
+		\text{covalent bond} + \text{light} \rightarrow \text{electron} + \text{hole}
+		\]
+		However, this is a \textbf{non-equilibrium} generation process.
+		\item The reverse process where the electron-hole pairs combine to become part of the covalent lattice is called \textbf{recombination}.
+		\[
+		\text{electron} + \text{hole} \rightarrow \text{covalent bond} +  \text{light} / \text{lattice vibration}
+		\]
+		The additional energy is released either as light (\textbf{photon}) or lattice vibration (\textbf{phonon}).
+		\item The generation-recombination of charge carriers is a \textbf{dynamic} two way process.
+	}
+	\end{itemize}
+
+	%
+	\begin{keyinsight}
+		For analysis, a semiconductor is a collection of electron, holes, photons and phonons and the interaction between them.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Applications of intrinsic semiconductor: Switch}
+\begin{columns}
+	\begin{column}[t]{0.6\textwidth}
+			\begin{figure}
+		\includegraphics[width=\textwidth]{semiconductors_LDR}\\
+		\includegraphics[width=0.25\textwidth]{semiconductors_thermistor_component}
+		\includegraphics[width=0.25\textwidth]{semiconductors_photoresistor_component}
+	\end{figure}
+	\end{column}
+	%
+	\begin{column}[t]{0.38\textwidth}
+{\small
+			\begin{itemize}
+			\item Thermistor (Temperature dependent resistor). Generation of carriers by temperature.
+			\item Photo-resistor: (Light Dependent Resistor (LDR)). Generation of carriers by light.
+		\end{itemize}
+		%
+		\begin{table}
+			\centering
+			\begin{tabular}{l l}
+				\toprule
+				App	&	Material	\\
+				\midrule
+				Thermistor	&	\ce{Fe3O4}\\
+				Photoresistor	&	\ce{CdSe}\\
+				\bottomrule
+			\end{tabular}
+		\end{table}}
+	\end{column}
+\end{columns}
+%
+\end{frame}
+%
+\begin{frame}{Application of thermistor: Smartphone}
+	%
+		\begin{figure}
+		\includegraphics[width=0.8\textwidth]{qm_sensors_in_smartphone}
+		\caption{Image taken from Techbii.com. \href{https://techbii.com/10-most-important-sensors-mobile-phones-uses/}{Click here for link}}
+	\end{figure}
+	%
+	\begin{itemize}
+		\item temperature sensor to monitor chip and battery health
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Extrinsic semiconductor}
+	\begin{itemize}
+		\item The electrical properties of intrinsic semiconductor can be altered by adding impurities.
+		\item The technique of adding controlled impurity is called \textbf{doping} and the impurity added is called \textbf{dopant}.
+		\item Doped semiconductor is called \textbf{extrinsic} semiconductor.
+		\item Dopant atom substitutes the position of parent atom. The dopants are of two types -- donor and acceptor.
+
+		\item For \ce{Si}, donors are \ce{P}, \ce{As}, etc and acceptors are \ce{B}, \ce{Al}, etc.
+		\item For \ce{P} as a donor dopant, four valence electrons contribute to covalent bonding. The fifth electron is loosely bound to the phosphorus atom
+		\item For \ce{B} as an acceptor dopant, three valence electrons contribute to covalent bonding.
+	\end{itemize}
+	%
+	\begin{guesstimate}{Dopant concentration}
+		\ce{P} doping is 1 ppm. \hfill \(n_{valence} \sim \) \SI{2e23}{\per\centi\metre\cubed}
+	\end{guesstimate}
+\end{frame}
+%
+\begin{frame}{Ionization energy of dopants}
+	%
+	\begin{definition}
+		The energy required to ionize a dopant atom is called ionization energy.
+	\end{definition}
+	%
+	{\footnotesize
+	\begin{itemize}
+		\item Lattice vibrations (phonons) supply the ionization energy (I.E.)
+		\item For \ce{P} as donor dopant,
+		\[
+		\ce{P + I.E. -> P^+ + e}
+		\]
+		\item Similarly, for \ce{B} as acceptor dopant,
+		\[
+		\ce{B + I.E. -> B^- + h}
+		\]
+		\item If thermal energy (\(E_{th}\)) is greater than I.E. \(E_{ion}\), then ions are completely ionized. This is called \textbf{complete} ionization.
+		\item For \(E_{th} \ll E_{ion}\), there is no ionization. This is called \textbf{freeze out}.
+		\item \textbf{Partial} ionization occurs when \(E_{th} \lesssim E_{ion}\) 
+		\item In \ce{Si}, \(E_{ion} \, \sim \) \SI{25}{\milli\electron\volt} and  \(E_{th} \, \sim\)\SI{25}{\milli\electron\volt} at room temperature. Thus, the ions are \textbf{completely ionized}.
+	\end{itemize}}
+\end{frame}

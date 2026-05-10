@@ -1,0 +1,338 @@
+%
+\againframe{plan}
+%
+\begin{frame}{Problem at hand}
+	%
+	\begin{figure}
+		\includegraphics[width=0.8\textwidth]{metals_coulomb_force}
+	\end{figure}
+	\begin{itemize}
+		\item The problem at hand is to solve the motion of interacting particles-- electrons of the order of \num{e23} and ions of the order of \num{e23}.
+		\item This is a tough problem. The idea is to simplify the problem by making \textbf{approximations}.
+	\end{itemize}
+	%
+\end{frame}
+\begin{frame}{Classical free electron theory}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.85\textwidth}
+			\begin{itemize}
+				\item Ohm's law was discovered in 1827 and needed explanation.
+				\item Proposed by Paul Drude in 1900 using analogy of gas of molecules.
+				\item Mutual repulsion between electrons is neglected i.e. electrons are independent -- \textbf{independent electron approximation}. 
+				\item Assumed ``gas'' is \textbf{free} i.e. not under influence of  lattice --  \textbf{free electron approximation}
+
+				\item Role of lattice is to redistribute the velocity distribution that obeys \textbf{classical} Maxwell-Boltzmann statistics --  classical thermodynamics.
+				\item \fcolorbox{green}{white}{The theory explains Ohm's law}
+				\item Hendrik Lorentz extended theory to explain thermal conductivity -- hence Drude-Lorentz electron theory.
+			\end{itemize}
+		\end{column}
+		%
+		\begin{column}[t]{0.13\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.9\textwidth]{Georg_Simon_Ohm_1789_1854}
+				\\
+				{\centering\footnotesize G. Ohm}
+				\includegraphics[width=0.9\textwidth]{Paul_Drude_1863_1906}
+				\\
+				{\centering\footnotesize P. Drude}
+				\begin{overpic}[width=0.9\textwidth]{Hendrik_Lorentz_1853_1928}
+					% Overlay image on top
+					\put(0,0){\includegraphics[width=0.4\textwidth]{Alfred_Nobel_1833_1896}}
+				\end{overpic}
+				\\
+				{\centering\footnotesize H. Lorentz }
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+%
+\begin{frame}{Independent electron approximation}
+	%
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{metals_independent_electron_approximation}
+\end{figure}
+	\begin{itemize}
+	\item In the condensed phase, there are of the order of \num{e23} electrons.
+	\item The repulsive Coulomb potential between an electron and other electron is \textbf{screened} due to large numbers and results in an \textbf{independent} electron.
+	\item The problem of motion of \(\mathcal{O}(\num{e23})\) electrons is reduced to the problem of motion of \textbf{single} electron.
+\end{itemize}
+%
+\begin{keyinsight}
+	The property of single electron determines the properties of electron gas.
+\end{keyinsight}
+\end{frame}
+\begin{frame}{Free electron approximation}
+	%
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\textwidth]{metals_free_electron_approximation}
+	\end{figure}
+	\begin{itemize}
+		\item The attractive Coulomb potential between ions and an electron is smeared due to large numbers and results in constant potential in the interior of metal with \textbf{infinite} barrier at the surface. This potential is called \textbf{infinite potential well}.
+		\item This potential traps the electrons analogous to gas atoms in a container.
+		\item The electrons are free to move in the potential well. The kinetic energy \(K\) of an electron with mass \(m\) and velocity \(\vb{v}\) is
+		\[
+		K = \frac{1}{2}m v^2
+		\]
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Classical thermodynamics}
+	%
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{metals_classical_thermodynamics}
+\end{figure}
+\begin{columns}
+	\begin{column}[t]{0.85\textwidth}
+\begin{footnotesize}
+			\begin{itemize}
+	\item At temperature \(T=0\), electrons are frozen. At \(T\neq0\), due to the large number of electrons and collisions, the kinetic energy of electrons keeps changing.
+	\item However, the probability to find electron with with lower energy is higher than the probality to find electron with higher energy. This is the essence of Maxwell-Boltzmann statistics.
+	\item The average kinetic energy \(\langle T \rangle\) at temperature is 
+	\[
+	\langle K \rangle = \frac{3}{2} k_B T,
+	\]
+	where \(k_B\) is the Boltzmann constant.
+\end{itemize}
+\end{footnotesize}
+	\end{column}
+	%
+	\begin{column}[t]{0.13\textwidth}
+			\begin{figure}
+			\centering
+			\includegraphics[width=0.9\textwidth]{Maxwell_Boltzmann_1844_1906}
+			\\
+			{\centering\footnotesize Boltzmann}
+			\includegraphics[width=0.9\textwidth]{James_Clerk_Maxwell_1831_1879}
+			\\
+			{\centering\footnotesize Maxwell}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+\begin{frame}{Classical free electron theory}
+	%
+	\begin{figure}
+		\centering
+		\href{run:images/electron_drift_lattice_animated_drude_electron_without_electric_field.gif}{%
+			\includegraphics[width=0.4\textwidth]{electron_drift_lattice_animated_drude_electron_without_electric_field}%
+		}
+	\end{figure}
+	%
+	\begin{itemize}
+		\item Electron motion is decomposed into \textbf{thermal motion} and \textbf{drift motion}.
+		\item Thermal motion is due to random collisions with the lattice. 
+		\item Drift motion is the net motion of electrons. The electron drifts only between collisions.
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}{Thermal motion}
+	\begin{definition}
+		Mean free path \(l_{mf}\) is defined as the average distance the electron travels between collisions.
+	\end{definition}
+	\begin{definition}
+		Thermal velocity \(v_{th}\) is defined as the average velocity of the electron.
+	\end{definition}
+	%
+	\begin{itemize}
+		\item Thermal motion has two properties mean free path \(l_{mf}\) and thermal velocity \(v_{th}\).
+		\item Drude assumed that \(l_{mf}\) is a material constant.
+		\item At room temperature (\SI{~300}{\kelvin}), the thermal velocity is of the \textbf{order of \SI{e5}{\metre\per\second}}.
+	\end{itemize}
+	%
+	\begin{guesstimate}{Average kinetic energy of electron}
+		Take room temprerature as \SI{27}{\celsius}. Express energy in \si{\electron\volt}. \hfill [Hint: \SI{1}{\electron\volt} = \SI{1.602e-19}{\joule}]
+	\end{guesstimate}
+\end{frame}
+%
+\begin{frame}{Drift motion}
+		\begin{itemize}
+		\item In the absence of external force, the drift motion is zero.
+		\item The external force \(\vb{F}_{ext}\) on the electron is given by the Lorentz force
+		\[
+		\vb{F}_{ext} = -e \vb{E} -e \vb{v}\times\vb{B},
+		\]
+		where \(\vb{E}\) is the electric field and \(\vb{B}\) is the magnetic field.
+		\item The effect of the collisions is treated as a drag or frictional force
+		\[
+		\vb{F}_{fric} = -m \frac{\vb{v}}{\tau}.
+		\] 
+		\item Since Lorentz extended the theory to incorporate electromagnetic force, the theory is also the Lorentz-Drude theory.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Lorentz-Drude theory -- Postulates}
+	\begin{block}{Postulates}
+		\begin{enumerate}
+			\item \textbf{Particles:} Electrons are \textbf{classical} particles with mass \(m\) and charge \(-e\).
+			\item \textbf{Kinematics:} 
+			\begin{itemize}
+				\item \textbf{Independent electron approximation:} Electrons are independent and mutual repulsion between them is ignored.
+
+			\end{itemize}
+			\item \textbf{Dynamics:} 
+			\begin{itemize}
+				\item \textbf{Free electron approximation:} Electrons are free and move in an \textbf{infinite potential well}.
+				\item \textbf{Thermal motion:} Electron undergoes \textbf{random} collision with ion cores. Random collisions lead to thermal motion.
+				\item \textbf{Drift motion:} In between collisions, the Lorentz force acts on electron and leads to drift motion.
+			\end{itemize}
+			\item \textbf{Classical Thermodynamics:} The average electron energy is given by Maxwell-Boltzmann statistics. 
+		\end{enumerate}
+	\end{block}
+	%
+\end{frame}
+%
+%------------------------
+\begin{frame}{Ohm's law}
+	\begin{figure}
+		\centering
+		\href{run:images/electron_drift_lattice_animated_drude_electron_with_electric_field.gif}{%
+			\includegraphics[height=0.4\textheight]{electron_drift_lattice_animated_drude_electron_with_electric_field}%
+			\includegraphics[height=0.2\textheight]{metals_electron_motion_decomposition}
+		}
+	\end{figure}
+	%
+	\begin{itemize}
+		\item The motion of electron is decomposed into an \textbf{average} part and the \textbf{random} part.
+		\item The average part ``drifts'' with a constant velocity under electric field. The random part has \textbf{zero} net motion.
+	\end{itemize}
+	\begin{learningobjectives}
+		Classical electron theory explains Ohm’s law qualitatively.
+	\end{learningobjectives}
+\end{frame}
+%
+\begin{frame}{Ohm's law: Macroscopic version}
+	%
+	\begin{minipage}[t]{0.7\textwidth}
+		\begin{itemize}
+			\item The \textbf{macroscopic} version of the Ohm's law states that potential \(V\) applied across a metal is directly proportional to the current \(I\) flowing across it. The constant of proportionaly is called the resistance \(R\).
+			\item Its \textbf{microscopic} version relates the electric field and current density
+			\item Electric field \(\vb{E}\) is defined as the potential per unit distance. Its SI unit is \si{\volt\per\metre}.
+			\item Current density \(\vb{j}\) is defined as the current flowing through a wire per unit area,
+			
+			where \(A\) is the cross-sectional area of the wire. Its SI unit is \si{\ampere\per\metre\squared}.
+		\end{itemize}
+	\end{minipage}
+	%
+	\begin{minipage}[t]{0.28\textwidth}
+		\[
+		V = IR
+		\]
+		%\vspace{10ex}
+		\begin{figure}
+			\centering
+			\includegraphics[width=\textwidth]{metals_ohms_law_derivation}
+		\end{figure}
+		%
+		\vspace{3ex}
+		\[
+		\vb{E} = \frac{V}{\ell}\vu{E}
+		\]
+		\[
+		\vb{j} = \frac{I}{A}\vu{j}
+		\]
+	\end{minipage}
+	%
+\end{frame}
+%
+\begin{frame}{Ohm's law : Microscopic version}
+	%
+	Lets start with the macroscopic version \(V = R I\) and derive the microscopic version of Ohm's law
+	\begin{derivation}
+		%
+		Upon substitution of \(V, I\) in terms of \(\vb{E}, \vb{j}\), we have
+		\[
+		\frac{\ell}{V} \vb{E} = \frac{A}{I} \vb{j}
+		\quad \Rightarrow \quad
+		\vb{j} = \frac{\ell}{A} \frac{I}{V} \vb{E}
+		\quad \Rightarrow \quad
+		\vb{j} = \frac{\ell}{A R} \vb{E} = \sigma \vb{E}
+		\]
+		Thus, the microscopic version of Ohm's law is given by
+		\begin{center}
+			\framebox{$\vb{j} = \sigma \vb{E}$}
+		\end{center}
+		%
+		where \(\sigma\) is given by
+		\[
+		\sigma = \frac{\ell}{A R}
+		\]
+	\end{derivation}
+\end{frame}
+%
+\begin{frame}{Conductivity -- \(\sigma\)}
+	%
+	\begin{definition}
+		The conductivity \(\sigma\) is defined as the current density carried by the wire per unit of electric field.
+		\[
+		\sigma = \frac{j}{E}
+		\quad\quad
+		\text{SI unit}
+		\quad 
+		[\sigma] = \left[ \frac{\ell}{A R}\right] = \text{\si{\per\ohm\per\metre}}.
+		\]
+	\end{definition}
+	%
+	\begin{question}
+		A copper wire of length \(L=\) \SI{2}{\metre} and diameter \(d\)=\SI{1}{\milli\metre} is connected across a DC source. When a voltage of \(V\)=\SI{0.5}{\volt} is applied across the ends of the wire, an electric current of \(I\)=\SI{22}{\ampere} is observed.
+		Using these measurements, find the electrical conductivity \(\sigma\) of copper.
+	\end{question}
+	%
+	\begin{keyinsight}
+		Metals have high conductivity.
+	\end{keyinsight}
+\end{frame}
+%------------------------
+\begin{frame}{Applications of metallic conductivity}
+	%
+	Due to high conductivity, metals have many applications ranging from power electronics to microelectronics, from mechanical to aerospace industry.
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{metals_applications}
+	\end{figure}
+	\begin{itemize}
+		\item Power transmission: Copper/Aluminum cables.
+		\item Electronic devices: Contacts, interconnects.
+		\item Thermal applications: Heat sinks, cookware.
+		\item Alloys: Enhanced strength and corrosion resistance.
+	\end{itemize}
+\end{frame}
+
+%------------------------
+\begin{frame}{Summary of Lecture}
+	\begin{itemize}
+		\item Materials are classified into conductors, semiconductors, and insulators.
+		\item Metals have high conductivity due to free electrons.
+		\item Drude's classical electron theory introduced microscopic picture of conduction.
+		\item Conductivity is related to resistivity.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Materials: Beyond metals}
+\begin{tiny}
+		\begin{table}
+		\centering
+		\begin{tabular}{c c c c c c c}
+			\toprule
+			Condensed	&	Elec.	&	Therm.	&	Opt.	&	Ductile		&	Material	&	Application			\\
+			\midrule
+			Solid	&	\(\Uparrow\)	&	-	&	-	&	\(\downarrow\)	& Superconductor	&	Levitation\\
+			Solid	&	\(\Downarrow\)	&	\(\Uparrow\)	&	-	&	-		& Diamond	&	Chips \\
+			Liquid	&	\(\Downarrow\)	&	\(\Uparrow\)	&	-	&	-		& Dielectric coolants	&	Heatsinks \\
+			\bottomrule
+		\end{tabular}
+		\caption{New materials with mixed properties.}
+	\end{table}	
+\end{tiny}
+%
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{metals_beyond_metals}
+\end{figure}
+\end{frame}

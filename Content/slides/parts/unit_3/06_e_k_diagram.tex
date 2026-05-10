@@ -1,0 +1,115 @@
+%
+\againframe{plan}
+%
+\begin{frame}[label=pre-M2T1-slot1]{\(E-k\) diagram -- 1D case}
+\begin{small}
+		\begin{itemize}
+		\item In a 1D metal, the electron is free as well as independent.
+		\item For a free electron, the energy is related to the momentum \(p\)
+		by
+		\[
+		E = \frac{p^2}{2m}.
+		\]
+		\item However, since the electron behaves also as a wave, its wavelength \(\lambda\) is related to the momentum by the de Broglie relation
+		\[
+		\lambda = \frac{h}{p} \quad \Rightarrow \quad p = \frac{h}{\lambda }.
+		\]
+		\item By definition, the wavevector \(k\) of the electron is inversely related to the wavelength as
+		\[
+		k = \frac{2\pi}{\lambda}
+		\]
+		\item Therefore, the energy is related to the wavevector by
+		\[
+		E = \frac{1}{2m} \left(\frac{h}{\lambda}\right)^2 = \frac{1}{2m} \left(\frac{hk}{2 \pi}\right)^2 = \frac{\hbar^2 k^2}{2m}. 
+		\]
+	\end{itemize}
+\end{small}
+	%
+\end{frame}
+%
+\begin{frame}{\(E-k\) diagram -- 3D case}
+	\begin{itemize}
+		\item The analysis for 1D case can be extended to the 3D case by considering the components of momentum \(p_x, p_y, p_z\)
+		\[
+		\vec{p} = p_x \hat{i} + p_y \hat{j} + p_z \hat{k}
+		\]
+		so that
+		\[
+			E = \frac{p_x^2 + p_y^2 + p_z^2}{2m}.
+		\]
+		\item The wavevector has three components \(k_x, k_y, k_z\) so that
+		\[
+		\vec{k} = k_x \hat{i} + k_y \hat{j} + k_z \hat{k}.
+		\]
+		\item The energy of the free electron is given by
+		\[
+		E = \frac{\hbar^2}{2m}(k_x^2 + k_y^2 + k_z^2)
+		\]
+	\end{itemize}
+	%
+	\begin{problem}{Fermi wave vector \(k_F\).}
+		If the Fermi energy is \(E_F=\SI{5}{\electron\volt}\), find the Fermi wave vector.
+	\end{problem}
+\end{frame}
+%
+\begin{frame}{Form of \(E-k\) diagram -- 1D, 2D, 3D}
+	%
+	\begin{columns}
+		\begin{column}[b]{0.5\textwidth}
+			\includegraphics[width=0.6\textwidth]{qt_energy_1d}
+		\end{column}
+		%
+		\begin{column}[b]{0.48\textwidth}
+			\includegraphics[width=0.6\textwidth]{qt_energy_2d_3d}
+		\end{column}
+	\end{columns}
+	%
+	\begin{keyinsight}
+		Form of \(E-k\) is parabolic.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Summary of Quantum free electron theory (QFET)}
+	\begin{itemize}
+		\item Derived density of states function \(Z(E)\).
+		\item Quantum free electron theory addressed the \colorbox{green}{electronic contribution to specific heat} of metals
+		\item However, the theory has drawbacks. Some of them are
+		\begin{itemize}
+			\item Cannot explain anomalous sign of Hall coefficient in some metals.
+			\item Cannot explain \colorbox{red}{classification of materials} into conductors. semi-conductors and insulators.
+		\end{itemize} 
+	\end{itemize}
+	%
+	\begin{block}{Reason for drawbacks}
+		\begin{itemize}
+			\item Invalidity of free electron approximation.
+			\item Drawbacks addressed by Bloch's quantum band theory.
+		\end{itemize} 
+	\end{block}
+\end{frame}
+%
+%
+\begin{frame}[label=pre-M2T1-slot1]{Test Your Understanding}
+	%
+	\begin{enumerate}
+		\item If the Fermi level of metal is \(E_f\), what is the fraction of thermalized electrons at temperature \(T\).
+		\item A thermalized electron according to CFET increases the energy of metal by \(\mathcal{O}(k_B T)\).  However, according to QFET, the thermalized electron increases the energy of metal by \(\mathcal{O}(f k_B T)\), where \(f\) is the fraction of thermalized electrons. Explain.
+		\item Prove that the dispersion relation \(E - k\) in metals is given by
+		\[
+		E(k) = \frac{\hbar^2 k^2}{2 m}.
+		\]
+		\item List the merits and demerits of QFET.
+	\end{enumerate}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Technical terms}
+	%
+	\begin{itemize}
+		\item specific heat capacity \(C\)
+		\item ideal gas constant \(R\)
+		\item thermalized electron
+		\item \(E - k\) dispersion relation
+	\end{itemize}
+	%
+\end{frame}

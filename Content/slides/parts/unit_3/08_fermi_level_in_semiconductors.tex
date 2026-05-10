@@ -1,0 +1,1189 @@
+%
+\againframe{plan}
+%
+%
+\begin{frame}
+	\begin{huge}
+		\begin{center}
+			*Intrinsic semiconductor*
+		\end{center}
+	\end{huge}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Reduced band dispersion -- Band structure}
+\begin{columns}
+	\begin{column}{0.4\textwidth}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{qbt_band_structure_reduced}
+		\end{figure}
+	\end{column}
+	%
+\begin{small}
+		\begin{column}{0.58\textwidth}
+		\begin{itemize}
+			\item Due to the periodicity of lattice, the band dispersion can be analyzed within the \textbf{zone} from \(k=-\tfrac{\pi}{a_0}\) to \(k=+\tfrac{\pi}{a_0}\).
+			\item The original band dispersion can be reduced to the zone by folding the ``arms'' of the parabola resulting in the reduced band dispersion. This process is called \textbf{zone folding}.
+			\item The reduced band dispersion is called the \textbf{band structure} of the material and it is the signature of the material.
+		\end{itemize}
+	\end{column}
+\end{small}
+\end{columns}
+%
+\begin{keyinsight}
+	Bandstructure is the fingerprint or ``DNA'' of a crystalline solid.
+\end{keyinsight}
+\end{frame}
+%
+%
+\begin{frame}[label=pre-M2T1-slot1]{Band structure -- Concept of hole}
+\begin{columns}
+	\begin{column}{0.45\textwidth}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{qbt_band_structure_charge_carriers}
+		\end{figure}
+	\end{column}
+	%
+	\begin{column}{0.53\textwidth}
+		%
+\begin{small}
+			\begin{itemize}
+			\item For a semiconductor, due to the presence of energy band gap, there are no free electrons at \(T=\SI{0}{\kelvin}\).
+			\item At \(T\neq\SI{0}{\kelvin}\), the electrons near the valence band maximum thermalize and jump to the levels near the conduction band minimum. This results in quantum vacancy in the valence band. This is called \textbf{hole}.
+			\item Conduction electron and valence hole contribute to conduction.
+		\end{itemize}
+\end{small}
+	\end{column}
+\end{columns}
+%
+\begin{keyinsight}
+	\begin{itemize}
+		\item Hole is the absence of electron in the valence band.
+		\item Hole is \colorbox{red}{not a physical reality}.
+	\end{itemize}
+\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Parabolic approximation -- Concept of effective mass}
+	%
+	\begin{columns}
+		\begin{column}{0.2\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{qbt_band_structure_parabolic_approximation}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}{0.78\textwidth}
+\begin{small}
+				\begin{itemize}
+				\item For the conduction band, the dispersion relation can be approximated with an  upward facing parabola given by
+				\[
+					E = E_c + \frac{\hbar^2k^2}{2 m_n^*}
+				\]
+				where \(m_n^*\) is the \textbf{effective electron mass} and \(E_c\) is the minimum of conduction band.
+				%
+				\item Similarly, for the valence band, the dispersion relation can be approximated with a  downward facing parabola given by
+				\[
+				E = E_v - \frac{\hbar^2k^2}{2 m_p^*}
+				\]
+				where \(m_p^*\) is the \textbf{effective hole mass} and \(E_v\) is the maximum of valence band.
+			\end{itemize}
+\end{small}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}{Density of states in conduction band}
+\begin{columns}
+	\begin{column}{0.35\textwidth}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{qbt_band_structure_density_of_states}
+		\end{figure}
+	\end{column}
+	%
+	\begin{column}{0.63\textwidth}
+\begin{small}
+			\begin{itemize}
+			\item For the conduction band, dispersion relation can be written as
+			\[
+			E - E_c = \frac{\hbar^2k^2}{2 m_n^*}
+			\]
+			so that the form is similar to the free electron dispersion relation. Thus, the density of states in the conduction band \(Z_c(E)\) is given by
+			\[
+			Z_c(E) = \alpha^* \sqrt{E - E_c}
+			\]
+			%
+			where \(\alpha^*\) is a constant with expression that contains universal constants and \(m_n^*\)~\footnote{From QFET slides, we can infer \(\alpha^* = 4\pi \left(\frac{2 m_n^*}{h^2}\right)^{3/2}\).}.
+		\end{itemize}
+\end{small}
+	\end{column}
+\end{columns}
+\end{frame}
+%
+\begin{frame}{Density of states in valence band}
+	\begin{columns}
+		\begin{column}{0.35\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{qbt_band_structure_density_of_states}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}{0.63\textwidth}
+			\begin{itemize}
+				\item Similarly for the valence band, dispersion relation can be written as
+				\[
+				E_v - E = \frac{\hbar^2k^2}{2 m_p^*}
+				\]
+				so that the density of states in the valence band \(Z_v(E)\) is given by
+				\[
+				Z_v(E) = \beta^* \sqrt{E_v - E}
+				\]
+				where \(\beta^*\) is a constant with expression that contains universal constants and \(m_p^*\)~\footnote{From QFET slides, we can infer \(\beta^* = 4\pi \left(\frac{2 m_p^*}{h^2}\right)^{3/2}\).}.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Electron carrier concentration}
+	%
+\begin{columns}
+	\begin{column}{0.30\textwidth}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{qbt_density_of_states_t_neq_0}
+		\end{figure}
+	\end{column}
+	%
+	\begin{column}{0.68\textwidth}
+		\begin{itemize}
+			\item The conduction electron density \(n_0\) is given by
+			\begin{align*}
+				n_0 &= \int_{E_c}^{\infty} Z_c(E)P(E)\, \mathrm{d} E	\\
+				&= \int_{E_c}^{\infty} \frac{\alpha^* \sqrt{E - E_c}}{1+\exp\left(\frac{E-E_F}{k_BT}\right)}\, \mathrm{d} E
+			\end{align*}
+			\item By applying Boltzmann approximation and the exact expression for \(\alpha^*\), it can be shown that
+			\begin{center}
+				\framebox{$	n_0 = N_c \exp\left(-\frac{E_c-E_F}{k_BT}\right)$}
+			\end{center}
+			where \(N_c\) is the \textbf{effective density of states} in the conduction band.
+		\end{itemize}
+	\end{column}
+\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Hole carrier concentration}
+\begin{columns}
+	\begin{column}{0.30\textwidth}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{qbt_density_of_states_t_neq_0}
+		\end{figure}
+	\end{column}
+	%
+	\begin{column}{0.68\textwidth}
+		\begin{itemize}
+			\item Similarly the valence hole density \(p_0\) is given by
+			\begin{align*}
+				p_0 &= \int_{E_c}^{\infty} Z_c(E)\left(1-P(E)\right)\, \mathrm{d} E	\\
+				&= \int_{0}^{E_v} \beta^* \sqrt{E_v - E} \left(1 - \frac{1}{1+\exp\left(\frac{E-E_F}{k_BT}\right)}\right)\, \mathrm{d} E
+			\end{align*}
+			\item By applying \textbf{Boltzmann approximation} and the exact expression for \(\beta^*\), it can be shown that
+			\begin{center}
+				\framebox{$	p_0 = N_v \exp\left(-\frac{E_F-E_v}{k_BT}\right)$}
+			\end{center}
+			where \(N_v\) is the \textbf{effective density of states} in the valence band.
+		\end{itemize}
+	\end{column}
+\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Intrinsic carrier concentration -- \(n_0 p_0\) product}
+	%
+	\begin{itemize}
+		\item For an intrinsic semiconductor, electron-hole pairs are generated at \(T\neq \SI{0}{\kelvin}\). So the conduction electron density is equal to valence hole density
+		\[
+		n_0 = p_0 = n_i
+		\]
+		where \(n_i\) is defined as the intrinsic carrier concentration.
+		\item The intrinsic carrier concentration is given by the product of electron and hole concentrations
+		%
+		\begin{align*}
+			n_0 p_0 = n_i^2 &= N_c  \exp\left(-\frac{E_c-E_F}{k_BT}\right)\cdot N_v \exp\left(-\frac{E_F-E_v}{k_BT}\right)	\\
+			&= N_c N_v \exp\left(-\frac{E_c-E_F + E_F-E_v}{k_BT}\right)	\\
+		n_i^2	&= N_c N_v \exp\left(-\frac{E_c-E_v}{k_BT}\right)
+		\end{align*}
+		%
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Intrinsic carrier concentration}
+	%
+	\begin{itemize}
+		\item Therefore, the \(n_0 p_0\) is independent of Fermi energy level and is given in terms of the material properties and temperature.
+		\begin{center}
+			\framebox{$	n_0 p_0 = n_i^2$}
+		\end{center}
+		where \(n_i\) is given by
+		\begin{align*}
+			n_i &= \sqrt{N_c N_v\exp\left(-\frac{E_c-E_v}{k_BT}\right)}	\\
+			&= \sqrt{N_c N_v}\exp\left(-\frac{E_c-E_v}{2k_BT}\right)	\\
+			&= \sqrt{N_c N_v}\exp\left(-\frac{E_g}{2k_BT}\right)
+		\end{align*}
+		%
+		where \(E_g\) is the energy band gap and is given by
+		\[
+		E_g = E_c-E_v
+		\]
+		%
+		\begin{center}
+			\framebox{$	\therefore n_i = \sqrt{N_c N_v}\exp\left(-\frac{E_g}{2k_BT}\right)$}
+		\end{center}
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Fermi level of intrinsic semiconductor}
+	%
+\begin{small}
+		\begin{itemize}
+		\item Since the electron and hole exist in pairs in an intrinsic semiconductor
+		\begin{align*}
+			n_0 &= p_0	\\
+			\Rightarrow N_c \exp\left(-\frac{E_c-E_F}{k_BT}\right) &= N_v \exp\left(-\frac{E_F-E_v}{k_BT}\right)
+		\end{align*}
+		%
+		\item Taking logarithm on both sides of the equation, we have
+		\begin{align*}
+			\ln N_c + \ln \left[\exp\left(-\frac{E_c-E_F}{k_BT}\right)\right] &= \ln N_v \ln \left[\exp\left(-\frac{E_F-E_v}{k_BT}\right)\right]	\\
+			\Rightarrow \ln N_c -\frac{E_c-E_F}{k_BT} &= \ln N_v -\frac{E_F-E_v}{k_BT}	\\
+			\Rightarrow \frac{2E_F}{k_BT} &= \frac{E_c+E_v}{k_BT} +  \ln N_v - \ln N_c 	\\
+			\Rightarrow E_F &= \frac{E_c+E_v}{2} + \frac{k_BT}{2}\ln \frac{N_v}{N_c}
+		\end{align*}
+		%
+		\item If we substitute the expressions for \(N_c\) and \(N_v\), in the ratio of \(N_c\) over \(N_v\) all the terms cancel out except the effective masses of electron and hole. 
+	\end{itemize}
+\end{small}
+\end{frame}
+%
+%
+\begin{frame}[label=pre-M2T1-slot1]{Fermi level of intrinsic semiconductor}
+\begin{small}
+		\begin{itemize}
+		\item The expressions for effective density of states are
+		\[
+		N_c = 2\left(\frac{2\pi m_n^* k_B T}{h^2}\right)^{3/2}, \qquad N_v = 2\left(\frac{2\pi m_p^* k_B T}{h^2}\right)^{3/2}
+		\]
+		\item Therefore, the Fermi level in terms of effective masses of charge carriers is given by
+		\begin{align*}
+			E_F &= \frac{E_c+E_v}{2} + \frac{k_BT}{2}\ln \left(\frac{m_p^*}{m_n^*}\right)^{3/2}	\\
+			& = E_\text{midgap} + \frac{3k_BT}{4} \ln \frac{m_p^*}{m_n^*}
+		\end{align*}
+		%
+		where \(E_\text{midgap}\) is defined as the midgap energy level that is in the midpoint of conduction band minimum and valence band maximum and is given by
+		\[
+		E_\text{midgap} := \frac{E_c+E_v}{2}
+		\]
+		%
+		\begin{center}
+			\framebox{$ \therefore	E_F = E_\text{midgap} + \frac{3k_BT}{4} \ln \frac{m_p^*}{m_n^*}$}
+		\end{center}
+	\end{itemize}
+\end{small}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{\(E_F \, \text{vs}\, T\) of intrinsic semiconductor}
+	\begin{itemize}
+		\item Since the Fermi energy level varies with temperature, let us consider two cases -- \(T= \SI{0}{\kelvin}\) and \(T\neq \SI{0}{\kelvin}\).
+		\item Also, the Fermi energy level varies with effective masses of electron and hole. So let us consider three cases -- \(m_p=m_n\), \(m_p>m_n\), and \(m_p<m_n\).
+	\end{itemize}
+	%
+	\begin{columns}
+		\begin{column}{0.6\textwidth}
+\begin{small}
+					\begin{table}
+			\begin{tabular}{lll}
+				\toprule
+				&	\(T= \SI{0}{\kelvin}\)	&	\(T\neq \SI{0}{\kelvin}\)		\\
+				\midrule
+				\(m_p=m_n\)	&	\(E_\text{midgap}\)	&	\(E_\text{midgap}\)	\\
+				\(m_p > m_n\)	&	\(E_\text{midgap}\)	&	\(E_\text{midgap} + \delta \) 	\\
+				\(m_p < m_n\)	&	\(E_\text{midgap}\)	&	\(E_\text{midgap} - \delta \) 	\\
+				\bottomrule
+			\end{tabular}
+			\caption{Here \(\delta\) is a positive quantity that linearly increases with temperature.}
+		\end{table}
+\end{small}
+		\end{column}
+		%
+		\begin{column}{0.38\textwidth}
+			%
+			\begin{figure}
+				\includegraphics[width=\textwidth]{qbt_fermi_level_vs_temperature}
+			\end{figure}
+		\end{column}
+	\end{columns}
+	%
+%	\vspace{-2em}
+	%
+	\begin{keyinsight}
+		With temperature, \(E_F\) deviates from  \(E_\text{midgap}\) for semiconductors with differing electron and hole effective masses.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Conductivity of intrinsic semiconductor}
+	%
+\begin{small}
+		\begin{itemize}
+		\item Conduction in a semiconductor is through two channels -- electron and hole. Therefore
+		\[
+		\sigma_i = \sigma_e + \sigma_h
+		\]
+		\item For each channel, the conductivity is given by the product of charge carrier concentration and mobility. Therefore
+		\begin{align*}
+			\sigma_i &= n_0 e \mu_e + p_0 e \mu_h	\\
+			&= n_i e \left(\mu_e + \mu_h\right)
+		\end{align*}
+		%
+		\begin{center}
+			\framebox{$ \therefore	\sigma_i = n_i e \left(\mu_e + \mu_h\right)$}
+		\end{center}
+		%
+		\item If we express the intrinsic carrier concentration in terms of material properties, then
+		\begin{align*}
+			\sigma_i &= \sqrt{N_c N_v}e \left(\mu_e + \mu_h\right)\exp\left(-\frac{E_g}{2k_BT}\right)	\\
+			&= \sigma_0 \exp\left(-\frac{E_g}{2k_BT}\right)
+		\end{align*}
+		where \(\sigma_0\) is a constant in terms of material properties.
+		%
+	\end{itemize}
+\end{small}
+\end{frame}
+%
+\begin{frame}{Estimation of band gap of intrinsic semiconductor}
+	%
+	\begin{itemize}
+		\item Therefore, the variation of  conductivity of intrinsic semiconductor with temperature is given by
+		%
+		\begin{center}
+			\framebox{$ \therefore	\sigma_i = \sigma_0 \exp\left(-\frac{E_g}{2k_BT}\right)$}
+		\end{center}
+		%
+		\item If we take the logarithm on both sides of above equation, then
+		\begin{align*}
+			\ln \sigma_i &= \ln \sigma_0 + \ln \left[\exp\left(-\frac{E_g}{2k_BT}\right)\right]	\\
+			&= \ln \sigma_0 - \frac{E_g}{2k_BT}
+		\end{align*}
+		%
+	\end{itemize}
+	%
+	\begin{columns}
+		\begin{column}{0.6\textwidth}
+\begin{small}
+				\begin{itemize}
+				\item Therefore, a plot of \(\ln \sigma \, \text{vs} \, \tfrac{1}{T}\) will be straight line with slope \(m\) given by
+				\[
+				m = -\frac{E_g}{2k_B}
+				\]
+				From the slope of the plot, we can estimate the energy band gap.
+			\end{itemize}
+\end{small}
+		\end{column}
+		%
+		\begin{column}{0.38\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{qbt_band_gap_estimation}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Some useful information for calculations}
+	%
+	\begin{table}[!htbp]
+		\centering
+		\begin{tabular}{llll}
+			\toprule
+			&	\ce{Si}	&	\ce{GaAs}	&	\ce{Ge}	\\
+			\midrule
+			\(\mu_n\) (\si{\centi\metre\squared\per\volt\per\second})	&	1350	&	8500	&	3900	\\
+			\(\mu_p\) (\si{\centi\metre\squared\per\volt\per\second})	&	480	&	400		&	1900	\\
+			\bottomrule
+		\end{tabular}
+		\caption{Mobility of carriers in \ce{Si}, \ce{GaAs}, and \ce{Ge} at \SI{300}{\kelvin}. Taken from Section 5.1 of Neamen}
+	\end{table}
+	%
+	%
+	\begin{table}[!htbp]
+		\centering
+		\begin{tabular}{llll}
+			\toprule
+			&	\ce{Si}	&	\ce{GaAs}	&	\ce{Ge}	\\
+			\midrule
+			\(n_i\) (\si{\per\centi\metre\cubed})	&	\num{1.5e10}	&	\num{1.8e6}		&	\num{2.4e13}	\\
+			\bottomrule
+		\end{tabular}
+		\caption{Intrinsic carrier concentration in \ce{Si}, \ce{GaAs}, and \ce{Ge} at \SI{300}{\kelvin}.}
+	\end{table}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Some useful information for calculations (continued...)}
+	%
+	\begin{table}[!htbp]
+		\centering
+		\begin{tabular}{llll}
+			\toprule
+			&	\ce{Si}	&	\ce{GaAs}	&	\ce{Ge}	\\
+			\midrule
+			\(N_c\) (\si{\per\centi\metre\cubed})	&	\num{2.8e19}	&	\num{4.7e17}	&	\num{1.04e19}	\\
+			\(N_v\) (\si{\per\centi\metre\cubed})	&	\num{1.04e19}	&	\num{7.0e18}	&	\num{6.0e18}	\\
+			\(m_n^*/m_0\)	&	1.08	&	0.067	&	0.55	\\
+			\(m_p^*/m_0\)	&	0.56	&	0.48	&	0.37	\\
+			\bottomrule
+		\end{tabular}
+		\caption{Effective density of states and effective mass of charge carriers in \ce{Si}, \ce{GaAs}, and \ce{Ge} . Taken from Section 4.1.3 of Neamen.}
+	\end{table}
+	%
+	%
+	\begin{table}[!htbp]
+		\centering
+		\begin{tabular}{llll}
+			\toprule
+			&	\ce{Si}	&	\ce{GaAs}	&	\ce{Ge}	\\
+			\midrule
+			\(E_g\) (\si{\electron\volt})	&	\num{1.12}	&	\num{1.42}		&	\num{0.66}	\\
+			\bottomrule
+		\end{tabular}
+		\caption{Energy band gap of \ce{Si}, \ce{GaAs}, and \ce{Ge} at \SI{300}{\kelvin}. Taken from Appendix. B of Neamen.}
+	\end{table}
+	%
+\end{frame}
+%
+
+\begin{frame}[label=pre-M2T1-slot1]{Problems on Fermi level of intrinsic semiconductor}
+	\begin{problem}
+		A quantum state in the conduction band is \(k_BT\) above conduction band minimum \(E_c\) of an intrinsic semiconductor. The Fermi level is \SI{0.25}{\electron\volt} below \(E_c\). Find the probability that the quantum state is occupied at \SI{300}{\kelvin}.
+	\end{problem}
+	%
+	\begin{problem}
+		For the same material in above problem, if the effective density of states in conduction band \(N_c\) is \SI{2.8e19}{\per\centi\metre\cubed} at \SI{300}{\kelvin} , then find the electron concentration \(n_0\).
+	\end{problem}
+	%
+	\begin{problem}
+		Calculate the position of the intrinsic Fermi level with respect to the center of the bandgap in \ce{Si} at \SI{300}{\kelvin}.
+	\end{problem}
+	%
+	\begin{problem}
+		Find the resistivity of intrinsic \ce{Ge} at \SI{300}{\kelvin}. \hfill [Hint: Check useful info slide]
+	\end{problem}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Problems on Fermi level of intrinsic semiconductor (continued...)}
+	\begin{problem}
+		The resistivity of intrinsic \ce{Si} is \SI{2.3e3}{\ohm\metre} at \SI{300}{\kelvin}. Calculate its resistivity at \SI{100}{\celsius}. \hfill [Hint: \(E_g^\text{Si} = \SI{1.12}{\electron\volt}\) ]
+	\end{problem}
+	%
+	\begin{center}
+		{\huge Tough problems}
+	\end{center}
+	\begin{problem}
+		Calculate the thermal equilibrium electron concentration in \ce{Si} at \SI{400}{\kelvin}. \(N_c\) at \SI{300}{\kelvin} is \SI{2.8e19}{\per\centi\metre\cubed}. \hfill [Hint: Solve the below problem.]
+	\end{problem}
+	%
+	\begin{problem}
+		Calculate the ratio of conduction electrons at \SI{400}{\kelvin} to conduction electrons at \SI{300}{\kelvin}. \hfill [Hint: From the explicit expression for \(N_c\), observe the form of \(N_c \, \text{vs}\, T\). ]
+	\end{problem}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Test Your Understanding}
+	%
+	\begin{enumerate}
+		\item Discuss the variation of Fermi level position with temperature.
+		\item Discuss the variation of conductivity with temperature.
+	\end{enumerate}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot1]{Technical terms}
+	%
+	\begin{itemize}
+		\item band structure
+		\item zone folding
+		\item hole
+		\item conduction band effective density of states \(N_c\)
+		\item conduction band effective density of states \(N_v\)
+		\item intrinsic carrier concentration \(n_i\)
+		\item midgap energy level \(E_\text{midgap}\)
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]
+	\begin{huge}
+		\begin{center}
+			*Extrinsic semiconductor*
+		\end{center}
+	\end{huge}
+\end{frame}
+%
+%
+\begin{frame}[label=pre-M2T1-slot2]{Periodic table}
+	%
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{qbt_esc_semiconductors_periodic_table}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}{0.48\textwidth}
+			%
+			\begin{table}
+				\begin{tabular}{ll}
+					\toprule
+					Elemental	&	Compound	\\
+					\midrule
+					Si	&	GaAs	\\
+					Ge	&	InAs	\\
+						&	CdSe	\\
+					\bottomrule
+				\end{tabular}
+				%
+				\caption{Intrinsic semiconductors.}
+			\end{table}
+		\end{column}
+	\end{columns}
+	%
+\end{frame}
+%
+%
+\begin{frame}[label=pre-M2T1-slot2]{Extrinsic semiconductor -- Dopant atoms}
+	%
+	\begin{definition}
+\begin{itemize}
+	\item Extrinsic semiconductor is a semiconductor with impurities added.
+	\item Depending upon the type of impurities added, extrinsic semiconductor is of two types -- n-type and p-type
+\end{itemize}
+	\end{definition}
+	%
+	\vspace{-2em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.5\textwidth}
+\begin{small}
+				\begin{table}
+				\begin{tabular}{ll}
+					\toprule
+					n-type &	p-type	\\
+					\midrule
+					\ce{P}	&	\ce{Al}	\\
+					\ce{As}	&	\ce{B}	\\
+					\ce{Sb}	&	\ce{Ga}	\\
+					\ce{In}	&	\\
+					\bottomrule
+				\end{tabular}
+				\caption{Dopants for elemental s.c.s.}
+			\end{table}
+\end{small}
+		\end{column}
+		%
+		\begin{column}[t]{0.48\textwidth}
+\begin{small}
+				\begin{table}
+				\begin{tabular}{ll}
+					\toprule
+					n-type &	p-type	\\
+					\midrule
+					\ce{Se}	&	\ce{Zn}	\\
+					\ce{Te}	&	\ce{Cd}	\\
+						&	\\
+					\ce{Si} at \ce{Ga}	&	\ce{Si} at \ce{As}	\\
+					\ce{Ge} at \ce{Ga}	&	\ce{Ge} at \ce{As}	\\
+					\bottomrule
+				\end{tabular}
+				\caption{Dopants for compound s.c.s.}
+			\end{table}
+\end{small}
+		\end{column}
+	\end{columns}
+	%
+	\vspace{-2em}
+	%
+	\begin{problem}
+		Prove that \ce{Si} doped at \ce{Ga} position in \ce{GaAs} acts as a donor dopant.
+	\end{problem}
+\end{frame}
+%
+\begin{frame}{Ionization of Hydrogen atom}
+	%
+	\begin{definition}
+\begin{itemize}
+	\item Ionization energy is the energy required to free up a bound electron from an atom`\footnote{The related concept to ionization energy in the case of solid is work function.}.
+\end{itemize}
+	\end{definition}
+	%
+	\vspace{-1em}
+	%
+\begin{columns}
+	\begin{column}{0.8\textwidth}
+\begin{small}
+				\begin{itemize}
+		\item Consider a hydrogen atom with a proton of charge +1 as nucleus and an electron of charge -1 revolving around the nucleus.
+		\item In the ground state, the electron occupies the \ce{1s} energy level. If the ionization energy is \(\Delta E_\text{ion}\), then
+		\[
+		H + \Delta E_\text{ion} \rightarrow \ce{H^+} + \ce{e^-}
+		\]
+		\item If the energy of the \ce{1s} level \(E_\text{1s}\) is calculated, we can estimate \(\Delta E_\text{ion}\) as
+		\[
+		\Delta E_\text{ion} = E_\text{vacuum} - E_\text{1s},
+		\]
+		where \(E_\text{vacuum}\) is the energy level of vacuum/free space.
+	\end{itemize}
+\end{small}
+	\end{column}
+	%
+	\begin{column}{0.18\textwidth}
+		%
+		\begin{figure}
+			\includegraphics[width=\textwidth]{qbt_esc_hydrogen_atom_ionization}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+%
+\begin{frame}{Bohr's model of \ce{H} atom}
+	%
+	\begin{block}{Postulates}
+		\begin{enumerate}
+			\item Electron revolves around the nucleus due to the Coulomb force of attraction.
+			\item The angular momentum of electron is quantized and can take only integral multiples of \(\hbar\).
+		\end{enumerate}
+	\end{block}
+	%
+	\vspace{-2em}
+	%
+\begin{columns}
+	\begin{column}[t]{0.5\textwidth}
+%\begin{small}
+				\begin{itemize}
+		\item If \(v\) is the velocity of the electron and \(r\) is the radius of orbit, then the first postulate translates to
+		\begin{align*}
+			F_\text{Coulomb} &= - \frac{m v^2}{r}, 	\\
+			- \frac{1}{4 \pi \epsilon_0} \frac{e^2}{r^2} &= - \frac{m_0 v^2}{r}, \\
+			\Rightarrow v^2 &= \frac{1}{4 \pi \epsilon_0} \frac{e^2}{m_0r}
+		\end{align*}
+		%
+	\end{itemize}
+%\end{small}
+	\end{column}
+	%
+	\begin{column}[t]{0.48\textwidth}
+%\begin{small}
+			\begin{itemize}
+			%
+			\item If \(L = mvr\) is the angular momentum of electron, then the second postulate translates to 
+			\begin{align*}
+				L &= n \hbar, \\
+				\Rightarrow m_0vr &= \hbar,
+			\end{align*}
+			%
+			where \(n=1\) is taken for the ground state.
+		\end{itemize}
+%\end{small}
+	\end{column}
+\end{columns}
+\end{frame}
+%
+\begin{frame}{Ionization energy of \ce{H} atom}
+	%
+	\vspace{-1em}
+	\begin{columns}
+		\begin{column}[t]{0.4\textwidth}
+\begin{small}
+					\begin{itemize}
+			\item Bohr radius \(a_0\) of \ce{H} atom is the radius of electron's orbit in the ground state.
+			\item From the above two equations, the Bohr radius is found to be
+			\begin{equation}
+				a_0 = \frac{4 \pi \epsilon_0 \hbar^2}{m_0e^2} = \SI{0.529}{\angstrom}.
+			\end{equation}
+		\end{itemize}
+\end{small}
+		\end{column}
+		%
+		\begin{column}[t]{0.58\textwidth}
+\begin{small}
+				\begin{itemize}
+				\item The total energy \(E_\text{1s}\) of the orbiting \ce{1s} electron is the sum of kinetic energy \(T\) and potential energy \(V\) so that
+				\begin{align*}
+					E_\text{1s} &= T + V, \\
+				 &= \frac{1}{2} m_0 v^2 - \frac{1}{4 \pi \epsilon_0} \frac{e^2}{r}, \\
+					&= - \frac{1}{2} \frac{m_0e^4}{\hbar^2 \left(4 \pi \epsilon_0\right)^2} = \SI{-13.6}{\electron\volt} \tag{2}
+				\end{align*}
+			\end{itemize}
+\end{small}
+		\end{column}
+		%
+	\end{columns}
+	%
+	\hrule
+	%
+\begin{small}
+		\begin{itemize}
+		\item Therefore, the ionization energy of \ce{H} atom is given by
+		\[
+		\Delta E_\text{ion} = E_\text{vacuum} - E_\text{1s} = \SI{13.6}{\electron\volt}.
+		\]
+	\end{itemize}
+\end{small}
+	%
+	\begin{keyinsight}
+		The Bohr model is applicable to \textbf{hydrogenic} or hydrogen-like atoms.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Donor impurity -- Hydrogen-like atom}
+	%
+\begin{columns}
+	\begin{column}{0.7\textwidth}
+			\begin{figure}
+		\includegraphics[width=0.8\textwidth]{qbt_esc_phosphorus_in_silicon}
+	\end{figure}
+	\end{column}
+	%
+	\begin{column}{0.28\textwidth}
+		%
+			\begin{enumerate}
+			\item \ce{P} as isolated atom.
+			\item \ce{P} as impurity inside \ce{Si}.
+			\item \ce{P} impurity as \(\ce{P^+}  \leftrightarrow \ce{e^-}\) hydrogen like atom.
+			\item Due to thermal energy, ionization of \ce{P} impurity gives free electron.
+		\end{enumerate}
+		%
+	\end{column}
+\end{columns}
+%
+\begin{keyinsight}
+	Doping with donor impurity forms an n-type semiconductor.
+\end{keyinsight}
+%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Donor impurity -- Hydrogen-like atom}
+	%
+	\begin{definition}
+\begin{itemize}
+	\item Donor impurity, also called donor dopant, is an atom that donates an electron to the intrinsic semiconductor upon ionization.
+\end{itemize}
+	\end{definition}
+	%
+	\vspace{-1em}
+	%
+		\begin{enumerate}
+		\item Phosphorus in vacuum has 5 electrons in the valence shell.
+		\item Phosphorus in silicon shares 4 electrons with neighbouring \ce{Si} atoms for covalent bonding. The \textbf{extra} electron is loosely coupled to the phosphorus nucleus.
+		\item At absolute zero temperature, phosphorus can be modeled as a hydrogenic atom with nucleus as phosphorus ion of charge +1, and a \textbf{bound} electron of charge -1 revolving around the nucleus.
+		\[
+		\ce{P} \,\text{in}\, \ce{Si} \equiv \ce{P^+} \leftrightarrow \ce{e^-}
+		\]
+		\item When the thermal energy is sufficient to overcome the attractive force between \ce{P^+} and \ce{e^-}, the electron becomes \textbf{free} and is released into the \ce{Si} lattice.
+		\[
+		\ce{P^+} \leftrightarrow \ce{e^-} + \mathcal{O}(k_B T) \rightarrow  \ce{P^+} + \ce{e^-}
+		\]
+	\end{enumerate}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Acceptor impurity -- Hydrogen-like atom}
+	%
+	\begin{columns}
+		\begin{column}{0.7\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_boron_in_silicon}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}{0.28\textwidth}
+			%
+				\begin{enumerate}
+				\item \ce{B} as isolated atom.
+				\item \ce{B} as impurity inside \ce{Si}.
+				\item \ce{B} impurity as \(\ce{B^-}  \leftrightarrow \ce{h^+}\) hydrogen like atom.
+				\item Due to thermal energy, ionization of \ce{B} impurity gives free hole.
+			\end{enumerate}
+			%
+		\end{column}
+	\end{columns}
+	%
+	\begin{keyinsight}
+		Doping with acceptor impurity forms a p-type semiconductor.
+	\end{keyinsight}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Acceptor impurity -- Hydrogen-like atom}
+	%
+	\begin{definition}
+		\begin{itemize}
+			\item Acceptor impurity, also called acceptor dopant, is an atom that accepts an electron from the intrinsic semiconductor upon ionization.
+		\end{itemize}
+	\end{definition}
+	%
+	\vspace{-1em}
+	%
+\begin{small}
+		\begin{enumerate}
+		\item Boron in vacuum has 3 electrons in the valence shell.
+		\item Boron in silicon shares 3 electrons with neighbouring \ce{Si} atoms for covalent bonding. The 4\textsuperscript{th} electron is absent and can be considered as an \textbf{extra} hole that is loosely coupled to the boron nucleus.
+		\item At absolute zero temperature, Boron can be modeled as a hydrogenic atom with nucleus as Boron ion of charge -1, and a \textbf{bound} hole of charge +1 revolving around the nucleus.
+		\[
+		\ce{B} \,\text{in}\, \ce{Si} \equiv \ce{B^-} \leftrightarrow \ce{h^+}
+		\]
+		\item When the thermal energy is sufficient to overcome the attractive force between \ce{B^-} and \ce{h^+}, the hole becomes \textbf{free} and is released into the \ce{Si} lattice.
+		\[
+		\ce{B^-} \leftrightarrow \ce{h^+} + \mathcal{O}(k_B T) \rightarrow  \ce{B^-} + \ce{h^+}
+		\]
+	\end{enumerate}
+\end{small}
+\end{frame}
+%
+\begin{frame}{Ionization energy of dopant atom}
+	%
+\begin{small}
+		\begin{itemize}
+		\item The hydrogenic dopant atom (or acceptor atom) is inside the \ce{Si} environment. Therefore, the Coulomb force on bound electron due to donor ion (or bound hole on acceptor ion) should be modified to account for permittivity of silicon. Let the permittivity of \ce{Si} be \(\epsilon_\text{Si}\).\hfill [\(\epsilon_\text{Si} = 11.7 \epsilon_0 \).]
+		\item Also, the \ce{Si} lattice alters the effective mass of electron (or hole). Let the effective mass of electron in \ce{Si} be \(m_n*\). \hfill [\(m_n* = 0.26 m_0\).]
+	\end{itemize}
+\end{small}
+	%
+	\hrule
+	\vspace{-0.5em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.5\textwidth}
+\begin{small}
+				\begin{itemize}
+				\item The Bohr radius of hydrogenic dopant atom \(a_\text{dopant}\) is given by
+				\begin{align*}
+					a &\propto \frac{\epsilon}{m} , \\
+					\Rightarrow \frac{a_\text{dopant}}{a_0} &= \frac{\epsilon_\text{Si}}{\epsilon_0} \cdot \frac{m_0}{m_n*}, \\
+					\therefore a_\text{dopant} &\simeq \SI{25}{\angstrom}.
+				\end{align*}
+			\end{itemize}
+			%
+\end{small}
+		\end{column}
+		%
+		\begin{column}[t]{0.48\textwidth}
+			\begin{itemize}
+				\item The ionization energy of dopant \(\Delta E_\text{ion}^\text{dopant}\) is given by
+				%
+				\vspace{-1em}
+				%
+				\begin{align*}
+					\Delta E_\text{ion} &\propto \frac{m}{\epsilon^2},	\\
+					\Rightarrow \frac{\Delta E_\text{ion}^\text{dopant}}{\Delta E_\text{ion}^\text{H}} &= \frac{m_n*}{m_0}\cdot \left(\frac{\epsilon_0}{\epsilon_\text{Si}}\right)^2, \\
+					\therefore \Delta E_\text{ion}^\text{dopant} &\simeq \SI{25}{\milli\electron\volt}. 
+				\end{align*}
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{keyinsight}
+		The ionization energy of dopants is of the order of \(k_B T_\text{\SI{300}{\kelvin}}\).
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Dopant energy levels}
+	%
+	\begin{definition}
+\begin{small}
+			\begin{itemize}
+			\item Donor energy level \(E_d\) is the ground state of donor dopant atom.
+			\item Acceptor energy level \(E_a\) is the ground state of acceptor dopant atom.
+		\end{itemize}
+\end{small}
+	\end{definition}
+	%
+	\vspace{-1em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.49\textwidth}
+			%
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_ebd_donor_energy_level}
+			\end{figure}
+			%
+		\end{column}
+		%
+		\begin{column}[t]{0.49\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_ebd_acceptor_energy_level}
+			\end{figure}
+		\end{column}
+	\end{columns}
+	%
+	\begin{keyinsight}
+		Donor energy level is closer to the conduction band minimum and acceptor energy is closer to the valence band maximum.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Dopant energy levels -- before ionization}
+	%
+	\begin{itemize}
+		\item At absolute zero temperature, due to lack of thermal energy, the dopant atoms are \textbf{not} ionized.
+	\end{itemize}
+	\begin{columns}
+		\begin{column}[t]{0.49\textwidth}
+			%
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_ebd_donor_energy_level_before_ionization}
+			\end{figure}
+			%
+			\begin{itemize}
+				\item The electron is \textbf{bound} to the donor ion.
+			\end{itemize}
+			%
+		\end{column}
+		%
+		\begin{column}[t]{0.49\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_ebd_acceptor_energy_level_before_ionization}
+			\end{figure}
+			%
+			\begin{itemize}
+				\item The hole is \textbf{bound} to the acceptor ion.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+\end{frame}
+
+%
+\begin{frame}[label=pre-M2T1-slot2]{Dopant energy levels -- after ionization}
+	%
+	\begin{itemize}
+		\item At room temperature, the thermal energy is of the order of ionization energy. This leads to ionization of dopant atoms.
+	\end{itemize}%
+	%
+	\vspace{-1em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.49\textwidth}
+			%
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_ebd_donor_energy_level_after_ionization}
+			\end{figure}
+			%
+			\begin{itemize}
+				\item Upon ionization, the donor dopant releases free electron into the conduction band.
+			\end{itemize}%
+		\end{column}
+		%
+		\begin{column}[t]{0.49\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_ebd_acceptor_energy_level_after_ionization}
+			\end{figure}
+			%
+			\begin{itemize}
+				\item Upon ionization, the acceptor dopant accepts electron from valence band and creates a hole in the valence band.
+			\end{itemize}%
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Position of Fermi level -- @ \SI{0}{\kelvin}}
+	%
+	\begin{itemize}
+		\item At absolute zero temperature, all the energy levels below the Fermi levels must be \textbf{occupied} by electrons.
+	\end{itemize}
+	%
+	\vspace{-1em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.49\textwidth}
+			%
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_ebd_fermi_energy_level_ntype_at_T_eq_0K}
+			\end{figure}
+			%
+			The Fermi energy level lies
+			%
+\begin{small}
+				\begin{itemize}
+				\item  \textbf{above} the donor energy level.
+				\item  \textbf{below} the conduction band edge.
+			\end{itemize}
+\end{small}
+			%
+		\end{column}
+		%
+		\begin{column}[t]{0.49\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_ebd_fermi_energy_level_ptype_at_T_eq_0K}
+			\end{figure}
+			%
+			The Fermi energy level lies
+			%
+\begin{small}
+				\begin{itemize}
+				\item  \textbf{below} the acceptor energy level.
+				\item \textbf{above} the valence band edge.
+			\end{itemize}
+\end{small}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Position of Fermi level -- @ \SI{300}{\kelvin}}
+	%
+	\begin{itemize}
+		\item At room temperature, there is contribution to the free carriers from both \colorbox{gray}{\textcolor{red}{extr}}\colorbox{gray}{\textcolor{white}{insic}} and \colorbox{gray}{\textcolor{yellow}{intrinsic}}
+	\end{itemize}
+	%
+	\vspace{-1em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.49\textwidth}
+			%
+			\begin{figure}
+				\includegraphics[width=0.75\textwidth]{qbt_esc_ebd_fermi_energy_level_ntype_at_T_eq_300K}
+			\end{figure}
+			%
+			\vspace{-0.5em}
+			%
+			The Fermi energy level lies
+			%
+			\vspace{-0.5em}
+			%
+\begin{small}
+				\begin{itemize}
+				\item  \textbf{below} the donor energy level since donor energy level is \textbf{empty}.
+				\item  \textbf{above} the midgap energy level.
+			\end{itemize}
+\end{small}
+			%
+		\end{column}
+		%
+		\begin{column}[t]{0.49\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.75\textwidth]{qbt_esc_ebd_fermi_energy_level_ptype_at_T_eq_300K}
+			\end{figure}
+			%
+			The Fermi energy level lies
+			%
+\begin{small}
+				\begin{itemize}
+				\item  \textbf{above} the acceptor energy level since acceptor energy level is \textbf{filled}.
+				\item  \textbf{below} the midgap energy level.
+			\end{itemize}
+\end{small}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Position of Fermi level -- @ \(T \gg \SI{300}{\kelvin}\)}
+	%
+	\begin{itemize}
+		\item At very high temperature, the contribution to the free carriers from \colorbox{gray}{\textcolor{yellow}{intrinsic}} \textbf{dominates} the contribution from  \colorbox{gray}{\textcolor{red}{extr}}\colorbox{gray}{\textcolor{white}{insic}}
+	\end{itemize}
+	%
+	\vspace{-1em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.49\textwidth}
+			%
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_ebd_fermi_energy_level_ntype_at_T_gg_300K}
+			\end{figure}
+			%
+		\end{column}
+		%
+		\begin{column}[t]{0.49\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{qbt_esc_ebd_fermi_energy_level_ptype_at_T_gg_300K}
+			\end{figure}
+			%
+		\end{column}
+	\end{columns}
+	%
+%	\vspace{1em}
+	%
+	\begin{itemize}
+		\item The Fermi energy level lies near the midgap energy level in both cases.
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		At very high temperature, extrinsic semiconductor behaves nearly as an intrinsic semiconductor.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Variation of Fermi level with temperature}
+	%
+	\begin{definition}
+		\begin{itemize}
+			\item \textbf{Freeze-out} is the condition when the dopants are not ionized.
+			\item \textbf{Complete ionization} is the condition when the dopants are completely ionized.
+		\end{itemize}
+	\end{definition}
+	%
+	\vspace{-2em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.49\textwidth}
+			%
+			\begin{figure}
+				\includegraphics[width=0.75\textwidth]{qbt_esc_ebd_fermi_energy_level_ntype_vs_T}
+			\end{figure}
+			%
+		\end{column}
+		%
+		\begin{column}[t]{0.49\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.75\textwidth]{qbt_esc_ebd_fermi_energy_level_ptype_vs_T}
+			\end{figure}
+		\end{column}
+	\end{columns}
+	%
+	\begin{enumerate}
+		\item At \SI{0}{\kelvin}, the dopants are under freeze-out condition.
+		\item At \SI{300}{\kelvin}, the thermal energy is nearly equal to ionization energy of dopants leading to complete ionization condition.
+		\item At \(T \gg \SI{300}{\kelvin}\), the extrinsic s.c. behaves as an intrinsic s.c.
+	\end{enumerate}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Test Your Understanding}
+	%
+	\begin{enumerate}
+		\item What is a donor impurity? What is an acceptor impurity?
+		\item Differentiate between n-type and p-type semiconductor by sketching their band diagrams.
+		\item p-type and n-type have more holes and electrons respectively.	Explain why they are electrically neutral.
+		\item What is meant by complete ionization? What is meant by freeze-out?
+		\item What is the effect of temperature on the working of n-type and p-type semiconductors? Draw energy band diagrams to show the variation in the position of Fermi level with rise in temperature.
+		\item Draw enery band diagrams for n-type semiconductor at \SI{0}{\kelvin} and at room temperature.
+		\item Distinguish between extrinsic and intrinsic semiconductors.
+		\item Sketch a graph of \(n_0\) versus temperature for an n-type semiconductor.
+		\item Sketch a graph of \(E_F\) versus temperature for p-type semiconductor.
+		\item What is the relevance of the Fermi energy?
+	\end{enumerate}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Technical terms}
+	%
+	\begin{itemize}
+		\item acceptor atoms
+		\item donor atoms
+		\item extrinsic semiconductor
+		\item complete ionization
+		\item freeze-out
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{}
+	\begin{huge}
+		\begin{center}
+			End of M2U1
+		\end{center}
+	\end{huge}
+	
+\end{frame}
+%

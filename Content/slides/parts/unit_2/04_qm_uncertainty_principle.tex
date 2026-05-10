@@ -1,0 +1,111 @@
+%
+\againframe{plan}
+%
+\begin{frame}{Heisenberg uncertainty principle}
+\begin{columns}
+	\begin{column}{0.85\textwidth}
+			\begin{block}{Uncertainty principle/hypothesis}
+		\textbf{Precise} values of position and momentum of a particle cannot be determined \textbf{simultaneously}. If the uncertainty in position is \(\Delta x\) and uncertainty in momentum is \(\Delta p\), then
+		\[
+		\Delta x \, \Delta p \geq \frac{\hbar}{2}, \qquad \text{where} \quad \hbar = \frac{h}{2\pi}
+		\]
+		where \(\hbar\) is the reduced/modified Planck's constant.
+	\end{block}
+	\end{column}
+	%
+	\begin{column}{0.13\textwidth}
+		\begin{figure}
+			\begin{overpic}[width=1\textwidth]{Werner_Heisenberg}
+				% Overlay image on top
+				\put(0,0){\includegraphics[width=0.4\textwidth]{Alfred_Nobel_1833_1896}}
+			\end{overpic}
+		\end{figure}
+	\end{column}
+\end{columns}
+	%
+	\begin{itemize}
+{\small
+			\item Werner Heisenberg postulated the uncertainty principle in 1927.
+		\item In classical mechanics, position and momentum are \textbf{deterministic}. In quantum mechanics, they are not deterministic and are associated with \textbf{uncertainties}.
+		\item If position is measured with low uncertainty, then measurement of momentum has high uncertainty and vice versa.
+		}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Uncertainty \(\rightarrow\) Probability}
+	%
+	\begin{itemize}
+{\small
+			\item The uncertainty principle relates any pair of \textbf{conjugate} variables.
+		\item Position -- momentum is a pair of conjugate variables.
+		\item Energy -- time is also a conjugate variable pair.
+		\item So the uncertainty in energy \(\Delta E\) is related to the uncertainty in time by \(\Delta t\) by
+		\[
+		\Delta E \, \Delta t \geq \frac{\hbar}{2}
+		\]
+		This is the second statement/corollary of Heisenberg's uncertainty principle.
+		\item Due to the smallness of reduced Planck's constant, the uncertainty principle is significant for subatomic particles.
+		\item The cause of uncertainty is \textbf{limitation of measurement}.
+		}
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		Since the position cannot be measured with certainty, we determine the \textbf{probability} of finding an electron at a particular position.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Probability: Mapping of Dice \(\rightarrow\) position}
+\begin{columns}
+	\begin{column}{0.8\textwidth}
+			\begin{itemize}
+{\small
+			\item The way to deal with uncertainty is to talk in terms of probability.
+		\item If a system has N events,  the probability of event A is defined as number of times event A has occured over total number of outcomes.
+		\item A coin is a ``2-sided polyhedron/dice''. The probability of coin having heads is \(\tfrac{1}{2}\). Similarly for N-sided dice the probability is \(\tfrac{1}{N}\).
+		%
+		\item A ``loaded'' dice can different probability for each outcome.
+		\item In the limit of \(\infty\)-sided dice, the probability of a outcome becomes a function.
+		}
+	\end{itemize}
+	\end{column}
+	%
+	\begin{column}{0.18\textwidth}
+				\begin{figure}
+			\includegraphics[width=\textwidth]{qm_uncertainty_coin}
+			\includegraphics[width=\textwidth]{qm_uncertainty_polyhedron_dice}
+		\end{figure}
+	\end{column}
+\end{columns}
+%
+\begin{figure}
+	\includegraphics[width=0.20\textwidth]{qm_uncertainty_correct_dice}
+	\includegraphics[width=0.20\textwidth]{qm_uncertainty_loaded_dice}
+	\includegraphics[width=0.20\textwidth]{qm_uncertainty_wavefunction}
+\end{figure}
+\end{frame}
+%
+\begin{frame}{Uncertainty in function of variable}
+	\begin{itemize}
+{\small
+			\item If uncertainty in variable \(x\) is \(\Delta x\), then the uncertainty in variable \(f(x)\) is given by
+		\[
+		\Delta f = \frac{\mathrm{d}f}{\mathrm{d}x} \Delta x
+		\]
+		\item Kinetic energy \(E\) is related to momentum \(p\) by
+		\[
+		E = \frac{p^2}{2m}
+		\]
+		\item If uncertainty in momentum  is \(\Delta p\), then uncertainty in kinetic energy \(E\) is given by
+		\[
+		\Delta E = \frac{\mathrm{d}E}{\mathrm{d}p} \Delta p = \frac{p}{m} \Delta E
+		\]
+		}
+	\end{itemize}
+	\begin{problem}
+		\begin{itemize}
+			\item Uncertainity in position of electron is \SI{12}{\angstrom}.
+			\item Nominal energy of electron is \SI{16}{\electron\volt}.
+			\item Determine the uncertainty in momentum and kinetic energy
+		\end{itemize}
+	\end{problem}
+\end{frame}

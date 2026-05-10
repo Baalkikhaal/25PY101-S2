@@ -1,0 +1,227 @@
+%
+\againframe{plan}
+%
+\begin{frame}[label=qm jigsaw]{Quantum mechanics jigsaw puzzle}
+	\begin{figure}
+		\includegraphics[height=0.9\textheight]{qm_jigsaw}
+	\end{figure}
+\end{frame}
+%
+\begin{frame}{Photo-electric effect}
+	%
+	\begin{definition}
+		Light of \textbf{suitable} frequency leads to\textbf{ instantaneous} emission of electron from a metal surface.
+	\end{definition}
+	\begin{columns}
+		\begin{column}[t]{0.85\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.7\textwidth]{qm_photoelectric_effect}
+
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}[t]{0.13\textwidth}
+			\begin{figure}
+				\begin{overpic}[width=0.9\textwidth]{Albert_Einstein}
+					% Overlay image on top
+					\put(0,0){\includegraphics[width=0.4\textwidth]{Alfred_Nobel_1833_1896}}
+				\end{overpic}
+				\\
+				{\centering\footnotesize A. Einstein }
+			\end{figure}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item Discovered by Albert Einstein in 1905.
+		\item The emitted electron is called the \textbf{photo-electron}.
+		\item The minimum energy required to emit an electron is a material property and is called the \textbf{work function} of the metal.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Classical explanation of photo-electric effect}
+\begin{columns}
+	\begin{column}{0.75\textwidth}
+		\begin{itemize}
+			\item Light is a wave with energy given by its intensity.
+			\item Therefore, even low-frequency light (if sufficiently intense) should eventually provide enough energy to eject electrons — though perhaps after some time delay.
+		\end{itemize}
+		\end{column}
+	%
+	\begin{column}{0.23\textwidth}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{qm_photoelectric_effect_frequency}
+		\end{figure}
+	\end{column}
+\end{columns}
+%
+	\begin{itemize}
+
+		\item But it is observed that
+		\begin{itemize}
+				{
+				\footnotesize
+			\item Emission of electrons is instantaneous -- even for low intensity light as long as frequency of light is above a certain threshold \(\nu_0\).
+			\item No electrons are emitted if the frequency is below the threshold, no matter how intense the light is.
+			\item The kinetic energy of emitted electrons depends on the frequency of light, not its intensity.
+				}
+		\end{itemize}
+
+\end{itemize}
+%
+\begin{keyinsight}
+	Classical electromagnetic theory cannot explain photoelectric effect!
+\end{keyinsight}
+\end{frame}
+%
+\begin{frame}{Quantum mechanical explanation of Photoelectric effect}
+	%
+\begin{itemize}
+	\item Albert Einstein borrowed the idea of \textbf{quantum}\footnote{``Quantum'' is Latin for ``a certain amount''. In the context of physics, the word quantum refers to a \textbf{packet}.} from Max Planck's theory of blackbody radiation and applied to photoelectric effect.
+\end{itemize}
+\begin{block}{Planck's law}
+	\begin{columns}
+	\begin{column}[t]{0.85\textwidth}
+		\begin{itemize}
+
+			\item Max Planck postulated that the light energy is absorbed or emitted by matter in is a packet of energy. The quantum of energy is related to the frequency \(\nu\) by 
+			\(
+			E = h \nu
+			\)
+			where \(h\) is the \textbf{Planck's constant} given by \SI{6.625e-34}{\joule\second}.
+			\item The quantum of light energy is called \textbf{photon}.
+		\end{itemize}
+	\end{column}
+	%
+	\begin{column}[t]{0.13\textwidth}
+		\begin{figure}
+			\begin{overpic}[width=1\textwidth]{Max_Planck_1858_1947}
+				% Overlay image on top
+				\put(0,0){\includegraphics[width=0.4\textwidth]{Alfred_Nobel_1833_1896}}
+			\end{overpic}
+			\\
+			{\centering\footnotesize Max Planck }
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{block}
+%
+\begin{guesstimate}{Energy of infra-red photon}
+	Wavelength of infra-red photon is \SI{1}{\micro\metre}. \hfill [Hint: \(c=\nu \lambda\)]
+\end{guesstimate}
+\end{frame}
+%
+\begin{frame}{Photoelectric effect: experiment}
+	%
+	\begin{theorem}
+		An electron under potential difference of \(V\) gains kinetic energy of \(eV\).
+	\end{theorem}
+	\begin{figure}
+		\includegraphics[height=0.3\textheight]{qm_electron_energy}
+		\includegraphics[width=0.3\textheight]{qm_photoelectric_effect_circuit_diagram}
+	\end{figure}
+	%
+	\begin{proof}
+		\begin{itemize}
+			\item Electric field is \(E = \tfrac{V}{d}\).
+			\item Acceleration is \( |a| = \tfrac{eE}{m}\).
+			\item Initial velocity \(u=0\). Final velocity is \(v^2 = 2ad\).
+			\item Kinetic energy \(\text{K.E.} = \tfrac{1}{2}m v^2 = eV\).
+		\end{itemize}
+	\end{proof}
+	%
+\end{frame}
+%
+\begin{frame}{Photoelectric effect: energy equation}
+
+		\begin{itemize}
+			{
+				\small
+		\item Photon with energy \(E=h\nu\) transfers energy to the electron, to overcome the work function \(\Phi\). The rest of the energy is photoelectron's kinetic energy.
+		\[
+		\text{K.E.} = h\nu - \Phi
+		\]
+		\item The photoelectrons generate photocurrent.
+		\item In the experiment, the photo electron emitted is decelerated by applying a \textbf{stopping potential} \(V_{sp}\) till the photocurrent is zero. Thus, 
+		\[
+		\text{K.E.} = e V_{sp}
+		\]
+		\item Therefore, frequency is related to stopping potential as
+		\[
+		e V_{sp} = h\nu - \Phi
+		\]
+		\item The plot of \(\nu (\rightarrow x)\, \text{vs}\, V_{sp} (\rightarrow y)\) is a straight line \(y=mx+c\) with slope \(m = h/e\) and y-intercept \(c = -\Phi\). 
+		\item The x-intercept is the minimum frequency of photon to generate photo-current and is called the \textbf{threshold frequency} 
+		\(
+		\nu_0 = \frac{\Phi}{h}
+		\).
+	}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Photoelectric effect: momentum equation}
+	\begin{itemize}
+		{
+			\small
+		\item From Einstein's special theory of relativity, the momentum of a particle of mass \(m\) is related to its total energy \(E\) by
+		\[
+		E^2 = p^2 c^2 + m^2c^4
+		\]
+		where \(c\) is the velocity of light.
+		\item If the light is considered as a massless particle i.e. \(m_\mathrm{photon} = 0\), then 
+		\[
+			E = p_\mathrm{photon}c \Rightarrow p_\mathrm{photon} = \frac{E}{c}
+		\]
+		\item However, the velocity of light is related to its wavelength and frequency by
+		\[
+		c = \nu \lambda
+		\] 
+		\item Using the Planck's law for the energy of photon, the momentum is given by
+		\[
+		p_\mathrm{photon} = \frac{h}{\lambda}
+		\]
+		}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Photoelectric effect: problems}
+%
+\begin{guesstimate}{Energy of X-ray photon}
+	Wavelength of X-ray photon is \SI{0.708}{\angstrom}.\\
+	\hfill [Hint: (a).  \(E\propto 1/\lambda.\) (b). \(E_{\lambda=1 \, \mu \text{m}}=\SI{1.24}{\electron\volt}\)]
+\end{guesstimate}
+\begin{problem}
+\begin{columns}
+	\begin{column}{0.35\textwidth}
+		\begin{figure}
+		\includegraphics[width=\textwidth]{qm_photoelectric_effect_problem}
+	\end{figure}
+	\end{column}
+	\begin{column}{0.63\textwidth}
+		%
+		The work function \(\Phi\) of \ce{Au} is \SI{4.90}{\electron\volt}.
+		\begin{enumerate}
+			\item A blue photon is incident on \ce{Au}. Does it emit photo-electron? If yes, what is the stopping potential required to have zero photocurrent. \hfill [\(\lambda_\mathrm{blue} = \SI{460}{\nano\metre}\)]
+			\item Determine the threshold frequency \(\nu_0\) for photon emission of electrons for \ce{Au}.
+		\end{enumerate}
+		Repeat the above steps for \ce{Cs} with work function \SI{1.90}{\electron\volt}.
+	\end{column}
+\end{columns}
+\end{problem}
+\end{frame}
+%
+\begin{frame}{Applications of photo-electric effect: Smartphone}
+	%
+	\begin{figure}
+		\includegraphics[width=0.8\textwidth]{qm_sensors_in_smartphone}
+%		\includegraphics{width=0.20\textwidth}{qm_photoelectric_effect_applications_smoke_detector}
+		\caption{Image taken from Techbii.com. \href{https://techbii.com/10-most-important-sensors-mobile-phones-uses/}{Click here for link}}
+	\end{figure}
+	%
+	\begin{itemize}
+		\item Image sensors use Complementary Metal Oxide Semiconductor (CMOS) sensors
+		\item Fingerprint sensor
+		\item Proximity sensor (Infra-Red (IR) reflection and detection)
+		\item Smoke detector
+	\end{itemize}
+\end{frame}

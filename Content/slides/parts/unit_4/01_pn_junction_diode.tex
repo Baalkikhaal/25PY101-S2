@@ -1,0 +1,687 @@
+%
+\againframe{plan}
+%
+%
+\begin{frame}{Isolated p-type and n-type semiconductors}
+	%
+	\begin{itemize}
+		\item The Fermi level of p-type semiconductor is closer to the valence band edge \(E_v\).
+		\item The Fermi level of n-type semiconductor is closer to the conduction band edge \(E_c\).
+	\end{itemize}
+	%
+	\begin{columns}
+		\begin{column}{0.39\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.9\textwidth]{oe_pn_junction_without_metallurgical_junction}
+				\\
+				\includegraphics[width=0.9\textwidth]{oe_pn_junction_ebd_fermi_energy_level_without_metallurgical_junction}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.59\textwidth}
+			%
+
+			\begin{block}{Analogy of gravitational force}
+				\begin{figure}
+					\includegraphics[width=0.48\textwidth]{oe_pn_junction_fermi_energy_level_relevance_before_connection}
+					\includegraphics[width=0.48\textwidth]{oe_pn_junction_fermi_energy_level_relevance_after_connection}
+				\end{figure}
+				%
+				\begin{itemize}
+					\item When the glasses are connected, the  the gravitational force acts as driving force to reach equilibrium.
+					\item In the case of semiconductors, the   driving force to reach equilibrium is \(E_F\).
+				\end{itemize}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}{pn junction -- Metallurgical junction}
+	%
+	\begin{definition}
+		Metallurgical junction is defined as the interface between the p-type and n-type semiconductors.
+	\end{definition}
+	\begin{columns}
+		\begin{column}{0.39\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.9\textwidth]{oe_pn_junction_with_metallurgical_junction}
+				\\
+				\includegraphics[width=0.9\textwidth]{oe_pn_junction_ebd_fermi_energy_level_with_metallurgical_junction}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.59\textwidth}
+			\begin{itemize}
+				\item Upon the formation of metallurgical junction, there is a difference in the Fermi level in both the regions.
+				\item The n region has higher Fermi level \(E_\text{Fn}\) than p region \(E_\text{Fp}\), because there are more electrons in the n-region.
+
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]
+	\begin{huge}
+		\begin{center}
+			*pn junction at zero bias*
+		\end{center}
+	\end{huge}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{pn junction -- at zero bias}
+	%
+	\begin{definition}
+		\textbf{Zero bias} condition is considered when external battery is not connected across p-region and n-region.
+	\end{definition}
+	%
+	\begin{itemize}
+		\item The word voltage bias is used in the context of electricity to refer to external force.
+		\item At zero voltage bias, there is \textbf{no application of external force} on the charge carriers.
+		\item However, there are two internal forces at play --
+			\begin{enumerate}
+				\item Diffusion forces due to gradients in concentration of charge carriers.
+				\item Drift forces due to internal electric fields.
+			\end{enumerate}
+		\item The interplay of these internal forces leads to net zero force on charge carriers at thermal equilibrium.
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		At zero bias, there is interplay of internal drift and diffusion forces.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{pn junction -- Diffusion}
+	%
+	\begin{definition}
+		Diffusion is the net movement of particles from a region of higher concentration to a region of lower concentration.
+	\end{definition}
+	\begin{columns}
+		\begin{column}{0.39\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.9\textwidth]{oe_pn_junction_diffusion}
+				%
+				\\
+				\includegraphics[width=0.9\textwidth]{oe_pn_junction_ebd_fermi_energy_level_diffusion}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.59\textwidth}
+			%
+			\begin{itemize}
+				\item The difference in Fermi level acts as a ``driving force'' so that electrons from n-region \textbf{diffuse} into the p-region.
+				\item By similar analysis, holes from p-region diffuse into the n-region.
+				\item Diffusion of electrons from n-region lowers its Fermi level \(E_\text{Fn}\).
+				\item Diffusion of holes from p-region raises its Fermi level \(E_\text{Fp}\).
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{pn junction at zero bias -- Space-charge region}
+	%
+	\begin{definition}
+\begin{itemize}
+	\item 		\textbf{Space charge region}, also called the \textbf{depletion region}, is the region created as a result of diffusion of free charge carriers across the metallurgical junction.
+	\item The width of the depletion region is called depletion region width \(W_0\).
+\end{itemize} 
+	\end{definition}
+	%
+	\vspace{-1.5em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.39\textwidth}
+			\begin{figure}
+				\includegraphics[width=1.0\textwidth]{oe_pn_junction_space_charge_region}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}[t]{0.59\textwidth}
+			%
+			\begin{itemize}
+				\item Due to the diffusion of mobile charge carriers, their \textbf{ionic counterparts} are left without partners.
+				\item Space charge region is also called the \textbf{depletion region} since the region is depleted~\footnote{deplete means decrease or remove.} of the free charge carriers.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item The depletion region consists of  positively charged donor ions on the n-side of the junction and negatively charged acceptor ions on the p-side of the junction.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{pn junction at zero bias -- Built-in electric field}
+	%
+	\begin{definition}
+		\textbf{Built-in electrical field}, also called internal electric field \(E_\text{int}\) is the electric field generated due to the oppositely charged regions on either side of the metallurgical junction.
+	\end{definition}
+	\begin{columns}
+		\begin{column}{0.39\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_pn_junction_built_in_electric_field}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.59\textwidth}
+			%
+			\begin{itemize}
+				\item Within the depletion region, the oppositely charged ions on either side of junction can be considered as plates of a capacitor.
+				\item Since the plates are charged, a \textbf{built-in electric field} is generated.
+				\item The built-in electric field is directed from \colorbox{green}{n-region to p-region}.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item  \(E_\text{int}\) prevents further build up of space charge due to diffusion as it opposes the diffusion of electrons from n-region into p-region and vice versa.
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{pn junction at zero bias -- Drift}
+	%
+	\begin{definition}
+		Drift is the net movement of charged particles due to the application of electric field.
+	\end{definition}
+	\begin{columns}
+		\begin{column}{0.39\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_pn_junction_drift}
+				%
+				\\
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.59\textwidth}
+			%
+			\begin{itemize}
+
+				\item Consider a diffused electron that is present in the p side of the depletion region.
+				\item Since the built-in electric field is directed from \colorbox{green}{n-region to p-region}, the electric force is directed from \colorbox{green}{p-region to n-region}.
+				\item Electron drift backs to the n-region.
+
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	%
+	\begin{itemize}
+		\item The diffusion force is counterbalanced by the drift force.
+		\item Similar analysis applies to the diffused hole.
+	\end{itemize}
+	\begin{problem}
+		Prove the counterbalancing effect of drift and diffusion for holes.
+	\end{problem}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{pn junction at zero bias -- Thermal equilibrium}
+	%
+	\begin{columns}
+		\begin{column}{0.39\textwidth}
+			\begin{figure}
+				\includegraphics[width=1\textwidth]{oe_pn_junction_ebd_fermi_energy_level_at_thermal_equilibrium}
+			\end{figure}
+			%
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.59\textwidth}
+			%
+			\begin{definition}
+				Thermal equilibrium occurs when the net force on the system is zero.
+			\end{definition}
+			%
+			\begin{itemize}
+				\item Since the difference in Fermi level is a ``driving'' force, when the system reaches thermal equilibrium, the net force is zero.
+				\item This implies the Fermi level is a constant throughout the system at thermal equilibrium.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item  Since the external force is zero at zero bias, the pn junction is at thermal equilibrium.
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		At thermal equilibrium, \(E_F\) is a constant.
+	\end{keyinsight}
+	%
+\end{frame}
+%
+\begin{frame}{pn junction at zero bias -- Built-in potential barrier}
+	%
+	\begin{columns}
+		\begin{column}{0.34\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.9\textwidth]{oe_pn_junction_fermi_energy_level_built_in_potential_barrier}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.64\textwidth}
+			%
+			\begin{definition}
+				\textbf{Built-in potential barrier} \(V_\text{int}\) is the potential difference generated across the oppositely charged halves of the depletion region.
+			\end{definition}
+			%
+			\begin{itemize}
+				\item If we model the depletion region as a capacitor with electric field \(E_\text{int}\) between the plates and the separation between the plates is \(W\), then the potential difference across the plates is given by
+				\[
+				E_\text{int} = \frac{V_\text{int}}{W_0} \Rightarrow V_\text{int} = E_\text{int}W_0
+				\]
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{keyinsight}
+		Potential barrier is proportional to the built-in electric field.
+	\end{keyinsight}
+\end{frame}
+%
+%
+\begin{frame}[label=pre-M2T1-slot2]
+	\begin{huge}
+		\begin{center}
+			*pn junction at non-zero bias*
+		\end{center}
+	\end{huge}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{pn junction -- at non-zero bias}
+	%
+	\begin{itemize}
+		\item At non-zero voltage bias, there is \textbf{an application of external force} on the charge carriers. As a result, the pn junction cannot attain thermal equilibrium.
+		\item Since there is no thermal equilibrium, the Fermi energy is not a constant across the pn junction.
+		\item Since the direction of built-in electric field is from n-region to p-region, the behaviour of p-n junction is different when the external field \(E_\text{ext}\) is parallel or anti-parallel to the built-in electric field \(E_\text{int}\).
+		\begin{enumerate}
+			\item \(E_\text{ext} \uparrow \downarrow E_\text{int}\) corresponds to forward biasing.
+			\item \(E_\text{ext} \uparrow \uparrow E_\text{int}\) corresponds to reverse biasing.
+		\end{enumerate}
+		% 
+	\end{itemize}
+	%
+	\begin{keyinsight}
+		At non zero bias, the Fermi energy is not a constant across the pn junction.
+	\end{keyinsight}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{pn junction -- at forward bias}
+	%
+	\vspace{-1em}
+	%	
+	\begin{columns}
+		\begin{column}[t]{0.34\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.9\textwidth]{oe_pn_junction_net_electric_field_forward_bias}
+			\end{figure}
+		%
+		\begin{table}
+			\begin{tabular}{l}
+				\toprule
+					Forward 	\\
+				\midrule
+				\(V_F>	0\) 	\\
+				\(E^F < E_\text{int}\)		\\
+				\(W_F < W_0\)		\\
+				\(V_\text{F}	< V_\text{int}\) 	\\
+				\(E_\text{Fn} - E_\text{Fp} > 0\)		\\
+				\(I_F > 0\) 	 \\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+		%
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}[t]{0.64\textwidth}
+			%
+			\begin{definition}
+				\textbf{Forward bias} condition is considered when the positive electrode of battery with potential \(V_F\) is connected to p-region and negative electrode is connected to n-region.
+			\end{definition}
+			%
+			\begin{itemize}
+				\item The external bias \(V_\text{ext}=V_F\) is from p-region to n-region.
+				\item The external field \(E_\text{ext}\) is from p-region to n-region. The internal field \(E_\text{int}\) is \textbf{anti-parallel} to  \(E_\text{ext}\). The net electric field \(E^F\) is lower than the case of zero bias.
+				\item So less space charge is created in depletion region. So we have smaller space charge width \(W_F\).
+
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+\end{frame}
+%
+\begin{frame}{pn junction -- at forward bias}
+	%
+	\begin{columns}
+		\begin{column}{0.34\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.9\textwidth]{oe_pn_junction_fermi_energy_level_net_potential_barrier_forward_bias}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.64\textwidth}
+			%
+			\begin{itemize}
+				\item Since potential is proportional to electric field, potential barrier \(V_F\) is lowered.
+				\item From the band diagram, Fermi energy of n-region \(E_\text{Fn}\) is higher than Fermi energy of p-region \(E_\text{Fp}\).
+				\item So electrons will move from n region to p-region. This leads to current from p-region to n-region. This is called forward bias current \(I_F\).
+				\item Since electrons are present in n-region this leads to \textbf{good conduction} of pn-junction.
+			\end{itemize}
+			%
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+%
+\begin{frame}[label=pre-M2T1-slot2]{pn junction -- at reverse bias}
+	%
+	\vspace{-1em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.34\textwidth}
+				\begin{figure}
+			\includegraphics[width=0.9\textwidth]{oe_pn_junction_net_electric_field_reverse_bias}
+		\end{figure}
+		%
+		\begin{table}
+			\begin{tabular}{l}
+				\toprule
+				Reverse	\\
+				\midrule
+				\(V_R <	0\) 	\\
+				\(E^\text{R} > E_\text{int}\)	\\
+				\(V_\text{R}	> V_\text{int}\) \\
+				\(E_\text{Fn} - E_\text{Fp} < 0\)		\\
+				\(W_R > W_0\)	\\
+				\(I_R <0\) 	\\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+		%
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}[t]{0.64\textwidth}
+			%
+			\begin{definition}
+				\textbf{Reverse bias} condition is considered when the positive electrode of battery is connected to n-region and negative electrode is connected to p-region.
+			\end{definition}
+			%
+			\begin{itemize}
+				\item The external bias \(V_\text{ext}=V_R\) is from n-region to p-region.
+				\item The external field is from n-region to p-region. Under reverse bias condition, the internal field is \textbf{parallel} to the external field. The net electric field \(E^R\) is higher than the case of zero bias.
+				\item So more space charge is created in depletion region. So we have larger space charge width \(W_R\).
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}{pn junction -- at reverse bias}
+	%
+	\begin{columns}
+		\begin{column}{0.34\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_pn_junction_fermi_energy_level_net_potential_barrier_reverse_bias}
+			\end{figure}
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}{0.64\textwidth}
+			%
+			\begin{itemize}
+				\item Since potential is proportional to electric field, potential barrier \(V_R\) is raised.
+				\item From the band diagram, Fermi energy of n-region \(E_\text{Fn}\) is lower than Fermi energy of p-region \(E_\text{Fp}\).
+				\item So electrons want to move from p region to n-region. But only minority carriers are there in p region. 
+				\item Since very few electrons are present in n-region this leads to \textbf{poor conduction} of pn-junction and the current is called reverse bias current \(I_R\).
+				%
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Comparison of depletion region widths at different biases}
+	%
+	\begin{figure}
+		\includegraphics[width=\textwidth]{oe_pn_junction_depletion_region_width_at_reverse_zero_forward}
+	\end{figure}
+	%
+	\begin{table}
+		\begin{tabular}{l}
+			\(W_R > W_0 > W_F\)
+		\end{tabular}
+	\end{table}
+\end{frame}
+%
+\begin{frame}{Comparison of potential barrier at different biases}
+	%
+	\begin{figure}
+		\includegraphics[width=\textwidth]{oe_pn_junction_fermi_energy_level_at_reverse_zero_forward}
+	\end{figure}
+	%
+	\begin{table}
+		\begin{tabular}{l}
+			\(V_R > V_\text{int} > V_F\)
+		\end{tabular}
+	\end{table}
+\end{frame}
+%
+\begin{frame}{Concept of simplified energy band diagram}
+	%
+	\begin{figure}
+		\includegraphics[width=\textwidth]{oe_pn_junction_fermi_energy_level_at_reverse_zero_forward_simplified}
+	\end{figure}
+	%
+	\vspace{-1em}
+	%
+	\begin{itemize}
+		\item Energy band diagram has many features. It is sometimes useful to represent the most essential things of the energy band diagram.
+		\item We have used the potential energy barrier to understand motion of charge carriers. However, Fermi level can also be used for the analysis.
+		\item The band diagram that contains only the variation of Fermi level along with charge carriers is called simplified band diagram.
+		\item The electrons can be imagined to occupy the Fermi level on the top side and holes can be imagined to occupy the Fermi level on the bottom side.
+		\item The \textbf{electrons want to reach lower levels} of Fermi energy whereas holes \textbf{want to reach higher levels} of Fermi energy.
+	\end{itemize}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Large forward current vs tiny reverse current}
+	\begin{itemize}
+		\item Under biasing conditions, the electrodes of the battery change the Fermi levels of the p and n regions.
+		\item Since the negative electrode supplies electrons, it raises the Fermi level of the connected region. Similarly, positive electrode lowers the Fermi level.
+		\item Under forward biasing, the energy of electrons at n-region is raised. The flow of electrons to lower energy p-region is possible. Similarly, the energy of holes at p-region is lowered. The flow of holes to higher energy n-region is possible. This leads to \textbf{large forward current}.
+		\item Under reverse biasing, the energy of electrons at n-region is lowered. The flow of electrons to higher energy p-region is difficult. Similarly, the energy of holes at p-region is raised. The flow of holes to lower energy p-region is difficult.
+		\item However, the reverse bias is favourable for minority electrons in p region and minority holes in n-region. Since the number of these carriers is very few, we see a \textbf{tiny reverse current}.
+	\end{itemize}
+\end{frame}
+\begin{frame}[label=pre-M2T1-slot2]{pn junction -- \(I-V\) characteristics}
+	%
+	\vspace{-1em}
+\begin{columns}
+	\begin{column}[t]{0.24\textwidth}
+		\begin{figure}
+			\includegraphics[width=1\textwidth]{oe_pn_junction_I_V_characteristics}
+		\end{figure}
+	%
+	\end{column}
+	%
+	\begin{column}[t]{0.74\textwidth}
+		%
+		\begin{definition}
+			\textbf{Rectifying action} of pn junction is its property to allow \textbf{uni-directional} conduction.
+		\end{definition}
+		\begin{itemize}
+			\item The diode equation can be shown to be
+			\[
+			I = I_s \left[ \exp\left(\frac{eV}{k_BT}\right) - 1\right]
+			\]
+			where \(I_s\) is the reverse saturation current.
+			\item The equation and the \(I-V\) capture the non-linear nature of p-n junction.
+			\item In the forward bias condition, it acts as a ``closed switch'' allowing large current to flow through it.
+		\end{itemize}
+	\end{column}
+\end{columns}
+%
+\begin{itemize}
+	\item In the reverse bias condition, it acts as an ``open switch'' allowing insignificantly low current to flow through it.
+	\item This unidirectional conduction is called rectifying action.
+\end{itemize}
+\end{frame}
+%
+\begin{frame}{pn junction -- Reverse Saturation Current}
+	%
+	\begin{definition}
+		The drift current due to minority carriers is known as \textbf{reverse saturation current}.
+	\end{definition}
+	%
+	\begin{itemize}
+		\item As the reverse bias increases in magnitude, the reverse bias current saturates to a constant and is given by
+\begin{align*}
+		&\phantom{=}	\lim_{V\rightarrow -\infty} I_s \left[ \exp\left(\frac{eV}{k_BT}\right) - 1\right]\\
+		&= I_s\left[\exp\left(-\infty\right) - 1\right]	\\
+		&= I_s(0 - 1)\\
+		&= -I_s
+\end{align*}
+\item This saturation current in the reverse bias direction is called reverse saturation current.
+\item Since the minority carrier concentration does not depend on the bias and only depends on the temperature, it is a constant at a given temperature.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Electrical power}
+	\begin{definition}
+		Power is defined as the rate change of work done per unit time.
+	\end{definition}
+	%
+	\vspace{-1em}
+\begin{columns}
+	\begin{column}[t]{0.4\textwidth}
+		\begin{itemize}
+			\item The mechanical power \(P_\text{mech}\) is given by
+			\begin{align*}
+				P_\text{mech} &= \frac{\mathrm{d}W}{\mathrm{d}t} = \frac{\mathrm{d}F s}{\mathrm{d}t}, \\
+				&= F \frac{\mathrm{d}s}{\mathrm{d}t}= 	Fv.
+			\end{align*}
+			Here \(F\) is the force applied along displacement \(s\) to do work \(W=Fs\) on a particle moving with velocity \(v\).
+		\end{itemize}
+	\end{column}
+	%
+	\begin{column}[t]{0.58\textwidth}
+		\begin{itemize}
+			\item The electrical power consumed along a resistor \(P_\text{elec}\) for one electron is given by
+			\( 
+			P_\text{elec} = Fv = -eE v_d 
+			\)
+			where \(v_d\) is the drift velocity.
+			\item The power consumed within a length \(L\) and area \(A\) of resistor with electron concentration \(n\) is
+			\(
+			P_\text{elec} = -nLA e E v_d = -V jA = -VI
+			\)
+			where \(V=El\) is the potential drop across the resistor an \(I=jA\) is current across the resistor. Here we have used definition of current density \(j=nev_d\).
+		\end{itemize}
+	\end{column}
+\end{columns}
+\end{frame}
+%
+\begin{frame}{pn junction -- Power characteristics}
+	%
+	\begin{definition}
+		The sign convention employed for power consumption is if the current direction is along the voltage drop, then power is consumed and if the current direction is opposite the voltage drop, then power is generated.
+	\end{definition}
+	%
+	\vspace{-1em}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.3\textwidth}
+			\begin{table}
+				\begin{tabular}{llll}
+					\toprule
+					&	R	&	B	&	pn	\\
+					\midrule
+					\(V_F\)	&	\(>0\)	& \(>0\)	&	\(>0\)	\\
+					\(I_F\)	&	\(>0\)	& \(<0\)	&	\(\gg0\)	\\
+					\(P_F\)	&	\(>0\)	& \(<0\)	&	\(\gg0\)	\\
+					\(V_R\)	&	\(<0\)	& N.A.	&	\(<0\)	\\
+					\(I_R\)	&	\(<0\)	& N.A.	&	\(<0\)	\\
+					\(P_R\)	&	\(>0\)	& N.A.	&	\(>0\)	\\
+					\bottomrule
+				\end{tabular}
+			\end{table}
+		\end{column}
+		%
+		\begin{column}[t]{0.68\textwidth}
+				\begin{itemize}
+				\item For the resistor, the current is always along the voltage drop, even if the voltage drop is reversed. Therefore, the power is consumed in both biases.
+				\item For the battery, the current is opposite to the voltage drop, Therefore, power is generated in a battery.
+				\item For the pn junction, the current is along the voltage drop in both cases. Therefore, the power is consumed in both biases. However, the magnitudes are different unlike resistor.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+\end{frame}
+\begin{frame}[label=pre-M2T1-slot2]{Conceptual Questions}
+	\begin{problem}
+		What causes majority carriers to flow at the moment when p-region and n-region are brought together? Why does this flow not continue until all carriers have recombined? \hfill [Hint for second part: Convince yourself that the built-in electric field opposes the diffusion ``forces'' for both the electrons and holes.]
+	\end{problem}
+	%
+	\begin{center}
+		{\huge Tough problems}
+	\end{center}
+	%
+	\begin{problem}
+		Prove that the analysis of pn junction using potential energy barrier maps with the analysis using Fermi energy level. In other words, prove that \(E_\text{Fn} - E_\text{Fp} = e V_\text{ext}\).
+	\end{problem}
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Test Your Understanding}
+	%
+	\begin{enumerate}
+		\item What causes majority carriers to flow at the moment when p-region and n-region are brought together? Why does this flow not continue until all carriers have recombined? \hfill [Hint for second part: Convince yourself that the built-in electric field opposes the diffusion ``forces'' for both the electrons and holes.]
+		\item Explain the formation of \textbf{potential barrier} across the pn junction region.
+		\item Explain the formation of \textbf{depletion region} in the pn junction region. What is the typical value of depletion region width for commonly used pn junctions?
+		\item Draw band diagrams for symmetrically doped pn junction at
+		\begin{itemize}
+			\item zero bias
+			\item forward bias
+			\item reverse bias
+		\end{itemize}
+		%
+		\item What is reverse saturation current in a diode?
+		\item Why is reverse saturation current independent of reverse bias?
+		\item What is reverse breakdown?
+	\end{enumerate}
+	%
+\end{frame}
+%
+\begin{frame}[label=pre-M2T1-slot2]{Technical terms}
+	%
+	\begin{itemize}
+		\item metallurgical junction
+		\item diffusion
+		\item built-in electric field
+		\item thermal equilibrium
+		\item built-in potential barrier
+		\item depletion region
+		\item space charge region
+		\item space charge width
+		\item reverse saturation current
+		\item reverse breakdown
+	\end{itemize}
+	%
+\end{frame}
+%

@@ -1,0 +1,157 @@
+%
+\againframe{plan}
+%
+\begin{frame}{Light Emitting Diode}
+	%
+	\begin{definition}
+		Light Emitting Diode (LED) is the opto-electronic device based on radiative recombination of charge carriers.
+	\end{definition}
+	%
+	\begin{itemize}
+		\item LED is based on pn junction diode under forward bias.
+		\item Under forward bias, the electrons and holes crossing the depletion region undergo radiative recombination leading to generation of light.
+		\item From the perspective of electroluminescence, it is useful to use a semiconductor with a direct band gap semiconductor.
+	\end{itemize}
+	%
+\end{frame}
+%
+
+\begin{frame}{Elemental semiconductors -- \ce{Si}}
+	%
+	\begin{columns}
+		\begin{column}{0.35\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_led_si_bandstructure}
+			\end{figure}
+			%
+		\end{column}
+		%
+		\begin{column}{0.63\textwidth}
+			\begin{itemize}
+				\item \ce{Si} is an elemental semiconductor.
+				\item It is an indirect band gap semiconductor.
+				\item The valence band maximum and the conduction band minimum occur at different values of wavevector.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+\end{frame}
+%
+\begin{frame}{Binary semiconductors -- \ce{GaAs}}
+	%
+	\begin{columns}
+		\begin{column}{0.35\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_led_gaas_bandstructure}
+			\end{figure}
+			%
+		\end{column}
+		%
+		\begin{column}{0.63\textwidth}
+			\begin{itemize}
+				\item \ce{GaAs} is a binary semiconductor.
+				\item It is a direct band gap semiconductor.
+				\item The valence band maximum and the conduction band minimum occur at same value of wavevector \(k=0\).
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+\end{frame}
+%
+\begin{frame}{Ternary semiconductors -- \ce{Al_xGa_{1-x}As}}
+	%
+	\begin{columns}
+		\begin{column}{0.35\textwidth}
+					\begin{figure}
+				\includegraphics[width=\textwidth]{oe_led_gaalas_bandgap}
+			\end{figure}
+			%
+		\end{column}
+		%
+		\begin{column}{0.63\textwidth}
+			\begin{itemize}
+				\item \ce{Al_xGa_{1-x}As} is a ternary semiconductor.
+				\item It can be considered as a binary alloy of \ce{GaAs} and \ce{AlAs}. If the mole fraction of \ce{AlAs} is considered as \(x\) and mole fraction of \ce{GaAs} as \(1-x\), then the chemical formula is \ce{Al_xGa_{1-x}As}. Therefore \(x=0\) corresponds to pure \ce{GaAs} whereas \(x=1\) corresponds to pure \ce{AlAs}.
+				\item From \(x=0\) to \(x=0.45\), the alloy is a direct band gap material. From \(x=0.45\) to \(x=1\), the alloy is an indirect band gap material.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item In the energy band gap vs mole fraction, there is a cross over from direct band gap to indirect band gap at \(x=0.45\).
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Ternary semiconductors -- \ce{GaAs_{1-x}P_x}}
+	%
+	\begin{columns}
+		\begin{column}[t]{0.6\textwidth}
+			\begin{figure}
+			\includegraphics[width=0.48\textwidth]{oe_led_gaasp_bandgap}
+			%
+			\includegraphics[width=0.48\textwidth]{oe_led_gaasp_bandstructure}
+		\end{figure}
+			%
+		\end{column}
+		%
+		\begin{column}[t]{0.38\textwidth}
+			\begin{itemize}
+			\item \ce{GaAs_{1-x}P_x} is a ternary semiconductor with mole fraction \(x\) of  \ce{GaAs} and mole fraction \(1-x\) of \ce{GaP}.
+			\item From \(x=0\) to \(x=0.45\), the alloy is a direct band gap material. From \(x=0.45\) to \(x=1\), the alloy is an indirect band gap material.
+		\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item In the bandstructure, the conduction band shifts from \(k=0\) to \(k=k_\text{max}\) as the mole fraction of \ce{GaP} crosses \(x=0.45\).
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{Summary of opto-electronic devices}
+%
+\begin{itemize}
+	\item From the perspective of bias
+	\begin{table}
+		\begin{tabular}{lll}
+			\toprule
+			Reverse bias &	Zero bias	&	Forward bias	\\
+			\midrule
+			Photo-diode	&	Solar cell	&	LED	\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	\item From the perspective of depletion region width
+	\begin{table}
+		\begin{tabular}{lll}
+			\toprule
+			Larger width &	Nominal width	&	Smaller width	\\
+			\midrule
+			Low current	&	Nominal current	&	Large current	\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	%
+	\item From the perspective of power consumption
+	\begin{table}
+		\begin{tabular}{lll}
+			\toprule
+			Low Power &	Nominal Power	&	High Power	\\
+			\midrule
+			Consumption	&	Generation	&	Consumption	\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	%
+	\item From the perspective of capacitance
+	\begin{table}
+		\begin{tabular}{lll}
+			\toprule
+			Low Capacitance 	&	Nominal Capacitance	&	High Capacitance	\\
+			\midrule
+			High frequency	&	--	&	--	\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+\end{itemize}
+%
+\end{frame}
