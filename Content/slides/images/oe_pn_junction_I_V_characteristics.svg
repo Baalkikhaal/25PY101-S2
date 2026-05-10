@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="38.339478mm"
+   height="76.666458mm"
+   viewBox="0 0 38.339478 76.666458"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="oe_ebd_pn_junction_I_V_characteristics.svg"
+   inkscape:export-filename="oe_ebd_pn_junction_I_V_characteristics.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2"
+     inkscape:cx="60.75"
+     inkscape:cy="146.25"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Stop"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path23" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3-2"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-4.5381489,-49.280427)">
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.529167;stroke-dasharray:none"
+       d="m 20.327614,110.34792 c 1.215524,-0.13863 3.492721,-0.98386 4.584221,-1.90716 1.0915,-0.9234 2.183,-2.2782 3.2745,-5.0832 1.0915,-2.8049 2.183,-6.920397 3.2745,-15.441101"
+       title="exp(x) - 1"
+       id="path1-4"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.529167;stroke-dasharray:none"
+       d="m 6.9182323,117.49949 c 1.09151,-0.0326 2.18302,-0.0787 3.2745497,-0.17628 1.0915,-0.0976 2.183,-0.23867 3.2745,-0.53159 1.0915,-0.29563 2.183,-0.72687 3.2746,-1.61919 1.0915,-0.89502 2.183,-2.20501 3.2745,-4.91993"
+       title="exp(x) - 1"
+       id="path1-4-2"
+       sodipodi:nodetypes="csccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+       x="32.553429"
+       y="78.015976"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#000000;stroke:none;stroke-width:0.264583"
+         x="32.553429"
+         y="78.015976">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+       x="-61.903934"
+       y="18.544518"
+       id="text2"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.264583"
+         x="-61.903934"
+         y="18.544518">I(mA)</tspan></text>
+    <path
+       style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;fill:#000000;stroke:#000000;stroke-width:0.529167;stroke-dasharray:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="m 20.373047,39.224609 v 26.523438 h 0.263672 V 39.224609 Z"
+       id="path2-5"
+       transform="rotate(90,10.880992,63.665362)" />
+    <path
+       style="baseline-shift:baseline;display:inline;overflow:visible;fill:#000000;stroke:#000000;stroke-width:0.529167;stroke-dasharray:none;enable-background:accumulate;stop-color:#000000"
+       d="M 19.84388,83.481113 V 125.6823 h 0.263672 V 83.481113 Z"
+       id="path2-6" />
+    <path
+       style="baseline-shift:baseline;display:inline;overflow:visible;fill:#000000;stroke:#000000;stroke-width:0.529167;stroke-dasharray:none;enable-background:accumulate;stop-color:#000000"
+       d="m 19.84388,49.879027 v 30.903865 h 0.13138 V 49.879027 Z"
+       id="path2-6-3" />
+    <path
+       style="baseline-shift:baseline;display:inline;overflow:visible;fill:none;stroke:#000000;stroke-width:0.529167;stroke-dasharray:none;enable-background:accumulate;stop-color:#000000"
+       d="M 35.321745,110.19909 H 8.7983073 v 0.26367 H 35.321745 Z"
+       id="path2-5-6" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:1.05833;stroke-dasharray:none"
+       x="28.760359"
+       y="114.09009"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="fill:#000000;stroke:none;stroke-width:1.05833"
+         x="28.760359"
+         y="114.09009">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan5">ext</tspan>(V)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:1.05833;stroke-dasharray:none"
+       x="-96.017639"
+       y="18.626307"
+       id="text4"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:1.05833"
+         x="-96.017639"
+         y="18.626307">I(mA)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:1.05833;stroke-dasharray:none"
+       x="114.4483"
+       y="-21.536446"
+       id="text4-3"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2"
+         style="stroke-width:1.05833"
+         x="114.4483"
+         y="-21.536446">I(μA)</tspan></text>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.285246;stroke-dasharray:none;marker-start:url(#marker6);marker-end:url(#Stop)"
+       d="m 49.885088,80.402607 c 0,-2.494515 0,-4.989031 0,-7.483546"
+       id="path5"
+       inkscape:path-effect="#path-effect5"
+       inkscape:original-d="m 49.885088,80.402607 c 0,-2.494515 0,-4.989031 0,-7.483546"
+       transform="matrix(0.92756109,0,0,0.92756109,-38.672942,42.68844)" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+       x="4.2776999"
+       y="114.17023"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="fill:#000000;stroke:none;stroke-width:0.264583"
+         x="4.2776999"
+         y="114.17023">I<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan7">s</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.529167;stroke-dasharray:none"
+       d="m 5.2645854,73.89039 c 1.09151,-0.0012 2.18302,-0.0029 3.27455,-0.0065 1.0915,-0.0036 2.1829996,-0.0088 3.2744996,-0.0196 1.0915,-0.0109 2.183,-0.0268 3.2746,-0.0597 1.0915,-0.033 2.183,-0.0813 3.2745,-0.1814 1.0915,-0.1 2.183,-0.2468 3.2745,-0.5508 1.0915,-0.304 2.1831,-0.75 3.2746,-1.6733 1.0915,-0.9234 2.183,-2.2782 3.2745,-5.0832 1.0915,-2.8049 2.183,-6.9204 3.2745,-15.4411"
+       title="exp(x) - 1"
+       id="path1"
+       sodipodi:nodetypes="cscccsccc" />
+  </g>
+</svg>

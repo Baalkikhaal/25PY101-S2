@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="60mm"
+   height="40mm"
+   viewBox="0 0 60 40"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="oe_pn_junction_power_characteristics.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.4743579"
+     inkscape:cx="132.76172"
+     inkscape:cy="90.73061"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="Triangle-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-2" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="use25588"
+       transform="matrix(0,-1.8838754,1.8838754,0,82.257869,176.43196)"
+       style="stroke-width:0.530819">
+      <title
+         id="title1">Resistor_US</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 85.989582,-30.427067 v -2.116666"
+         id="path1"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 84.666666,-33.0729 1.322916,0.529167"
+         id="path2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 85.989582,-38.893733 1.322916,0.529167"
+         id="path3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 84.666666,-35.189567 2.645833,1.058334"
+         id="path4"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 87.312499,-34.131234 84.666666,-33.0729"
+         id="path5"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 84.666666,-37.306233 2.645833,1.058334"
+         id="path6"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 87.312499,-36.2479 -2.645833,1.058334"
+         id="path7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 87.312499,-38.364566 -2.645833,1.058334"
+         id="path8"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 85.989582,-38.893733 V -41.0104"
+         id="path9"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title9">Resistor_US</title>
+    </g>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.529;stroke-dasharray:none;marker-end:url(#Triangle)"
+       d="M 9.3001527,20.414969 H 19.658859"
+       id="path10" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.58611px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.529;stroke-dasharray:none"
+       x="2.9488289"
+       y="12.702647"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="font-size:4.58611px;fill:#000000;stroke:none;stroke-width:0.529"
+         x="2.9488289"
+         y="12.702647">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan11">a</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.58611px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.529;stroke-dasharray:none"
+       x="24.115496"
+       y="12.702647"
+       id="text10-5"><tspan
+         sodipodi:role="line"
+         id="tspan10-1"
+         style="font-size:4.58611px;fill:#000000;stroke:none;stroke-width:0.529"
+         x="24.115496"
+         y="12.702647">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan11-7">b</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.58611px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.529;stroke-dasharray:none"
+       x="33.640495"
+       y="12.702647"
+       id="text10-86"><tspan
+         sodipodi:role="line"
+         id="tspan10-5"
+         style="font-size:4.58611px;fill:#000000;stroke:none;stroke-width:0.529"
+         x="33.640495"
+         y="12.702647">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan11-0">a</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.58611px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.529;stroke-dasharray:none"
+       x="54.807167"
+       y="12.702647"
+       id="text10-5-2"><tspan
+         sodipodi:role="line"
+         id="tspan10-1-8"
+         style="font-size:4.58611px;fill:#000000;stroke:none;stroke-width:0.529"
+         x="54.807167"
+         y="12.702647">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan11-7-6">b</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.5861px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.529;stroke-dasharray:none"
+       x="13.60998"
+       y="24.724796"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="stroke-width:0.529"
+         x="13.60998"
+         y="24.724796">I<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan13">F</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.5861px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.529;stroke-dasharray:none"
+       x="5.292769"
+       y="6.4269357"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="stroke-width:0.529"
+         x="5.292769"
+         y="6.4269357">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan17">F</tspan>=V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan16">a</tspan>-V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan15">b</tspan></tspan></text>
+    <g
+       id="use25588-1"
+       transform="matrix(0,-1.8838754,1.8838754,0,82.257869,202.89031)"
+       style="stroke-width:0.530819">
+      <title
+         id="title1-4">Resistor_US</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 85.989582,-30.427067 v -2.116666"
+         id="path1-2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 84.666666,-33.0729 1.322916,0.529167"
+         id="path2-3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 85.989582,-38.893733 1.322916,0.529167"
+         id="path3-2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 84.666666,-35.189567 2.645833,1.058334"
+         id="path4-2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 87.312499,-34.131234 84.666666,-33.0729"
+         id="path5-1"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 84.666666,-37.306233 2.645833,1.058334"
+         id="path6-6"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 87.312499,-36.2479 -2.645833,1.058334"
+         id="path7-8"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 87.312499,-38.364566 -2.645833,1.058334"
+         id="path8-5"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140448px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 85.989582,-38.893733 V -41.0104"
+         id="path9-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title9-6">Resistor_US</title>
+    </g>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.529;stroke-dasharray:none;marker-end:url(#Triangle-5)"
+       d="M 21.537377,46.873304 H 11.178671"
+       id="path10-1" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.58611px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.529;stroke-dasharray:none"
+       x="2.9488289"
+       y="39.16098"
+       id="text10-8"><tspan
+         sodipodi:role="line"
+         id="tspan10-9"
+         style="font-size:4.58611px;fill:#000000;stroke:none;stroke-width:0.529"
+         x="2.9488289"
+         y="39.16098">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan11-2">a</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.58611px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.529;stroke-dasharray:none"
+       x="24.115496"
+       y="39.16098"
+       id="text10-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan10-1-9"
+         style="font-size:4.58611px;fill:#000000;stroke:none;stroke-width:0.529"
+         x="24.115496"
+         y="39.16098">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan11-7-5">b</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.5861px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.529;stroke-dasharray:none"
+       x="13.60998"
+       y="51.183132"
+       id="text12-4"><tspan
+         sodipodi:role="line"
+         id="tspan12-3"
+         style="stroke-width:0.529"
+         x="13.60998"
+         y="51.183132">I<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan13-1">R</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.5861px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.529;stroke-dasharray:none"
+       x="5.292769"
+       y="32.885269"
+       id="text14-2"><tspan
+         sodipodi:role="line"
+         id="tspan14-3"
+         style="stroke-width:0.529"
+         x="5.292769"
+         y="32.885269">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan17-3">R</tspan>=V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan16-4">b</tspan>-V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan15-1">a</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 47.181814,19.21521 V 7.7723106"
+       id="path18"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 44.89323,22.648087 V 4.3394389"
+       id="path19"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 57.480418,13.493743 H 47.181803"
+       id="path20"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264582px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 34.594589,13.493743 H 44.893212"
+       id="path21"
+       inkscape:connector-curvature="0" />
+    <g
+       id="use28"
+       transform="translate(27.516667,-55.033337)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path25"
+         d="m 30.427084,84.666698 v -3.96875"
+         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path26"
+         d="m 30.427084,91.281281 v -3.96875"
+         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path27"
+         d="m 29.104167,84.666698 h 2.645834"
+         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 30.427084,84.666695 1.322917,2.645833 h -2.645833 l 1.322916,-2.645833"
+         id="path28" />
+    </g>
+  </g>
+</svg>

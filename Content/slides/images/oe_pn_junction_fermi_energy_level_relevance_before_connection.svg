@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="60mm"
+   height="40mm"
+   viewBox="0 0 60 40"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="oe_fermi_energy_level_relevance_before_connection.svg"
+   inkscape:export-filename="oe_fermi_energy_level_relevance_before_connection.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.4743578"
+     inkscape:cx="256.02603"
+     inkscape:cy="53.953393"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1-4" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Stop"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path23" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="marker6-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path6-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Stop-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path23-3" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect5-6"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2"
+       transform="translate(-1.4514173,0.8137785)">
+      <path
+         id="rect1"
+         style="fill:none;stroke:#000000;stroke-width:0.529;stroke-dasharray:none"
+         d="M 27.219958,6.956212 V 31.151731 H 9.2245417 V 6.956212"
+         sodipodi:nodetypes="cccc" />
+      <rect
+         style="fill:#ff0000;stroke:none;stroke-width:0.529;stroke-dasharray:none;-inkscape-stroke:none"
+         id="rect2"
+         width="17.581179"
+         height="13.698399"
+         x="9.4316607"
+         y="17.247181" />
+    </g>
+    <g
+       id="g3"
+       transform="translate(-1.4514173,0.8137785)">
+      <path
+         id="rect1-4"
+         style="fill:none;stroke:#000000;stroke-width:0.529;stroke-dasharray:none"
+         d="M 53.678293,6.956212 V 31.151731 H 35.682876 V 6.956212"
+         sodipodi:nodetypes="cccc" />
+      <rect
+         style="fill:#ff0000;stroke:none;stroke-width:0.529;stroke-dasharray:none;-inkscape-stroke:none"
+         id="rect2-8"
+         width="17.581179"
+         height="4.7763014"
+         x="35.889992"
+         y="26.169279" />
+    </g>
+    <g
+       id="g1"
+       transform="translate(-0.52916667,0.64341883)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.47625;stroke-dasharray:none;marker-start:url(#marker6);marker-end:url(#Stop)"
+         d="m 4.2342159,32.059064 c 0,-4.637475 0,-9.274949 0,-13.912424"
+         id="path5"
+         inkscape:path-effect="#path-effect5"
+         inkscape:original-d="m 4.2342159,32.059064 c 0,-4.637475 0,-9.274949 0,-13.912424"
+         sodipodi:nodetypes="cc"
+         transform="translate(1.6263134,-0.71059833)" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.47625;stroke-dasharray:none"
+         x="2.7981737"
+         y="24.278837"
+         id="text6"><tspan
+           sodipodi:role="line"
+           id="tspan6"
+           style="fill:#000000;stroke:none;stroke-width:0.47625"
+           x="2.7981739"
+           y="24.278837">h<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan7">1</tspan></tspan></text>
+    </g>
+    <g
+       id="g1-4"
+       transform="translate(49.065013,0.64341883)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.38793;stroke-dasharray:none;marker-start:url(#marker6-0);marker-end:url(#Stop-6)"
+         d="m 4.2342159,32.059064 c 0,-4.637475 0,-9.274949 0,-13.912424"
+         id="path5-2"
+         inkscape:path-effect="#path-effect5-6"
+         inkscape:original-d="m 4.2342159,32.059064 c 0,-4.637475 0,-9.274949 0,-13.912424"
+         sodipodi:nodetypes="cc"
+         transform="matrix(0.34313788,0,0,0.34313788,4.4076095,20.504202)" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.47625;stroke-dasharray:none"
+         x="-19.222109"
+         y="2.8085639"
+         id="text8"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           style="stroke-width:0.47625"
+           x="-19.222109"
+           y="2.8085639">h<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan10">1</tspan> &gt; h<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan9">2</tspan></tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.47625"
+           x="-19.222109"
+           y="8.1002264"
+           id="tspan1">before connection</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.23333px;line-height:normal;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.47625;stroke-dasharray:none"
+         x="8.6190062"
+         y="30.628843"
+         id="text6-0"><tspan
+           sodipodi:role="line"
+           id="tspan6-9"
+           style="fill:#000000;stroke:none;stroke-width:0.47625"
+           x="8.6190062"
+           y="30.628843">h<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan7-7">2</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="60mm"
+   height="40mm"
+   viewBox="0 0 60 40"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="qm_matter_wave.svg"
+   inkscape:export-filename="qm_matter_wave.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2"
+     inkscape:cx="68.25"
+     inkscape:cy="81.25"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Arrow5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow5"
+       markerWidth="5.8874264"
+       markerHeight="6.6094756"
+       viewBox="0 0 5.8874262 6.6094758"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m 6,0 c -3,1 -7,3 -9,5 0,0 0,-4 2,-5 -2,-1 -2,-5 -2,-5 2,2 6,4 9,5 z"
+         id="path8893" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1"
+       transform="matrix(1.8392068,0,0,1.8325991,-23.416911,-16.651983)"
+       style="stroke-width:0.544693">
+      <circle
+         style="fill:#000000;stroke:none;stroke-width:0.576286;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path1"
+         cx="30"
+         cy="20"
+         r="6.3142424" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:0.576469;marker-end:url(#Arrow5);stop-color:#000000"
+         d="m 12.762943,20.000948 c 0.6727,-0.0775 1.345499,-0.279805 2.018201,-0.373101 0.672699,-0.0932 1.345399,0.0277 2.018098,0.5562 0.672702,0.5285 1.345504,1.466997 2.0182,1.5222 0.672702,0.0553 1.345401,-1.163999 2.018099,-2.9935 0.672702,-1.829399 1.345501,-3.76872 2.018201,-2.914168 0.672701,0.854569 1.345401,4.80837 2.018099,7.993069 0.672702,3.184699 1.345501,4.378898 2.018201,1.734401 0.6727,-2.6446 1.345401,-8.399802 2.0181,-11.050151 0.6727,-2.65039 1.345503,-1.447907 2.018201,1.734389 0.672699,3.182261 1.345399,7.133561 2.018099,7.993062 0.6727,0.859498 1.345501,-1.084301 2.018199,-2.914201 0.672702,-1.8299 1.345401,-3.0469 2.018102,-2.9935 0.6727,0.0534 1.345499,0.993099 2.018197,1.5222 0.672701,0.5291 1.345402,0.649101 2.018102,0.5562 0.6727,-0.0929 1.345499,-0.295603 2.018201,-0.3731"
+         title="sin(2*pi*x)*exp(-1*x**2)"
+         id="path685" />
+    </g>
+  </g>
+</svg>

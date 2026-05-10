@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="60mm"
+   height="40mm"
+   viewBox="0 0 60 40"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="qm_schrodinger_equation_energy_barrier_classical_particle_1.svg"
+   inkscape:export-filename="qm_schrodinger_equation_energy_barrier_classical_particle_1.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.7496352"
+     inkscape:cx="109.16561"
+     inkscape:cy="83.160191"
+     inkscape:window-width="1304"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowTriangleStylized"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Stylized triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m 6,0 c -3,1 -7,3 -9,5 0,0 0,-4 2,-5 -2,-1 -2,-5 -2,-5 2,2 6,4 9,5 z"
+         id="path4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowTriangleStylized-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Stylized triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m 6,0 c -3,1 -7,3 -9,5 0,0 0,-4 2,-5 -2,-1 -2,-5 -2,-5 2,2 6,4 9,5 z"
+         id="path4-8" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.793999;stroke-linejoin:round;stroke-dasharray:0.793999, 0.793999;stroke-dashoffset:0"
+       d="m 7.0573865,13.366262 24.8911515,0"
+       id="path7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.793996;stroke-linejoin:round;stroke-dasharray:0.793996, 0.793996;stroke-dashoffset:0"
+       d="M 19.532867,7.7721513 H 50.472899"
+       id="path7-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linejoin:round;-inkscape-stroke:none"
+       d="m 9.96826,7.2637 c 1.86134,1.36513 3.72274,10.592 5.58414,18.0185 1.8614,7.4265 3.7227,11.0604 5.5841,7.116 1.8614,-3.9443 3.7228,-14.4332 5.5841,-20.4898 1.8614,-6.05666 3.7228,-6.0478 5.5842,0 1.8613,6.0477 3.7227,16.5336 5.5841,20.4898 1.8614,3.9563 3.7227,0.3058 5.5841,-7.116 1.8614,-7.4218 3.7228,-16.63979 5.5842,-18.0185"
+       title="cos(5*pi*x)"
+       id="path1"
+       sodipodi:nodetypes="csccccsc" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.79375;stroke-linejoin:round;-inkscape-stroke:none"
+       id="path2"
+       cx="14.702888"
+       cy="13.312798"
+       r="1.6574165" />
+    <circle
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:0.79375;stroke-linejoin:round;-inkscape-stroke:none"
+       id="path2-3"
+       cx="9.9403915"
+       cy="4.8461304"
+       r="1.6574165" />
+    <circle
+       style="fill:none;stroke:#0000ff;stroke-width:0.79375;stroke-linejoin:round;-inkscape-stroke:none"
+       id="path2-3-4"
+       cx="29.519556"
+       cy="4.8461304"
+       r="1.6574165" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.79375;stroke-linejoin:round;-inkscape-stroke:none"
+       id="path2-2"
+       cx="23.698725"
+       cy="13.312798"
+       r="1.6574165" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.794;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#ArrowTriangleStylized)"
+       d="m 15.077144,15.397934 1.846978,6.893015"
+       id="path3" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.794;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#ArrowTriangleStylized-3)"
+       d="m 11.278969,4.9646505 7.136175,10e-8"
+       id="path3-2" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.683475;stroke-linejoin:round;stroke-dasharray:none;marker-start:url(#marker6);marker-end:url(#Triangle)"
+       d="m 24.498209,29.943173 h 9.280485"
+       id="path5" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793999;stroke-linejoin:round;stroke-dasharray:none"
+       x="13.242359"
+       y="39.499771"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="fill:#000000;stroke:none;stroke-width:0.794"
+         x="13.242359"
+         y="39.499771">barrier</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.793999;stroke-linejoin:round;stroke-dasharray:0.793999, 0.793999;stroke-dashoffset:0"
+       x="2.7403421"
+       y="14.785446"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-size:4.23333px;fill:#000000;stroke:none;stroke-width:0.794"
+         x="2.7403421"
+         y="14.785446">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.793999;stroke-linejoin:round;stroke-dasharray:0.793999, 0.793999;stroke-dashoffset:0"
+       x="51.415478"
+       y="9.5269852"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-size:4.23333px;fill:#000000;stroke:none;stroke-width:0.794"
+         x="51.415478"
+         y="9.5269852">V<tspan
+   style="font-size:4.23333px;baseline-shift:sub;fill:#000000;stroke:none"
+   id="tspan9">0</tspan></tspan></text>
+  </g>
+</svg>

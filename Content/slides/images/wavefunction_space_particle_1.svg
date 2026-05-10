@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="71.354248mm"
+   height="44.778851mm"
+   viewBox="0 0 71.354248 44.778851"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="wavefunction_space_particle_1.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="wavefunction_space_particle_1.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.4682109"
+     inkscape:cx="124.38159"
+     inkscape:cy="109.79613"
+     inkscape:window-width="1470"
+     inkscape:window-height="795"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow5"
+       markerWidth="5.8874264"
+       markerHeight="6.6094756"
+       viewBox="0 0 5.8874262 6.6094758"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m 6,0 c -3,1 -7,3 -9,5 0,0 0,-4 2,-5 -2,-1 -2,-5 -2,-5 2,2 6,4 9,5 z"
+         id="path8893" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(4.5794701,7.950123)">
+    <g
+       id="g3921"
+       transform="translate(0,-7.0047522)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.79375;stop-color:#000000"
+         d="M 5.80324,21.443 C 6.91435,13.0654 8.02546,5.65647 9.13657,6.52519 10.2477,7.3939 11.3588,16.3657 12.4699,24.5617 c 1.1111,8.196 2.2222,13.7293 3.3333,11.1472 1.1112,-2.5822 2.2223,-12.7108 3.3334,-20.3669 1.1111,-7.65619 2.2222,-11.07208 3.3333,-6.88937 1.1111,4.18267 2.2222,15.02547 3.3333,21.80717 1.1112,6.7817 2.2223,7.9309 3.3334,2.3304 1.1111,-5.6005 2.2222,-16.6834 3.3333,-22.2944 1.1111,-5.61087 2.2222,-4.44304 3.3333,2.3304 1.1112,6.7735 2.2223,17.6123 3.3334,21.8072 1.1111,4.1949 2.2222,0.7611 3.3333,-6.8893 1.1111,-7.6505 2.2222,-17.77144 3.3333,-20.36693 1.1112,-2.59549 2.2223,2.95413 3.3334,11.14713 1.1111,8.1931 2.2222,17.1539 3.3333,18.0365 1.1111,0.8827 2.2222,-6.5402 3.3333,-14.9178"
+         title="sin(x)"
+         id="path372" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.529167, 1.5875;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow5)"
+         d="M 2.4481473,20.944217 H 64.629488"
+         id="path1243"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="53.693672"
+         y="18.027002"
+         id="text3005"><tspan
+           sodipodi:role="line"
+           id="tspan3003"
+           style="stroke-width:0.264583"
+           x="53.693672"
+           y="18.027002">x</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-33.980362"
+       y="1.4657323"
+       id="text1501"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan1499"
+         style="stroke-width:0.264583"
+         x="-33.980362"
+         y="1.4657323">Re(Ψ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4728">1</tspan>(x,0))</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="53.831844mm"
+   height="27.310511mm"
+   viewBox="0 0 53.831844 27.310511"
+   version="1.1"
+   id="svg5477"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="metals_conductivity_expression.svg"
+   inkscape:export-filename="metals_conductivity_expression.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5479"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.7873324"
+     inkscape:cx="59.555151"
+     inkscape:cy="81.439876"
+     inkscape:window-width="1470"
+     inkscape:window-height="795"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs5474">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Stop"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Stop"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M 0,4 V -4"
+         id="path23" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="RazorWire"
+       inkscape:stockid="Razor wire"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M -1,-1 V 1 L -5,3 H 5 L 1,1 V -1 L 5.05,-3 H -4.975 Z"
+         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.8"
+         sodipodi:nodetypes="ccccccccc"
+         id="path31" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.1066636,3.3938005)">
+    <rect
+       style="opacity:0.555678;fill:#f4d7d7;stroke-width:0.904007;stroke-dasharray:none;stop-color:#000000"
+       id="rect6761"
+       width="14.320617"
+       height="14.48362"
+       x="-1.4354624"
+       y="4.8127651"
+       transform="matrix(0.77094573,-0.63690084,0,1,0,0)" />
+    <ellipse
+       style="fill:#ff6600;stroke:#000000;stroke-width:0.552362;stroke-dasharray:none"
+       id="path1-9"
+       cx="5.8410392"
+       cy="8.7118969"
+       rx="2.9054775"
+       ry="4.7772532" />
+    <path
+       id="rect1"
+       style="fill:#ff6600;stroke:#000000;stroke-width:0.552362"
+       d="M 5.0697368,4.0060544 H 43.712602 V 13.594145 H 5.0697368"
+       sodipodi:nodetypes="cccc" />
+    <ellipse
+       style="fill:#ff6600;stroke:#000000;stroke-width:0.552362;stroke-dasharray:none"
+       id="path1"
+       cx="44.281612"
+       cy="8.6943512"
+       rx="2.9054775"
+       ry="4.7772532" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.579121;stroke-dasharray:none;marker-start:url(#Stop);marker-mid:url(#RazorWire);marker-end:url(#Stop)"
+       d="M 4.5185375,16.556363 H 45.3467"
+       id="path9" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="19.175659"
+       y="22.168343"
+       id="text5959"><tspan
+         sodipodi:role="line"
+         id="tspan5957"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         x="19.175659"
+         y="22.168343">v<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan5961">d</tspan> Δt</tspan></text>
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015"
+       cx="6.7180624"
+       cy="6.1129246"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-6"
+       cx="12.009728"
+       cy="6.1129246"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-1"
+       cx="17.301395"
+       cy="6.1129246"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-0"
+       cx="22.593061"
+       cy="6.1129246"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-63"
+       cx="27.884727"
+       cy="6.1129246"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-2"
+       cx="33.176395"
+       cy="6.1129246"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-06"
+       cx="6.7180624"
+       cy="6.1129246"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-15"
+       cx="38.468063"
+       cy="6.1129246"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-5"
+       cx="6.7180624"
+       cy="11.404592"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-4"
+       cx="12.009729"
+       cy="11.404592"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-7"
+       cx="17.301395"
+       cy="11.404592"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-69"
+       cx="22.593061"
+       cy="11.404592"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-3"
+       cx="27.884727"
+       cy="11.404592"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-74"
+       cx="33.176395"
+       cy="11.404592"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-52"
+       cx="38.468063"
+       cy="11.404592"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-54"
+       cx="43.759731"
+       cy="6.1129246"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <ellipse
+       style="fill:#000000;stroke-width:1.5875;stop-color:#000000"
+       id="path6015-744"
+       cx="43.759731"
+       cy="11.404592"
+       rx="0.88694143"
+       ry="0.94256061" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="47.323444"
+       y="11.552115"
+       id="text6268"><tspan
+         sodipodi:role="line"
+         id="tspan6266"
+         style="stroke-width:0.264583"
+         x="47.323444"
+         y="11.552115">A</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       d="M 28.041735,8.2798501 C 16.007216,8.3799647 16.007216,8.3799647 16.007216,8.3799647"
+       id="path6270" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart-3)"
+       d="m 21.129454,0.34235031 c 12.034519,0.100114 12.034519,0.100114 12.034519,0.100114"
+       id="path6270-7" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="35.858833"
+       y="3.343087"
+       id="text6862"><tspan
+         sodipodi:role="line"
+         id="tspan6860"
+         style="stroke-width:0.264583"
+         x="35.858833"
+         y="3.343087">E</tspan></text>
+  </g>
+</svg>
