@@ -107,6 +107,167 @@
 	\end{itemize}
 \end{frame}
 %
+\begin{frame}{LED -- construction}
+	%
+		\begin{columns}
+			%
+			\begin{column}[t]{0.8\textwidth}
+				%
+				\begin{figure}
+					\includegraphics[width=1.0\textwidth]{oe_led_color_material_map}
+				\end{figure}
+				%
+			\end{column}
+			%
+			\begin{column}[t]{0.18\textwidth}
+				\begin{itemize}
+					\item New materials \ce{AlGaInP} for Red, \ce{In_xGa_{1-x}N} for Green, and \ce{In_xGa_{1-x}N} for Blue.
+				\end{itemize}
+			\end{column}
+	\end{columns}
+	%
+\end{frame}
+%
+\begin{frame}{LED -- working principle}
+	%
+	\begin{columns}
+		%
+		\begin{column}[t]{0.6\textwidth}
+			%
+			\begin{figure}
+				\includegraphics[width=1.0\textwidth]{oe_pn_junction_fermi_energy_level_net_potential_barrier_forward_bias_vs_threshold_voltage}
+			\end{figure}
+			%
+		\end{column}
+		%
+		\pause
+		%
+		\begin{column}[t]{0.38\textwidth}
+			\begin{itemize}
+				\item LED works on the principle of \textbf{electroluminescence}.
+				\item Below threshold voltage, potential energy barrier is reduced, and depletion region width is reduced.
+				\item Above threshold voltage, potential energy barrier is removed, and depletion region width is removed. The electrons and holes move towards the junction, and \textbf{recombine radiatively} to emit photon.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+\end{frame}
+%
+\begin{frame}{LED -- optical emission}
+	%
+	\begin{itemize}
+		\item From the Planck's quantum hypothesis, the wavelength can be related to the energy of photon by
+		%
+		\begin{align*}
+			E &= h \nu, \\
+			  &= \frac{hc}{\lambda}, \\
+			E \, (\text{in eV}) &= \frac{1.24}{\lambda \, \text{(in \si{\micro\metre})}} \tag{A}
+		\end{align*}
+	\end{itemize}
+	%
+	\begin{problem}
+		Prove Equation. A.
+	\end{problem}
+	%
+	\begin{problem}
+		Find the energy of red photon with wavelength \SI{700}{\nano\metre}.
+	\end{problem}
+	%
+	\begin{problem}
+		Find the energy of blue photon with wavelength \SI{400}{\nano\metre}.
+	\end{problem}
+	%
+\end{frame}
+%
+\begin{frame}{Recombination lifetime}
+	%
+	\begin{definition}
+		Recombination lifetime is the time period between generation and recombination of charge carriers.
+	\end{definition}
+	%
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_indirectvsdirect_recombination_lifetime}
+			\end{figure}
+		\end{column}
+		%
+		\begin{column}{0.58\textwidth}
+			\begin{itemize}
+				\item Consider an electron-hole pair is generated. 
+				\item When an electron is in conduction band, its energy has increased. It wants to recombine with a hole to reduce energy.
+				\item The time taken to recombine radiatively \(\tau_\text{r}\) is less than the time taken to recombine non-radiatively \(\tau_\text{nr}\) since the defect level lowered the energy of electron.
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	%
+\end{frame}
+%
+\begin{frame}{Recombination rate -- Classification of semiconductors}
+	%
+	\begin{definition}
+		Recombination rate is defined as the rate at which the excess charge carriers are recombining
+	\end{definition}
+	%
+	\begin{columns}
+		\begin{column}{0.75\textwidth}
+			\begin{itemize}
+				\item The recombination rate is inversely related to the recombination lifetime.
+				\item In the absence of defects, radiative recombination rate \(R_\text{r}\) is higher than non-radiative recombination rate \(R_\text{nr}\).
+				\item However, as the defect density \(n_\text{defect}\) increases, the radiative recombination rate is not affected, but the non-radiative recombination rate increases.
+			\end{itemize}
+		\end{column}
+		%
+		\begin{column}{0.23\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{oe_indirectvsdirect_rate_with_defect_density}
+			\end{figure}
+		\end{column}
+	\end{columns}
+	%
+	\begin{itemize}
+		\item The bandstructure of the semiconductor also affects the recombination rates. Based on bandstructure the semiconductors classified as --
+		\begin{itemize}
+			\item Direct band gap
+			\item Indirect band gap
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{LED -- efficiency}
+	%
+	\begin{itemize}
+		\item The efficiency of LED is defined as ratio of radiative recombination rate \(R_r\) to the total recombination rate
+		\[
+		\eta = \frac{R_r}{R} = \frac{R_r}{R_r + R_{nr}}
+		\]
+		\item Recombination of excess carriers is of two types
+		%
+		\begin{itemize}
+			\item radiative
+			\item non-radiative
+		\end{itemize}
+		%
+		\item Thus, the efficiency is increased when radiative recombination rate increases. However, this is only the internal quantum efficiency.
+		\item External quantum efficiency determines how many generated photons actually are emitted from the semiconductor. External quantum efficiency is degraded by
+		%
+		\begin{itemize}
+			\item Photon reabsorption
+			\item Fresnel loss
+			\item Critical angle loss
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}{LED -- applications}
+	%
+	\begin{itemize}
+		\item Night lighting
+		\item Traffic signals
+		\item Optical fibre communications
+		\item Medical imaging
+	\end{itemize}
+\end{frame}
 \begin{frame}{Summary of opto-electronic devices}
 %
 \begin{itemize}
@@ -154,4 +315,13 @@
 	\end{table}
 \end{itemize}
 %
+\end{frame}
+%
+\begin{frame}{}
+	\begin{huge}
+		\begin{center}
+			End of M2U2
+		\end{center}
+	\end{huge}
+	
 \end{frame}
